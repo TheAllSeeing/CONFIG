@@ -1,0 +1,2824 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\def\HeblatexEncoding{HE8}
+\def\HeblatexEncodingFile{he8enc}
+
+\usepackage[T1]{fontenc}
+\usepackage{charter}
+\usepackage{environ}
+\usepackage{tikz}
+\usetikzlibrary{calc,matrix}
+
+
+\definecolor{violet}{rgb}{0.56, 0.0, 1.0}
+\definecolor{purple}{rgb}{0.62, 0.0, 0.77}
+\definecolor{gray}{rgb}{0.64, 0.64, 0.64}
+\definecolor{steel}{RGB}{206,211,212}
+\definecolor{green}{rgb}{0.0, 0.5, 0.0}
+\definecolor{blue}{RGB}{11, 11, 96}
+
+\definecolor{lightgray}{RGB}{206,211,212}
+
+\definecolor{chartreuse}{RGB}{154, 205, 50}
+\definecolor{khaki}{rgb}{0.74, 0.72, 0.42}
+\definecolor{lime}{rgb}{0.74, 0.72, 0.42}
+
+\definecolor{olive}{rgb}{0.74, 0.72, 0.42}
+\definecolor{magenta}{RGB}{154, 205, 50}
+\definecolor{teal}{rgb}{0.0, 0.5, 0.5}
+
+\definecolor{TextColor}{rgb}{0.95, 0.95, 0.95}
+\definecolor{PageColor}{RGB}{60, 60, 60}
+
+% \definecolor{TextColor}{rgb}{0.25, 0.25, 0.25}
+% \definecolor{PageColor}{rgb}{1, 1, 1}
+
+% code by Andrew:
+% http://tex.stackexchange.com/a/28452/13304
+\makeatletter
+\let\matamp=&
+\catcode`\&=13
+\makeatletter
+\def&{\iftikz@is@matrix
+  \pgfmatrixnextcell
+  \else
+  \matamp
+  \fi}
+\makeatother
+
+\newcounter{lines}
+\def\endlr{\stepcounter{lines}\\}
+
+\newcounter{vtml}
+\setcounter{vtml}{0}
+
+\newif\ifvtimelinetitle
+\newif\ifvtimebottomline
+\tikzset{description/.style={
+  column 2/.append style={#1}
+ },
+ timeline color/.store in=\vtmlcolor,
+ timeline color=red!80!black,
+ timeline color st/.style={fill=\vtmlcolor,draw=\vtmlcolor},
+ use timeline header/.is if=vtimelinetitle,
+ use timeline header=false,
+ add bottom line/.is if=vtimebottomline,
+ add bottom line=false,
+ timeline title/.store in=\vtimelinetitle,
+ timeline title={},
+ line offset/.store in=\lineoffset,
+ line offset=4pt,
+}
+
+\NewEnviron{vtimeline}[1][]{%
+\setcounter{lines}{1}%
+\stepcounter{vtml}%
+\begin{tikzpicture}[column 1/.style={anchor=east},
+ column 2/.style={anchor=west},
+ text depth=0pt,text height=1ex,
+ row sep=1ex,
+ column sep=1em,
+ #1
+]
+\matrix(vtimeline\thevtml)[matrix of nodes]{\BODY};
+\pgfmathtruncatemacro\endmtx{\thelines-1}
+\path[timeline color st] 
+($(vtimeline\thevtml-1-1.north east)!0.5!(vtimeline\thevtml-1-2.north west)$)--
+($(vtimeline\thevtml-\endmtx-1.south east)!0.5!(vtimeline\thevtml-\endmtx-2.south west)$);
+\foreach \x in {1,...,\endmtx}{
+ \node[circle,timeline color st, inner sep=0.15pt, draw=white, thick] 
+ (vtimeline\thevtml-c-\x) at 
+ ($(vtimeline\thevtml-\x-1.east)!0.5!(vtimeline\thevtml-\x-2.west)$){};
+ \draw[timeline color st](vtimeline\thevtml-c-\x.west)--++(-3pt,0);
+ }
+ \ifvtimelinetitle%
+  \draw[timeline color st]([yshift=\lineoffset]vtimeline\thevtml.north west)--
+  ([yshift=\lineoffset]vtimeline\thevtml.north east);
+  \node[anchor=west,yshift=16pt,font=\large]
+   at (vtimeline\thevtml-1-1.north west) 
+   {\textsc{Timeline \thevtml}: \textit{\vtimelinetitle}};
+ \else%
+  \relax%
+ \fi%
+ \ifvtimebottomline%
+   \draw[timeline color st]([yshift=-\lineoffset]vtimeline\thevtml.south west)--
+  ([yshift=-\lineoffset]vtimeline\thevtml.south east);
+ \else%
+   \relax%
+ \fi%
+\end{tikzpicture}
+}
+
+\color{TextColor}
+\pagecolor{PageColor}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "filecolor=teal"
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\backgroundcolor #222831
+\fontcolor #ececec
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+
+\color gray
+Project Statement: FILER
+\end_layout
+
+\begin_layout Author
+Atai Ambus
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Theme:
+\series default
+ Foundations | Anchoring
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+ID: 
+\series default
+210630A
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Aspect:
+\series default
+ 
+\color gray
+Gray
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Cloud:
+\series default
+ git
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Outline
+\end_layout
+
+\begin_layout Section
+Overview
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Organize my files and file systems in a complete, standardized manner which
+ is easy to access and parse.
+\end_layout
+
+\begin_layout Section
+Context
+\end_layout
+
+\begin_layout Standard
+Most of my work and many of my personal thoughts and memories are kept digitally
+, usually on a Linux ext4 file-system in my personal computer.
+ As the size and number of files increases, it becomes difficult to keep
+ all of that information ordered, which then causes issues and delays when
+ trying to locate important information, especially if it's fairly old.
+\end_layout
+
+\begin_layout Standard
+While as mentioned my central work environment is on my personal computer
+ in a Linux environment, I actually have four environments where I keep
+ files and use regularly.
+ Each is named, under my general username theme of All-Seeing:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+AllSeer
+\series default
+: the Linux environment on my personal computer, via dual boot
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+NoSeer
+\series default
+: the Windows environment on my personal computer, via dual boot
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+MiniSeer
+\series default
+: the Android environment on my personal smartphone
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+GSeer
+\series default
+: the file system on my personal Google Drive account.
+\end_layout
+
+\begin_layout Standard
+AllSeer, MiniSeer and NoSeer are all separate from each other and keep their
+ files locally.
+ GSeer is stored on the cloud (on Google servers) and can be accessed via
+ the Google Drive web app.
+\end_layout
+
+\begin_layout Standard
+When possible, I prefer to mount the file systems on one another for easy
+ access.
+ 
+\end_layout
+
+\begin_layout Standard
+As I prefer a Linux environment, I try to use Linux emulators that can access
+ the file system, if such emulators exist.
+ On NoSeer, the app CygWin is installed, which can run many Linux programs
+ and has access to the windows file system.
+ On MiniSeer, I have TEL installed, a modified version of Termux, a Linux
+ distribution/emulator that can also access the Android file system.
+ Termux does not follow standard Linux file structure and some script paths
+ may change for it.
+\end_layout
+
+\begin_layout Section
+Goals
+\end_layout
+
+\begin_layout Itemize
+
+\bar under
+210630A
+\bar default
+ Be able to quickly locate a file on any file system I'm using based only
+ on its name or contents.
+\end_layout
+
+\begin_layout Itemize
+
+\bar under
+210630B
+\bar default
+ Create a ubiquitous structure standard for each of my file systems (phone,
+ Linux, Windows, etc), that takes into consideration File-System Mounting,
+ System Directories, App Configurations, System Configurations, Project
+ Directories, Archive Directories and Automation Scripts
+\end_layout
+
+\begin_layout Itemize
+
+\bar under
+210630C
+\bar default
+ Create 
+\emph on
+Project Directory
+\emph default
+ and 
+\emph on
+Archive Directory
+\emph default
+ specifications for 
+\shape slanted
+CONTROL/System210606B
+\end_layout
+
+\begin_layout Itemize
+
+\bar under
+210606D
+\bar default
+ Specify backup procedures for my files
+\end_layout
+
+\begin_layout Itemize
+
+\bar under
+210606E
+\bar default
+ Specify cloud and synchronization solutions for each of my projects, and
+ specifically allow synchronization of project and archive directories between
+ file systems
+\end_layout
+
+\begin_layout Section
+Systems
+\end_layout
+
+\begin_layout Subsection
+
+\bar under
+210630A
+\bar default
+ Home Directories
+\end_layout
+
+\begin_layout Standard
+Each file system will have a defined 
+\emph on
+Home Directory
+\emph default
+.
+ Excluding system and app files as necessary, I will only edit and write
+ files inside that directory (reading is allowed everywhere).
+ 
+\end_layout
+
+\begin_layout Standard
+The home directory may contain app configuration or data folders only as
+ necessary, and if possible they must be hidden.
+\end_layout
+
+\begin_layout Standard
+Specifically:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+AllSeer's
+\series default
+ home directory is
+\family typewriter
+ /home/atai
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+NoSeer's 
+\series default
+home directory is 
+\family typewriter
+C:
+\backslash
+Users
+\backslash
+ataya
+\backslash
+Home
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+MiniSeer's
+\series default
+ home directory is 
+\family typewriter
+/data/data/com.termux/files/home
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+GSeer's
+\series default
+ home directory is 
+\family typewriter
+My Drive
+\end_layout
+
+\begin_layout Standard
+Ideally, the home directory is local (for better speeds) and supports symbolic
+ and hard links.
+ If possible, then when its directories are explored normally, and both
+ in terminal and in file explorer, only personal or manually created files
+ are displayed.
+\end_layout
+
+\begin_layout Standard
+If environment variables are supported, the HOME variable should lead here.
+ 
+\end_layout
+
+\begin_layout Standard
+The file explorer should have the home directory bookmarked (be it automatically
+ via HOME variable or manually).
+\end_layout
+
+\begin_layout Standard
+If possible, the home directory should be the default directory when opening
+ a file explorer or a terminal emulator.
+\end_layout
+
+\begin_layout Standard
+The home directories should be as synchronized as possible between devices.
+\end_layout
+
+\begin_layout Standard
+When describing paths, I may write 
+\begin_inset Quotes eld
+\end_inset
+
+~
+\begin_inset Quotes erd
+\end_inset
+
+ instead of the project directory paths.
+\end_layout
+
+\begin_layout Subsection
+
+\bar under
+210630B
+\bar default
+ Project & Aspect directories
+\end_layout
+
+\begin_layout Standard
+In each home directory (as enumerated in 
+\shape slanted
+System210630A
+\shape default
+), there should be a directory for each aspect detailed in 
+\shape slanted
+CONTROL/System210606A
+\shape default
+, named identically to them: Red, Purple, Green, Gray, Steel and Blue.
+ These will be called 
+\emph on
+Aspect Directory
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+Each project's 
+\emph on
+Project Directory
+\emph default
+ (as ruled by 
+\shape slanted
+CONTROL/System210606B
+\shape default
+) will be a sub-directory of its aspect's directory, named identically to
+ the project.
+\end_layout
+
+\begin_layout Standard
+Though project may delineate systems that request rulings or expansions
+ in other projects—for example as CONTROL demands FILER to detail the structure
+ and location of Project Directories—any of the files its own systems demands
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+excepting project statements as detailed in 
+\shape slanted
+CONTROL/System210606C 
+\shape default
+and all systems in this project
+\end_layout
+
+\end_inset
+
+ must remain within its project directory.
+\end_layout
+
+\begin_layout Standard
+If two systems from different projects require work on the same file, the
+ file should be created in the project directory of one of them and then
+ linked (symbolically or not, as deemed appropriate,) in the other one.
+\end_layout
+
+\begin_layout Standard
+Other than maintaining a project statement in the top level of the directory
+ (as detailed in 
+\shape slanted
+CONTROL/System210606C
+\shape default
+) and a symbolic link to its archive directory (as detailed in 
+\shape slanted
+System210630C
+\shape default
+), a project directory should be freely structured within the systems of
+ its project.
+\end_layout
+
+\begin_layout Standard
+The visible contents of the home directories should be mostly identical
+ and synced between my four devices.
+\end_layout
+
+\begin_layout Subsection
+
+\bar under
+210704A
+\series medium
+\bar default
+ 
+\series default
+Projects Shortcut Directory
+\end_layout
+
+\begin_layout Standard
+In the top level of the home directory, an additional directory called 
+\begin_inset Quotes eld
+\end_inset
+
+Projects
+\begin_inset Quotes erd
+\end_inset
+
+ should be created and contain symbolic links to each project directory.
+\end_layout
+
+\begin_layout Standard
+The symbolic links should be relative (e.g 
+\family typewriter
+../Gray/FILER
+\family default
+ rather than 
+\family typewriter
+/home/atai/Gray/FILER
+\family default
+).
+ This is to make backup and restore easier across devices.
+\end_layout
+
+\begin_layout Standard
+The purpose of this is to make access to known projects more easily, while
+ having a more categorical overview if needed (in the form of the aspect
+ directories,) and avoiding long messy lists.
+\end_layout
+
+\begin_layout Subsection
+
+\bar under
+210630C
+\bar default
+ Archive Directories & Archiving
+\end_layout
+
+\begin_layout Standard
+In the top level of this Project Directory, there should be an 
+\begin_inset Quotes eld
+\end_inset
+
+Archives
+\begin_inset Quotes erd
+\end_inset
+
+ directory.
+\end_layout
+
+\begin_layout Standard
+The Archives directory should have a sub-directory for each project named
+ of the form 
+\begin_inset Quotes eld
+\end_inset
+
+{ID}.{PROJECT}{SIGN}
+\begin_inset Quotes erd
+\end_inset
+
+, where ID is the project ID, PROJECT is the project's name and sign is
+ 
+\begin_inset Quotes eld
+\end_inset
+
++
+\begin_inset Quotes erd
+\end_inset
+
+ if the project is ongoing, 
+\begin_inset Quotes eld
+\end_inset
+
+-
+\begin_inset Quotes erd
+\end_inset
+
+ if it's frozen and 
+\begin_inset Quotes eld
+\end_inset
+
+
+\begin_inset Quotes erd
+\end_inset
+
+ otherwise.
+\end_layout
+
+\begin_layout Standard
+A project's system should specify archiving procedures that will run as
+ long as the project is ongoing.
+ 
+\end_layout
+
+\begin_layout Standard
+The archiving systems should remove project files that are no longer relevant
+ to it, but preserve files that could be used as reference or simply for
+ memory; these files should be placed in the archive directory and structured
+ according to the archiving system or systems.
+\end_layout
+
+\begin_layout Standard
+As long as at least one of a project's systems is actively practiced, it
+ is considered 
+\emph on
+ongoing.
+ 
+\emph default
+All of the above systems apply to it, and its archive directory should be
+ suffixed with 
+\begin_inset Quotes eld
+\end_inset
+
++
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+When an ongoing project has no active systems and they are not meant to
+ be activated again for at least 3 months, the project should be considered
+ 
+\emph on
+archived
+\emph default
+ — any of its current contents that are deemed relevant for preservation
+ should be moved to the archive directory, its project directory should
+ be removed as long with its 
+\family typewriter
+~/Projects
+\family default
+ shortcut, and the 
+\begin_inset Quotes eld
+\end_inset
+
++
+\begin_inset Quotes erd
+\end_inset
+
+ suffix should be removed from its archived directory name.
+\end_layout
+
+\begin_layout Standard
+When a project's systems are not meant to be practiced for two weeks at
+ least but are meant to be activated again in at most 3 months, the project
+ should be considered 
+\emph on
+frozen
+\emph default
+.
+ Any files that are should be irrelevant for the reactivation should be
+ removed or achieved according to their significance.
+ Then, the remaining contents of the directory should move to a sub directory
+ in the archive, called a 
+\emph on
+state archive
+\emph default
+.
+ Then, the now empty project directory should be removed along with its
+ 
+\family typewriter
+~/Project 
+\family default
+link.
+ The 
+\begin_inset Quotes eld
+\end_inset
+
++
+\begin_inset Quotes erd
+\end_inset
+
+ suffix of its archive directory should be replaced with 
+\begin_inset Quotes eld
+\end_inset
+
+-
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+When a frozen project is no longer meant to be reactivated, the content
+ of its state archived should be examined and archived as deemed necessary.
+ Then the state archived should be removed along with the 
+\begin_inset Quotes eld
+\end_inset
+
+-
+\begin_inset Quotes erd
+\end_inset
+
+ suffix of the archive directory.
+\end_layout
+
+\begin_layout Standard
+The top level of each Project Directory should contain a symbolic link to
+ its archive, named 
+\begin_inset Quotes eld
+\end_inset
+
+Archive
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+A major currently ongoing task of this system is the handling of previously
+ created archives and structures that are currently revamped under the Foundatio
+ns/Anchor theme (Summer 2021).
+ 
+\end_layout
+
+\begin_layout Subsection
+
+\bar under
+210630D
+\bar default
+ Mount Directories
+\end_layout
+
+\begin_layout Standard
+This project directory should contain sub-directories for mounts of each
+ of the other devices:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Drive
+\series default
+ for GSeer
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Phone
+\series default
+ for MiniSeer
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Windows
+\series default
+ for NoSeer
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+Linux
+\series default
+ for AllSeer
+\end_layout
+
+\begin_layout Standard
+These directories should be ignored by this project's git system.
+\end_layout
+
+\begin_layout Itemize
+The directory for the current device should be removed
+\end_layout
+
+\begin_layout Itemize
+Directories for devices that cannot be mounted on the current device should
+ be removed.
+ 
+\end_layout
+
+\begin_layout Itemize
+Devices that can be mounted on startup should do so and mount into their
+ matching directories.
+ 
+\end_layout
+
+\begin_layout Itemize
+If devices can only be mounted into specific directories (e.g somewhere in
+ 
+\family typewriter
+/media/
+\family default
+,) the matching directory here should be symbolically linked to it.
+\end_layout
+
+\begin_layout Itemize
+Environment variables 
+\family typewriter
+$DRIVE
+\family default
+ 
+\family typewriter
+$PHONE $WIN $LINX
+\family default
+ should point to the home directory of their respective mounts
+\end_layout
+
+\begin_layout Standard
+Specifically:
+\end_layout
+
+\begin_layout Paragraph
+
+\series bold
+AllSeer
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+GSeer
+\series default
+ should be mounted on startup via 
+\begin_inset CommandInset href
+LatexCommand href
+name "google-drive-ocamlfuse"
+target "https://github.com/astrada/google-drive-ocamlfuse"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+NoSeer
+\series default
+ should mounted when needed via going Nautilous > Other Locations > Windows,
+ and symlinking 
+\family typewriter
+FILER/Windows
+\family default
+ to 
+\family typewriter
+/media/atai/Windows
+\family default
+.
+ While mounting via the command line trying to is preferable (can be mounted
+ into the directory directly and be ran on startup), previous attempts resulted
+ in no write permissions.
+ This should be researched and tried again.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+MiniSeer
+\series default
+ should be mounted with an FTP server.
+ Notice that the home directory is located in the TEL data folder, which
+ apps normally used for this cannot access.
+ As such, it requires an FTP server to be opened directly from TEL.
+\end_layout
+
+\begin_layout Paragraph
+
+\series bold
+NoSeer
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+GSeer 
+\series default
+should be mounted on startup via 
+\family typewriter
+rclone mount 
+\family default
+(see 
+\begin_inset CommandInset href
+LatexCommand href
+name "here"
+target "https://rclone.org/commands/rclone_mount/"
+literal "false"
+
+\end_inset
+
+)
+\family typewriter
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+AllSeer
+\series default
+ should be mounted via 
+\begin_inset CommandInset href
+LatexCommand href
+name "Ext2Explore"
+target "https://sourceforge.net/projects/ext2read/"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+MiniSeer
+\series default
+ should be mounted as an FTP server, just as in AllSeer.
+ Mounting instructions on Windows can be seen 
+\begin_inset CommandInset href
+LatexCommand href
+name "here"
+target "https://www.howtogeek.com/272176/how-to-connect-to-ftp-servers-in-windows-without-extra-software/"
+literal "false"
+
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Paragraph
+
+\series bold
+MiniSeer
+\end_layout
+
+\begin_layout Standard
+No device mounting is currently supported on MiniSeer.
+ The main hurdle I face is the lack of access to 
+\family typewriter
+/dev/fuse
+\family default
+, as the phone is not rooted.
+ Should I ever decide to root my phone, multiple mounting solutions will
+ be available.
+\end_layout
+
+\begin_layout Paragraph
+GSeer
+\end_layout
+
+\begin_layout Standard
+No device mounting is available.
+\end_layout
+
+\begin_layout Subsection
+
+\bar under
+210630E
+\bar default
+ Configuration Files
+\end_layout
+
+\begin_layout Standard
+A gray project should be opened to manage app and system configurations,
+ and hold their directories.
+ This includes shell startup and environment variables, system startup apps,
+ preferences and settings for each app, URL to IP override, and so on.
+\end_layout
+
+\begin_layout Standard
+With multitudes of apps that can be configured a variety of different ways.
+ Outside order, customization and configuration are a mesa-objective in
+ it of itself, and can have a lot of its own individual systems.
+ Therefore, it should be managed in its own project.
+\end_layout
+
+\begin_layout Standard
+Per rules by this project, should implement a system for backing up and
+ syncing the configuration files, and contain the various configuration
+ files.
+\end_layout
+
+\begin_layout Subsection
+
+\bar under
+210706A
+\bar default
+ Cloud & Sync
+\end_layout
+
+\begin_layout Standard
+As per 
+\shape slanted
+Goal210606E
+\shape default
+ and as specified in 
+\emph on
+System210630B
+\emph default
+, I am seeking to sync my home directories between devices, and particularly
+ Project Directories and Archive Directories.
+\end_layout
+
+\begin_layout Standard
+Each project should have a specified 
+\emph on
+Cloud Solution — 
+\emph default
+a way to backup its Project Directory into the cloud and sync it between
+ devices.
+ Such solution should generally keep the Project and Archive directories
+ identical across file system through most points in time, but allow exclusions
+ of system-specific files from the sync.
+\end_layout
+
+\begin_layout Standard
+A Cloud Solution can be either 
+\emph on
+git
+\emph default
+, 
+\emph on
+Google
+\emph default
+, or
+\emph on
+ hard-drive, 
+\emph default
+each employed as follows:
+\end_layout
+
+\begin_layout Subsubsection
+
+\bar under
+210706A-1
+\bar default
+ git
+\end_layout
+
+\begin_layout Standard
+This actually refers to a combination of the Version Control System git,
+ and the git repository hosting web app GitHub.
+ The project directory should be initialized as a git repository.
+ A bare repository should be initialized via GitHub, under the user AtaiAmbus.
+ The bare repo should be set private.
+\end_layout
+
+\begin_layout Standard
+After each session of work on the project, commit the changes into the git
+ repository with an appropriate message, and push.
+\end_layout
+
+\begin_layout Standard
+Using git and GitHub as a cloud solution comes with a few convenient benefits:
+ 
+\end_layout
+
+\begin_layout Itemize
+GitHub provides a simple and very straightforward way of browsing the files
+ online, which will display text files as is and can also handle many common
+ binary files (e.g JPEG, PDF).
+ A project can be viewed easily and quickly from GitHub, and files can be
+ very easily downloaded.
+\end_layout
+
+\begin_layout Itemize
+Works very well with projects centered around coding.
+\end_layout
+
+\begin_layout Itemize
+Syncing requires no additional apps and a project directory can be kept
+ up to date with the simple command 
+\family typewriter
+git pull
+\family default
+, which can be ran periodically as a cron job or some similar service, usually
+ to its full effect.
+\end_layout
+
+\begin_layout Itemize
+Version Control makes for additional backup and archiving measure, and can
+ be viewed to get a better picture of the project.
+\end_layout
+
+\begin_layout Standard
+The main disadvantage of using 
+\family typewriter
+git
+\family default
+ is that it is very slow when large files are involved, and though GitHub
+ allowed a very high ceiling of 100GB per repository, individual files cannot
+ exceed the sometimes small 50MB.
+ As a result, this cloud solution distinctly does not fit project with a
+ lot of media files, and in general should be employed when the project
+ mostly consists of text files.
+\end_layout
+
+\begin_layout Standard
+If a file in a git project should be linked to another location, a symbolic
+ link should be used, with the source at the git repository.
+ Using a symbolic link the other way would cause git to only track the symlink
+ path rather than the actual file, and git severs hard links when it pulls
+ (though if deemed necessary, it seems they can be re-linked automatically
+ with a 
+\begin_inset CommandInset href
+LatexCommand href
+name "post merge hook"
+target "https://stackoverflow.com/a/9322283/10913212"
+literal "false"
+
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Standard
+Note that there is currently no way to access the actual files used with
+ google apps (google docs, google slides, etc.), and sync/mount tools only
+ offer links to the actual document or converted versions of it.
+ As such, these files cannot be fully synced; instead they should be kept
+ with web link desktop file (done automatically in the 
+\family typewriter
+google-drive-ocamlfuse
+\family default
+ mount, and a script should be written to generate them)
+\end_layout
+
+\begin_layout Subsubsection
+
+\bar under
+210706A-2
+\bar default
+ Google
+\end_layout
+
+\begin_layout Standard
+More specifically, this solution uses the 
+\emph on
+Google Drive
+\emph default
+ app.
+ The GSeer Project Directory becomes the 
+\begin_inset Quotes eld
+\end_inset
+
+main
+\begin_inset Quotes erd
+\end_inset
+
+ project directory, and is synced with AllSeer, NoSeer and NoSeer automatically
+ via available tools.
+ If no tools are available to do this process automatically, Google API
+ should be leveraged for a scripted push/pull that would be ran periodically.
+\end_layout
+
+\begin_layout Standard
+Specifically, Google Drive sync tools available for each of the devices
+ are as follows:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+AllSeer:
+\series default
+ 
+\family typewriter
+
+\begin_inset CommandInset href
+LatexCommand href
+name "drive"
+target "https://github.com/odeke-em/drive"
+literal "false"
+
+\end_inset
+
+
+\family default
+ utility allows git-like push and pull.
+ Alternatively, 
+\family typewriter
+
+\begin_inset CommandInset href
+LatexCommand href
+name "rclone sync"
+target "https://rclone.org/commands/rclone_sync/"
+literal "false"
+
+\end_inset
+
+
+\family default
+ may be used for more traditional syncing.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+NoSeer:
+\series default
+ A selective use of 
+\begin_inset CommandInset href
+LatexCommand href
+name "Google Drive Backup & Sync"
+target "https://support.google.com/drive/answer/2374987#zippy="
+literal "false"
+
+\end_inset
+
+ should suffice.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+MiniSeer: 
+\series default
+
+\begin_inset CommandInset href
+LatexCommand href
+name "FolderSync"
+target "https://play.google.com/store/apps/details?id=dk.tacit.android.foldersync.lite&hl=en"
+literal "false"
+
+\end_inset
+
+ seems to be a complete app for this.
+\end_layout
+
+\begin_layout Standard
+This is considered less convenient than git, the solution being far more
+ variant across devices and therefore far more complicated to set up.
+ Furthermore, it also uses one of the devices as a central host, which can
+ hurt the idea of equal syncing.
+ Still, this should be used if either
+\end_layout
+
+\begin_layout Enumerate
+The project contain many small media files, to the point where it would
+ slow down git or be blocked from GitHub, but not to significantly hamper
+ google's overall storage limit.
+\end_layout
+
+\begin_layout Enumerate
+The project uses primarily google app files.
+ 
+\end_layout
+
+\begin_layout Standard
+The first condition may apply to project that contain short videos and high
+ quality pictures.
+ If the overall size of the project exceeds roughly 500MB and does not exceed
+ 2GB, then it should fall in the appropriate range.
+\end_layout
+
+\begin_layout Standard
+The second condition mainly applies for non-code collaborative projects,
+ due to google's friendly interface and the ease of simultaneous editing.
+ The general reasoning for this condition is that in these cases, GSeer
+ 
+\shape slanted
+is
+\shape default
+ the central host, and that git cannot track changes in these files anyway;
+ it would end up syncing mostly links.
+\end_layout
+
+\begin_layout Subsubsection
+
+\bar under
+210706A-3
+\series medium
+\bar default
+ 
+\series default
+Hard Drive
+\end_layout
+
+\begin_layout Standard
+For this and 
+\shape slanted
+System210706B
+\shape default
+ a personal hard drive should be bought.
+\end_layout
+
+\begin_layout Standard
+The 
+\begin_inset Quotes eld
+\end_inset
+
+host
+\begin_inset Quotes erd
+\end_inset
+
+ repository of such project should be kept on my hard drive, and synced
+ daily for new files.
+ Each week, or when necessary, irrelevant files should be deleted from the
+ project directories on each device, and relevant files copied from the
+ hard drive.
+ The project statement is always considered relevant for this purpose.
+\end_layout
+
+\begin_layout Standard
+A file in a hard-drive synced project is considered 
+\emph on
+active 
+\emph default
+in a file system if it is present in its version of the project directory.
+\end_layout
+
+\begin_layout Standard
+A full index of the files on the hard drive should be kept as an appendix
+ to the project statement, and each file in the index marked for the file
+ system it is active at.
+\end_layout
+
+\begin_layout Standard
+This is generally intended for very heavy projects, that weigh many gigabytes
+ of data — for example, seasons of TV shows, movies and so on.
+ Using git or Google Drive on these project is infeasible, due to the size
+ constraint outlined above.
+ Regardless, such projects should generally not be fully synced, as they
+ can weigh very on the file system.
+ Rather, I opt for the solution above, which has a host repository on a
+ separate, large drive, making all the data accessible and with relatively
+ quick transfer, but allowing for more modular need-to-use system, to prevent
+ the project from clogging up available storage and slowing down the computer.
+\end_layout
+
+\begin_layout Standard
+Note that it would be most easy to enact the synchronization via AllSeer,
+ mounting the other file systems unto it.
+ That way there is much less need to play with different connections and
+ moving between devices.
+\end_layout
+
+\begin_layout Subsection
+
+\bar under
+210706B
+\bar default
+ Backup & Restore
+\end_layout
+
+\begin_layout Standard
+For this and 
+\shape slanted
+System210706A-3
+\emph on
+,
+\shape default
+\emph default
+ a personal hard drive should be bought.
+\end_layout
+
+\begin_layout Standard
+Each week, the Home Directory should be backed up to the hard drive, using
+ the Time Shift utility.
+ This utility allows keeping versions of the directory throughout time,
+ hard-linking shared files to preserve space.
+ The various versions of the directory will be kept in a very straightforward
+ way, available to navigate, in 
+\family typewriter
+/timeshift
+\family default
+.
+\end_layout
+
+\begin_layout Standard
+Each week, the system configuration and app configuration of each device
+ should be backed up to the hard drive.
+ The way to do this for each of the devices is as follows:
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+AllSeer
+\series default
+: Time Shift, excluding any visible (non dotfile) files in /home.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+NoSeer
+\series default
+: System Image Backup (see 
+\begin_inset CommandInset href
+LatexCommand href
+name "here"
+target "https://windowsloop.com/create-system-image-backup-windows-10/"
+literal "false"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+MiniSeer: 
+\series default
+System Image with ADB.
+ 
+\begin_inset CommandInset href
+LatexCommand href
+name "Helium"
+target "https://play.google.com/store/apps/details?id=com.koushikdutta.backupHelium"
+literal "false"
+
+\end_inset
+
+ seems to provide a convenient interface for this.
+ Otherwise look at this 
+\begin_inset CommandInset href
+LatexCommand href
+name "StackOverflow answer"
+target "https://stackoverflow.com/questions/19225467/backing-up-android-device-using-adb"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+GSeer requires no system backup, as it's purely storage of the home directory,
+ and not an operating system.
+\end_layout
+
+\begin_layout Standard
+GSeer also contains old data ranging from as early as 2010, all the way
+ through to 2020.
+ This should be backed up complelty, maybe even twice.
+ And possibly removed from GSeer afterwards.
+ An issue remains, in the fact that any local storage of drive files requires
+ conversion to other formats in which data may be lost; transferring the
+ archive into another owner could have anotther, similar effect.
+\end_layout
+
+\begin_layout Standard
+Backups should be kept for the last 4 weeks.
+\end_layout
+
+\begin_layout Subsection
+
+\bar under
+210630F
+\bar default
+ Scripts and Automations
+\end_layout
+
+\begin_layout Standard
+Similarly to configuration files as per 
+\shape slanted
+System210630E
+\shape default
+, scripts and automations should be handled in a separate project.
+ This is because automations and scripts are managed by additional concideration
+s (under additional mesa objectives) than simply the organization of files.
+\end_layout
+
+\begin_layout Standard
+The project should ensure apropriate distinctions between file systems,
+ such that a file system does not have scripts that cannot run on it.
+ Scripts should still be synced with the cloud.
+ The project should make sure that apropriate scripts are found in the 
+\family typewriter
+PATH
+\family default
+ directories.
+ 
+\end_layout
+
+\begin_layout Standard
+The project's aspect should be designated gray as it is a customization
+ of the enviornment.
+\end_layout
+
+\begin_layout Subsection
+
+\bar under
+210710A
+\bar default
+ The /tmp Directory and Intended Creation
+\end_layout
+
+\begin_layout Standard
+As a general rule, each file which is created on the computer or transferred
+ to it must have an intended use and therefore also a matching project.
+ More specifically, actions are generally done to achieve some mesa-objective,
+ which is generally be definition a project.
+\end_layout
+
+\begin_layout Standard
+Simply put, any file which is relevant for a brief period of time (roughly
+ three days or less) should be put in the 
+\family typewriter
+/tmp
+\family default
+ directory.
+ Examples include: 
+\end_layout
+
+\begin_layout Itemize
+Specific instructions before tests or IDF sorting
+\end_layout
+
+\begin_layout Itemize
+Media reactions from instant-messaging apps
+\end_layout
+
+\begin_layout Itemize
+Bug report screenshots
+\end_layout
+
+\begin_layout Itemize
+Installation tarballs
+\end_layout
+
+\begin_layout Itemize
+Series episodes
+\end_layout
+
+\begin_layout Itemize
+coding projects that are required for a specific run (e.g FRC projects).
+ 
+\end_layout
+
+\begin_layout Itemize
+Script testing files
+\end_layout
+
+\begin_layout Standard
+And so on.
+\end_layout
+
+\begin_layout Standard
+When a new file has no appropriate project, creation of a new project should
+ be considered; however, if no actual long term mesa-objective is relevant,
+ it is presumed to be meant for a short concrete action, and therefore goes
+ into 
+\family typewriter
+/tmp
+\family default
+.
+\end_layout
+
+\begin_layout Standard
+Considering the premises above, 
+\family typewriter
+/tmp
+\family default
+ is determined as the default location of any newly created or newly transferred
+ or downloaded files, especially ones that cannot be directly created or
+ transferred into their appropriate location upon creation or transfer.
+ Central applications of this include making 
+\family typewriter
+/tmp
+\family default
+ the default downloads directory and the screenshots directory, but it generally
+ expands to any app or system function that creates or downloads files I'll
+ later manually use — transmission's default download directory, LyX's default
+ working directory, and so on.
+\end_layout
+
+\begin_layout Standard
+This is all nice and pretty, but the 
+\family typewriter
+/tmp 
+\family default
+directory really only exists on AllSeer.
+ Its behaviour can be emulated though — CygWin's 
+\family typewriter
+C:
+\backslash
+cygwin64
+\backslash
+tmp 
+\family default
+and Termux's
+\family typewriter
+ /data/data/com.termux/usr/tmp
+\family default
+.
+ Similar function can also be achived via a scheduled task to delete all
+ files in the designated temporary directory.
+ 
+\end_layout
+
+\begin_layout Standard
+For consistent access/location amoing filesystems, the tmp directory should
+ be symbolically linked to 
+\family typewriter
+FILER/tmp
+\family default
+.
+ The enviornment variables 
+\family typewriter
+TMP
+\family default
+ and 
+\family typewriter
+TEMP
+\family default
+ should also be set to 
+\family typewriter
+~/FILER/tmp
+\family default
+.
+
+\family typewriter
+ 
+\end_layout
+
+\begin_layout Subsection
+
+\bar under
+210711B
+\bar default
+ Installation Homes, 
+\family typewriter
+~/.local
+\family default
+, 
+\family typewriter
+/usr/local
+\family default
+ and 
+\family typewriter
+/usr
+\end_layout
+
+\begin_layout Standard
+Many apps have 
+\emph on
+Installation Homes
+\emph default
+ that contain their files and binaries.
+ The configuration of these apps is often done through these installation
+ homes and many files the app requires are sometimes relative to it.
+ Sometimes, and especially in the case of programming langauges, the installatio
+n home must be specified in an enviornment variable so apps that have it
+ as a dependency can use it properly.
+ It can be said that apps are 
+\emph on
+installed into
+\emph default
+ their Installation Homes
+\end_layout
+
+\begin_layout Standard
+For NoSeer and MiniSeer, most apps are installed automatically into system
+ directories.
+ Apps installed via Linux emulation enviornment such as CygWin or Termux
+ should follow the same procedures as AllSeer, listed below.
+ GSeer is only storage rather than an poerating system and thus apps cannot
+ be installed on it.
+\end_layout
+
+\begin_layout Standard
+As per the 
+\begin_inset CommandInset href
+LatexCommand href
+name "FHS"
+target "https://refspecs.linuxfoundation.org/FHS_3.0/fhs/index.html"
+literal "false"
+
+\end_inset
+
+, apps on Linux will generally be installed into 
+\family typewriter
+/usr
+\family default
+, 
+\family typewriter
+/usr/local
+\family default
+ and 
+\family typewriter
+~/.local
+\family default
+.
+ 
+\end_layout
+
+\begin_layout Itemize
+Apps installed via package managers such as apt or pkg willl be installed
+ unto 
+\family typewriter
+/usr
+\end_layout
+
+\begin_layout Itemize
+Apps installed manually will generally be usually installed into 
+\family typewriter
+/usr/local
+\family default
+; 
+\end_layout
+
+\begin_layout Itemize
+Apps installed manually that need to be for a specific user will be installed
+ into a ~
+\family typewriter
+/.local/apps 
+\family default
+directory.
+\end_layout
+
+\begin_layout Itemize
+Apps created by me will be installed into 
+\family typewriter
+~/.local/apps
+\family default
+.
+\end_layout
+
+\begin_layout Standard
+For Installation Homes that contain the software's binary launchers, often
+ the Installation Home's bin directory needs to be added to the 
+\family typewriter
+PATH
+\family default
+ environment variable, so its files can be ran by name from terminal.
+ An easier alternative is to symbolically link them into 
+\family typewriter
+/usr/local/bin 
+\family default
+or 
+\family typewriter
+~/.local/bin
+\family default
+, dependant on wether 
+\end_layout
+
+\begin_layout Itemize
+When a software specifically instructs the addition of its Installation
+ Home as an enviornment variable, its bin should be added to the path
+\end_layout
+
+\begin_layout Itemize
+When a software installation contains multiple binaries that are not automatical
+ly linked to a normal binary directory, the Installation Home bin should
+ be added to 
+\family typewriter
+PATH
+\family default
+ via 
+\family typewriter
+export PATH=$PATH:$INSTALL_HOME/bin
+\end_layout
+
+\begin_layout Itemize
+Otherwise, relevant binary files should be symbolically linked to an identically
+ files in 
+\family typewriter
+/usr/local/bin
+\family default
+.
+ The name of the destination file should be lowercase and with no extension,
+ and may be modified in order to be so.
+\end_layout
+
+\begin_layout Subsection
+
+\bar under
+210711C
+\bar default
+ XDG Directories, Windows Libraries and Android equivalents
+\end_layout
+
+\begin_layout Standard
+By default, most operating systems create a few directories upon adding
+ a user, for their 
+\shape slanted
+music
+\shape default
+, 
+\shape slanted
+picture
+\shape default
+s, 
+\shape slanted
+videos
+\shape default
+, 
+\shape slanted
+documents
+\shape default
+ and 
+\shape slanted
+downloads
+\shape default
+.
+ 
+\end_layout
+
+\begin_layout Standard
+For some operating systems, such as Android, these are fully regular files,
+ and can be removed in a mostly straightforward manner.
+ However, many apps might search for these directories and default to using
+ them; worse, these directories may be actively defined and treated in a
+ different manner by the operating system.
+ For example, Windows defines these as 
+\begin_inset Quotes eld
+\end_inset
+
+Libraries
+\begin_inset Quotes erd
+\end_inset
+
+, that can flatten the file tree to show many relevant files at a glass,
+ and inssisently appear at the user's directory; on Linux freedesktop.org
+ specifies these directories in 
+\family typewriter
+~/.config/user-dirs.dirs
+\family default
+, and certain apps such as Nautilous search for them and use them (e.g as
+ permnant bookmarks).
+\end_layout
+
+\begin_layout Standard
+As per 
+\shape slanted
+System210710A
+\shape default
+, the 
+\emph on
+Downloads Directory
+\emph default
+ should be set as 
+\family typewriter
+/tmp
+\family default
+.
+ The other media directories though, are unneeded, as content is categorized
+ by purpose rather than type, and uncategorized content goes into 
+\family typewriter
+/tmp
+\family default
+, again per 
+\shape slanted
+System210710A
+\shape default
+.
+ Alternatively media directories can all point to 
+\family typewriter
+/tmp
+\family default
+.
+\end_layout
+
+\begin_layout Itemize
+
+\shape slanted
+AllSeer
+\shape default
+ is a Linux OS using freedesktop.org and so sets its media directories in
+ 
+\family typewriter
+~/usr-dirs.dirs
+\family default
+ .
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+In order to delete the Media Directories, set
+\end_layout
+
+\begin_layout LyX-Code
+XDG_DOCUMENTS_DIR="$HOME"
+\end_layout
+
+\begin_layout LyX-Code
+XDG_MUSIC_DIR="$HOME" 
+\end_layout
+
+\begin_layout LyX-Code
+XDG_PICTURES_DIR="$HOME"
+\end_layout
+
+\begin_layout LyX-Code
+XDG_VIDEOS_DIR="$HOME"
+\end_layout
+
+\begin_layout Itemize
+In order to point Media Directories to 
+\family typewriter
+/tmp
+\family default
+, set
+\end_layout
+
+\begin_layout LyX-Code
+XDG_DOCUMENTS_DIR="/tmp"
+\end_layout
+
+\begin_layout LyX-Code
+XDG_MUSIC_DIR="/tmp" 
+\end_layout
+
+\begin_layout LyX-Code
+XDG_PICTURES_DIR="/tmp"
+\end_layout
+
+\begin_layout LyX-Code
+XDG_VIDEOS_DIR="/tmp"
+\end_layout
+
+\begin_layout Itemize
+At any case, the downloads directory should be set thus:
+\end_layout
+
+\begin_layout LyX-Code
+XDG_DOWNLOAD_DIR="/tmp" 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\shape slanted
+NoSeer 
+\shape default
+is a Windows OS and so sets its Media Directories via the Library interface.
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+To remove Media Directories, try to delete them like directories via Windows
+ Explorer.
+ If that does not work properly, additional Registry changes may be required
+ (see 
+\begin_inset CommandInset href
+LatexCommand href
+name "here"
+target "https://superuser.com/questions/1612043/remove-libraries-from-windows-10-windows-explorer"
+literal "false"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Itemize
+To merge the Media Directories into 
+\family typewriter
+/tmp
+\family default
+, go into , the properties of each library (right click), click Set Location
+ and choose 
+\family typewriter
+C:
+\backslash
+Users
+\backslash
+ataya
+\backslash
+Home
+\backslash
+Gray
+\backslash
+FILER
+\backslash
+tmp
+\end_layout
+
+\begin_layout Itemize
+Downloads folder should be put as 
+\family typewriter
+C:
+\backslash
+Users
+\backslash
+ataya
+\backslash
+Home
+\backslash
+Gray
+\backslash
+FILER
+\backslash
+tmp
+\family default
+ anyway.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+
+\shape slanted
+MiniSeer
+\shape default
+ is an Android OS.
+ While Android does create Media directories by default, they have no special
+ status and can be removed as any local directory.
+ Since they have no special status there is nothing to set to /tmp, and
+ so these files indeed should be removed.
+\end_layout
+
+\begin_layout Itemize
+
+\shape slanted
+GSeer
+\shape default
+ is not an Operating System and so has no special Media Directories.
+\end_layout
+
+\begin_layout Subsection
+
+\bar under
+210711D
+\bar default
+ Desktop Directory
+\end_layout
+
+\begin_layout Standard
+Many operating systems use 
+\begin_inset CommandInset href
+LatexCommand href
+name "the desktop metaphor"
+target "https://www.wikiwand.com/en/Desktop_metaphor"
+literal "false"
+
+\end_inset
+
+ as a basis for their User Interface, in which, there is a consistent screen
+ that acts as the 
+\begin_inset Quotes eld
+\end_inset
+
+base
+\begin_inset Quotes erd
+\end_inset
+
+ display, often customizable with a wallpaper, that displays the files found
+ in a specified, special, directory.
+ 
+\end_layout
+
+\begin_layout Standard
+This paradigm is present on both AllSeer and NoSeer.
+ In both, this project should contain a directory 
+\begin_inset Quotes eld
+\end_inset
+
+Desktop
+\begin_inset Quotes erd
+\end_inset
+
+ which should be set as the Desktop directory, and its content should be
+ set by a future gray customization project.
+\end_layout
+
+\begin_layout Subsection
+
+\bar under
+210712A
+\bar default
+ Relative Symbolic Links
+\end_layout
+
+\begin_layout Standard
+In order to maintain ubiquity among different home directories, 
+\series bold
+symbolic links should always be relative
+\series default
+.
+ Absolute symbolic links will contain the changin home directory path and
+ thus cannot be copied to other file systems in a straightforward manner.
+\end_layout
+
+\begin_layout Subsection
+
+\bar under
+210728A
+\bar default
+ Persistent temprary files & the Boidem Directoy
+\end_layout
+
+\begin_layout Standard
+As 
+\shape slanted
+System210710
+\shape default
+ states, most files that cannot be categorized either need to have a project
+ created for them, or are meant for a concrete action.
+ In the latter case, creating them in 
+\family typewriter
+/tmp
+\family default
+ is a great way to avoid clutter.
+ The same goes for files that are only briefly needed for a particular action
+\end_layout
+
+\begin_layout Standard
+However, 
+\family typewriter
+/tmp
+\family default
+ gets cleared on boot, and some uncategorized and temporary files need to
+ be kept more persistently.
+ Example cases include 
+\end_layout
+
+\begin_layout Itemize
+Files whose project was not yet stated
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+dirty
+\begin_inset Quotes erd
+\end_inset
+
+ backups and tests —mosty disorganized data that cannot be properly organized
+ at the moment and yet it is signifcantly prefereble to maintain.
+\end_layout
+
+\begin_layout Standard
+For this porpuse, a directory 
+\begin_inset Quotes eld
+\end_inset
+
+Boidem
+\begin_inset Quotes erd
+\end_inset
+
+ should be created under this project.
+ Apropriate files should be housed, and it should be checked and cleared
+ on a weekly basis.
+ A file that sits for a month can be deleted, or archived in the closest
+ matching class.
+\end_layout
+
+\begin_layout Section
+Timeline
+\end_layout
+
+\begin_layout Standard
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Preview
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{vtimeline}[description={text width=7cm},
+\end_layout
+
+\begin_layout Plain Layout
+
+	row sep=4ex,
+\end_layout
+
+\begin_layout Plain Layout
+
+	timeline color=steel,
+\end_layout
+
+\begin_layout Plain Layout
+
+	use timeline header,
+\end_layout
+
+\begin_layout Plain Layout
+
+	timeline title={Project Setup}]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{vtimeline}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Status
+\end_layout
+
+\begin_layout Section
+Overview
+\end_layout
+
+\begin_layout Section
+Open Tasks
+\end_layout
+
+\begin_layout Enumerate
+
+\bar under
+210714A
+\bar default
+ Revamp Structure
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\bar under
+210714A-1
+\bar default
+ NoSeer
+\end_layout
+
+\begin_layout Enumerate
+
+\bar under
+210714A-2
+\bar default
+ MiniSeer
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\bar under
+210714B
+\bar default
+ Organize old archive
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\bar under
+210714B-1
+\bar default
+ AllSeer
+\end_layout
+
+\begin_layout Enumerate
+
+\bar under
+210714B-2
+\bar default
+ GSeer
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\bar under
+210714C
+\bar default
+ Decide archives sync
+\end_layout
+
+\begin_layout Enumerate
+
+\bar under
+210714D
+\bar default
+ Set up mounting
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\bar under
+210714D-1
+\bar default
+ AllSeer
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\bar under
+210714D-1.2
+\bar default
+ MiniSeer via Termux FTP
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\bar under
+210714D-2
+\bar default
+ NoSeer
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\bar under
+210714D-2.1
+\bar default
+ AllSeer via Ext2Explore
+\end_layout
+
+\begin_layout Enumerate
+
+\bar under
+210714D-2.2
+\bar default
+ MiniSeer via Termux FTP
+\end_layout
+
+\begin_layout Enumerate
+
+\bar under
+210714D-2.3
+\bar default
+ GSeer via 
+\family typewriter
+rclone mount
+\family default
+ 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+
+\bar under
+210714E
+\bar default
+ Initialize Configuration project
+\end_layout
+
+\begin_layout Enumerate
+
+\bar under
+210714F
+\bar default
+ Set up google sync tools
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\bar under
+210714F-1
+\bar default
+ Set up 
+\family typewriter
+rclone
+\family default
+ on AllSeer
+\end_layout
+
+\begin_layout Enumerate
+
+\bar under
+210714F-2
+\bar default
+ Set up Backup & Sync on NoSeer
+\end_layout
+
+\begin_layout Enumerate
+
+\bar under
+210714F-3
+\bar default
+ Set up FolderSync on MiniSeer
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\bar under
+210714G
+\bar default
+ Buy hard drive
+\end_layout
+
+\begin_layout Enumerate
+
+\bar under
+210714H
+\bar default
+ Set up backup
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\bar under
+210714H-1
+\bar default
+ AllSeer
+\end_layout
+
+\begin_layout Enumerate
+
+\bar under
+210714H-2
+\bar default
+ NoSeer
+\end_layout
+
+\begin_layout Enumerate
+
+\bar under
+210714H-3
+\bar default
+ MiniSeer
+\end_layout
+
+\begin_layout Enumerate
+
+\bar under
+210714H-4
+\bar default
+ Home Dir
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\bar under
+210714I
+\bar default
+ Initialize Automation project
+\end_layout
+
+\begin_layout Enumerate
+
+\bar under
+210714J
+\bar default
+ Set up user media, downloads, desktop directories
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\bar under
+210714J-2
+\bar default
+ NoSeer
+\end_layout
+
+\begin_layout Enumerate
+
+\bar under
+210714J-3
+\bar default
+ MiniSeer
+\end_layout
+
+\end_deeper
+\begin_layout Section
+Open Habits
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\bar under
+210711B
+\series default
+\bar default
+ 
+\series bold
+Backup home directory
+\series default
+ — every Tuesday
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\bar under
+210711C
+\series default
+\bar default
+ 
+\series bold
+Backup AllSeer system 
+\series default
+—
+\series bold
+ 
+\series default
+every Tuesday
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\bar under
+210711D
+\series default
+\bar default
+ 
+\series bold
+Backup NoSeer system 
+\series default
+—
+\series bold
+ 
+\series default
+every Tuesday
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\bar under
+210711E
+\series default
+\bar default
+ 
+\series bold
+Backup MiniSeer system 
+\series default
+—
+\series bold
+ 
+\series default
+every Tuesday
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\bar under
+210711A
+\series default
+\bar default
+ 
+\series bold
+Sync Hard Drive
+\series default
+ — every Tuesday
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\bar under
+210711G
+\series default
+\bar default
+ 
+\series bold
+Sync git
+\series default
+ — every day
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\bar under
+210711H
+\series default
+\bar default
+ 
+\series bold
+Sync Drive
+\series default
+ — every day
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\bar under
+210711F
+\series default
+\bar default
+ 
+\series bold
+Archive irrelevant files 
+\series default
+— every Tuesday
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\bar under
+210712A
+\series default
+\bar default
+ 
+\series bold
+Initilize Project Files
+\series default
+ — Project Directory, Project Shortcut, Project Archive, Project Statement,
+ Archive Link.
+ Upon any creation of a new project.
+\end_layout
+
+\begin_layout Section
+Open Issues
+\end_layout
+
+\begin_layout Section
+Open Proposals
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Results
+\end_layout
+
+\begin_layout Section
+Overview
+\end_layout
+
+\begin_layout Section
+Incidents
+\end_layout
+
+\begin_layout Section
+Work
+\end_layout
+
+\begin_layout Section
+Progress
+\end_layout
+
+\begin_layout Enumerate
+AllSeer home directory is set up, with aspects, shortcuts directory, mounts
+ 
+\end_layout
+
+\begin_layout Section
+Closed Issues
+\end_layout
+
+\begin_layout Section
+Closed Proposals
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Reflections
+\end_layout
+
+\begin_layout Section
+Lessons
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+\start_of_appendix
+Appendixes
+\end_layout
+
+\end_body
+\end_document

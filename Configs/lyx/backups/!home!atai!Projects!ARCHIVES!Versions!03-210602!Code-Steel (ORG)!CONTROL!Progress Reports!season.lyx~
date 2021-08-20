@@ -1,0 +1,758 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\definecolor{teal}{rgb}{0.0, 0.5, 0.5}
+\definecolor{violet}{rgb}{0.56, 0.0, 1.0}
+\definecolor{purple}{rgb}{0.62, 0.0, 0.77}
+\definecolor{olive}{rgb}{0.74, 0.72, 0.42}
+\definecolor{lime}{rgb}{0.74, 0.72, 0.42}
+\definecolor{khaki}{rgb}{0.74, 0.72, 0.42}
+\definecolor{chartreuse}{rgb}{0.87, 1.0, 0.0}
+\definecolor{gray}{rgb}{0.64, 0.64, 0.64}
+
+% Adds unicode characters.
+\usepackage{wasysym}
+\usepackage{amssymb}
+\usepackage[none]{hyphenat}
+
+\usepackage{tikz}
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle,draw,inner sep=0.5pt] (char) {#1};}}
+\end_preamble
+\use_default_options true
+\begin_modules
+soul
+todonotes
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "filecolor=teal"
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\backgroundcolor #222831
+\fontcolor #ececec
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Spring Plan
+\end_layout
+
+\begin_layout Date
+2021
+\end_layout
+
+\begin_layout Author
+Atai Ambus
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\fail}{\circled{X}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\do}{\circled{D}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\pend}{\circled{P}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\done}{\circled{\checkmark}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\coin}[1]{{\color{chartreuse}#1}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Outline
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Theme: 
+\emph on
+Spring of Standing Up
+\end_layout
+
+\begin_layout Standard
+I open this spring the lowest I have been in a year; I feel down emotionally,
+ mentally, physically and creatively; I have two bagruts and three giant
+ projects; people I am close to no longer feel reliable, and I find that
+ my relationship with Shir is fundamentally alien to what I would want it
+ to be.
+ I am faced with a constant flow of IDF sortings that will dictate the next,
+ at least 5 years of my life, and am utterly failing to handle my responsibiliti
+es in robotics.
+ 
+\end_layout
+
+\begin_layout Standard
+I think the pandemic has removed much of the structure that was aiding as
+ a back up to hold me together My sense of self, resolve and purpose have
+ deteriorated to almost nothing.
+\end_layout
+
+\begin_layout Standard
+This theme is build for me to stand up; to stabilize.
+ Build my own structure.
+ To stay up, to get through.
+ To rebuild, or at least start to.
+\end_layout
+
+\begin_layout Subsection*
+Ideal Outcomes
+\end_layout
+
+\begin_layout Enumerate
+
+\bar under
+\color purple
+Resolving relationship with Shir
+\bar default
+:
+\color inherit
+ Stand up and talk with Shir; establish my minimum requirement for this
+ to be working, or close it as a whole.
+\end_layout
+
+\begin_layout Enumerate
+
+\bar under
+\color yellow
+Successfully passing school assessments
+\bar default
+\color inherit
+: establish and arrive at personal standards with Bible, Math, Physics,
+ Civics ans SE.
+ Stand my ground through the heavy load.
+ Keep my head up.
+\end_layout
+
+\begin_layout Enumerate
+
+\bar under
+\color lime
+Passing Gamma interviews
+\bar default
+\color inherit
+: stand calmly through interviews.
+ Make a good impression and get into prestigious plans.
+\end_layout
+
+\begin_layout Enumerate
+
+\bar under
+\color gray
+Closing KEEP issues
+\bar default
+\color inherit
+: glasses, earbuds, jeans, bed, light switches, ceiling light cover
+\end_layout
+
+\begin_layout Enumerate
+
+\bar under
+\color lightgray
+Fully Building Strucute
+\bar default
+\color inherit
+: creating
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Aspect Overview
+\end_layout
+
+\begin_layout Itemize
+Code-
+\color cyan
+Azure
+\color inherit
+: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Dr.
+ Stone, MHA are airing again.
+ 
+\end_layout
+
+\begin_layout Itemize
+Long Passover vacation increases free time
+\end_layout
+
+\begin_layout Itemize
+Otherwise free time is severely limited due to time-heavy duties in Code-Yellow,
+ Code-Khaki and Code-Orange.
+\end_layout
+
+\begin_layout Itemize
+The gap in rest time combined with emotionally intenstive times creates
+ a thouroughly problematic situation with harsh misery, and should be resolved
+ as soon as possible.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Code-
+\color blue
+Blue
+\color inherit
+: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Elections are on March 27th , and a significant portion of my grade is eligible
+ to vote; Voting encouragement and Moral writing might be ought.
+\end_layout
+
+\begin_layout Itemize
+No other significant events scheduled.
+\end_layout
+
+\begin_layout Itemize
+General principles should continue: coherent communication, aid as needed,
+ take the extra mile.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Code-
+\begin_inset Formula $\coin{\text{Chartreuse}}$
+\end_inset
+
+: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+On April 19th, I should go through the math bagrut, which should free up
+ a significant chunk of my time.
+ 
+\end_layout
+
+\begin_layout Itemize
+Until then, I cannot find the time to be employed, though passover seems
+ like a good oppurtinuty to find one for after.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Code-
+\color gray
+Gray
+\color inherit
+: 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Glasses, Jeans and Bed have reached nigh-critical levels after a very long
+ abandonment.
+ 
+\end_layout
+
+\begin_layout Itemize
+My gift-tea-lants also need to be watered regularly.
+\end_layout
+
+\begin_layout Itemize
+Excluding this, regular chores, roughly laundry, dishes and dogs, continue.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Code-
+\color green
+Green
+\color inherit
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Curiosity, abstract grasp and joy of knowledge severly hurt after 7 months
+ unpracticed.
+\end_layout
+
+\begin_layout Itemize
+Currently, still little time to deal with extra intrests.
+\end_layout
+
+\begin_layout Itemize
+Passover and post-math are good periods to start rebuilding: interests include
+ AI, Conlanging, Medieval Europe, Japanese, Data Science.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Code-
+\color lime
+Khaki
+\color inherit
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Current paths are Atuda and Gamma
+\end_layout
+
+\begin_layout Itemize
+Atuda is psychometric-dependant, which I have no real way to prepare for
+ at the moment.
+\end_layout
+
+\begin_layout Itemize
+I am currently in the interview stage of gamma.
+\end_layout
+
+\begin_layout Itemize
+Other options seem to have been missed for now, but it is a good idea to
+ check their plausability—specifically General Intelligence and Computer
+ Roles.
+\end_layout
+
+\begin_layout Itemize
+That being said, these interviews are crucial and I should do my best.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Code-
+\color olive
+Olive
+\color inherit
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+I believe it is a good idea to recategorize it for Humanistic projects.
+\end_layout
+
+\begin_layout Itemize
+I really miss this (along with violet)!
+\end_layout
+
+\begin_layout Itemize
+Conlanging is a possible project post-math
+\end_layout
+
+\begin_layout Itemize
+Post-math, it could be a good idea to start writing our 
+\begin_inset Quotes eld
+\end_inset
+
+essays
+\begin_inset Quotes erd
+\end_inset
+
+ more thoroughly.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Code-
+\color orange
+Orange
+\color inherit
+:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+App needs to be masively worked on, if we are to stand our deadlines.
+\end_layout
+
+\begin_layout Itemize
+Ho
+\end_layout
+
+\end_deeper
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Projects
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Schedule
+\end_layout
+
+\begin_layout Enumerate
+
+\color purple
+[FAM] Jessie's Birthday, –03-06
+\end_layout
+
+\begin_layout Enumerate
+
+\color yellow
+[BBL] Bible Bagrut –03-17
+\end_layout
+
+\begin_layout Enumerate
+
+\color lightgray
+[CONTROL] Passover –03-19 to –04-05, Seders on –03-27, –04-02
+\end_layout
+
+\begin_layout Enumerate
+
+\color purple
+[MARVEL] Marathon End, set to passover
+\end_layout
+
+\begin_layout Enumerate
+
+\color lightgray
+[CONTROL] Elections, –03-23
+\end_layout
+
+\begin_layout Enumerate
+
+\color yellow
+[PSYCH] Psychometric, –03-22
+\end_layout
+
+\begin_layout Enumerate
+
+\color orange
+[HOC] Off-Season, –03-29
+\end_layout
+
+\begin_layout Enumerate
+
+\color purple
+[MARVEL] Tzur's Birthday, –04-03
+\end_layout
+
+\begin_layout Enumerate
+
+\color yellow
+[CIV] Project hand-in, –04-12
+\end_layout
+
+\begin_layout Enumerate
+
+\color yellow
+[MTH] Math Bagrut, –04-19
+\end_layout
+
+\begin_layout Enumerate
+
+\color purple
+[FAM] Yahli's Birthday, –05-06
+\begin_inset Newline newline
+\end_inset
+
+
+\color inherit
+
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "20col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\color purple
+[FAM] Tuli's Birthday, –05-25
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Reoccuring
+\end_layout
+
+\begin_layout Enumerate
+
+\color lime
+[GET] Sorting Days, throughout the weeks.
+\end_layout
+
+\begin_layout Enumerate
+
+\color orange
+[HOC] Crew Meetings, Sunday-Thursday, 16:00-20:00
+\end_layout
+
+\begin_layout Enumerate
+
+\color yellow
+[Code-Yellow] School Days, Sunday-Thursday, roughly 8:00-14:00.
+\end_layout
+
+\begin_layout Enumerate
+
+\color purple
+[MARVEL] Marvel Night, Every thursday evening
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Systems
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Status
+\end_layout
+
+\begin_layout Section
+Project Overview
+\end_layout
+
+\begin_layout Section
+Open Issues
+\end_layout
+
+\begin_layout Section
+Pending Bills
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Results
+\end_layout
+
+\begin_layout Section
+Overview
+\end_layout
+
+\begin_layout Section
+Theme
+\end_layout
+
+\begin_layout Section
+Incidents
+\end_layout
+
+\begin_layout Section
+Context
+\end_layout
+
+\begin_layout Section
+Issues
+\end_layout
+
+\begin_layout Section
+Work
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Conculsions
+\end_layout
+
+\begin_layout Section
+Insights
+\end_layout
+
+\begin_layout Section
+Suggestions
+\end_layout
+
+\begin_layout Section
+Decisions
+\end_layout
+
+\begin_layout Section
+Next
+\end_layout
+
+\end_body
+\end_document

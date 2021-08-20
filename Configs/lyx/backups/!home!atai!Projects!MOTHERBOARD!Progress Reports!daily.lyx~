@@ -1,0 +1,829 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\definecolor{teal}{rgb}{0.0, 0.5, 0.5}
+\definecolor{violet}{rgb}{0.56, 0.0, 1.0}
+\definecolor{purple}{rgb}{0.62, 0.0, 0.77}
+\definecolor{lime}{rgb}{0.87, 1.0, 0.0}
+\definecolor{khaki}{rgb}{0.74, 0.72, 0.42}
+\definecolor{chartreuse}{rgb}{0.87, 1.0, 0.0}
+\definecolor{gray}{rgb}{0.64, 0.64, 0.64}
+% Adds unicode characters.
+\usepackage{wasysym}
+\usepackage{amssymb}
+
+
+\usepackage{tikz}
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle,draw,inner sep=0.5pt] (char) {#1};}}
+\end_preamble
+\use_default_options true
+\begin_modules
+enumitem
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "filecolor=teal"
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\backgroundcolor #222831
+\fontcolor #ececec
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth -2
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Progress Report: 2021-02-27
+\end_layout
+
+\begin_layout Author
+Atai Ambus
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\check}{\pend}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\tick}{\done}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\fail}{\circled{X}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\do}{\circled{D}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\pend}{\circled{P}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\done}{\circled{\checkmark}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Schedule
+\end_layout
+
+\begin_layout Standard
+N/A
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Statement
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Today I will:
+\end_layout
+
+\begin_layout Enumerate
+
+\color yellow
+\begin_inset Formula $\done$
+\end_inset
+
+ [MTH] Complete at least two questions from the project
+\end_layout
+
+\begin_layout Enumerate
+
+\color yellow
+\begin_inset Formula $\done$
+\end_inset
+
+ [PHY] Assert marathon be, time
+\end_layout
+
+\begin_layout Enumerate
+
+\color lightgray
+\begin_inset Formula $\done$
+\end_inset
+
+ [CONTROL] Call Ministry of Health to check the needed Corona-related restrictio
+ns, if exist, following incident 
+\color orange
+HOC/02-23
+\color lightgray
+.
+\end_layout
+
+\begin_layout Enumerate
+
+\color lightgray
+\begin_inset Formula $\done$
+\end_inset
+
+ [CONTROL] File full daily report
+\end_layout
+
+\begin_layout Enumerate
+
+\color purple
+\begin_inset Formula $\tick$
+\end_inset
+
+ [CONTACT] Talk with Yoav in regards to meeting
+\end_layout
+
+\begin_layout Enumerate
+
+\color purple
+\begin_inset Formula $\fail$
+\end_inset
+
+ [LOVE] Call Shir
+\end_layout
+
+\begin_layout Enumerate
+
+\color white
+\begin_inset Formula $\done$
+\end_inset
+
+ [LOG] Complete a journal today
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Tasks
+\end_layout
+
+\begin_layout Enumerate
+
+\color yellow
+\begin_inset Formula $\done$
+\end_inset
+
+ [PHY] /Marathon/Assert/
+\end_layout
+
+\begin_layout Enumerate
+
+\color yellow
+\begin_inset Formula $\fail$
+\end_inset
+
+ [BBL] /Issues/Overdue/Do/Dvarim 24/
+\end_layout
+
+\begin_layout Enumerate
+
+\color lightgray
+\begin_inset Formula $\tick$
+\end_inset
+
+ [CONTROL] /HOC/Incidents/02-23/Aftermath/Corona Restrictions/Check/Ministry
+ of Health/
+\end_layout
+
+\begin_layout Enumerate
+
+\color orange
+\begin_inset Formula $\fail$
+\end_inset
+
+ [APP] /SC/Schedule/Homepage/Matches List/
+\end_layout
+
+\begin_layout Enumerate
+
+\color orange
+\begin_inset Formula $\done$
+\end_inset
+
+ [APP] /Issues/Overdue/Marathon/Assert/
+\end_layout
+
+\begin_layout Enumerate
+
+\color orange
+\begin_inset Formula $\fail$
+\end_inset
+
+ [HOC] /Issues/OOP Task/Add subjects/
+\end_layout
+
+\begin_layout Enumerate
+
+\color orange
+\begin_inset Formula $\done$
+\end_inset
+
+ [HOC] /Incidents/02-23/Aftermath/Assert meeting form/
+\end_layout
+
+\begin_layout Enumerate
+
+\color violet
+\begin_inset Formula $\fail$
+\end_inset
+
+ [PLAY] /Microscope/Assert/Check Times/Shir/
+\end_layout
+
+\begin_layout Enumerate
+
+\color purple
+\begin_inset Formula $\fail$
+\end_inset
+
+ [LOVE] /Issues/Contact/Call/
+\end_layout
+
+\begin_layout Enumerate
+
+\color purple
+\begin_inset Formula $\tick$
+\end_inset
+
+ [CONTACT] /Yoav Levi/Meeting/
+\end_layout
+
+\begin_layout Enumerate
+
+\color gray
+\begin_inset Formula $\fail$
+\end_inset
+
+ [KEEP] /Buy/Order/Jeans/
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Additional Work
+\end_layout
+
+\begin_layout Enumerate
+
+\color gray
+[CONTROL] /Promise/Day Report/
+\end_layout
+
+\begin_layout Enumerate
+
+\color purple
+[LOVE] /Issues/Contact/Call/Ask/
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Routines
+\end_layout
+
+\begin_layout Enumerate
+
+\color blue
+\begin_inset Formula $\fail$
+\end_inset
+
+ [CHILL] Watch Sunrise 
+\end_layout
+
+\begin_layout Enumerate
+
+\color blue
+\begin_inset Formula $\check$
+\end_inset
+
+ [THANK] Gratitude Journal
+\end_layout
+
+\begin_layout Enumerate
+
+\color white
+\begin_inset Formula $\done$
+\end_inset
+
+ [LOG] Journal, by 22:30
+\end_layout
+
+\begin_layout Enumerate
+
+\color white
+\begin_inset Formula $\done$
+\end_inset
+
+
+\color lightgray
+ [MOTHERBOARD] Day Report
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula ${\color{yellow}\done}$
+\end_inset
+
+ 
+\color yellow
+[MTH] Complete 2 Questions
+\end_layout
+
+\begin_layout Enumerate
+
+\color violet
+\begin_inset Formula $\fail$
+\end_inset
+
+ [MAKE] Write 200 Words (Moon and Tree)
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Context Changes
+\end_layout
+
+\begin_layout Enumerate
+
+\color orange
+[HOC] As an aftermath of 
+\emph on
+Incident-02-23
+\emph default
+, meetings will be online until reverification by principle, likely after
+ Noa Derman is confirmed as healthy.
+\end_layout
+
+\begin_layout Enumerate
+
+\color orange
+[APP] Marathon with Tom scheduled for Monday following PHY, and Tuesday.
+\end_layout
+
+\begin_layout Enumerate
+[REDACTED]
+\end_layout
+
+\begin_layout Enumerate
+
+\color purple
+[CONTACT] Meeting scheduled with Yoav-Levi for this weekend; precise timing
+ assertion still required.
+\end_layout
+
+\begin_layout Enumerate
+
+\color yellow
+[PHY] Marathon with Tzue and Tom scheduled for tomorrow 9:30, and Monday
+ 11:15.
+\end_layout
+
+\begin_layout Enumerate
+
+\color yellow
+[MTH] Test 17 done.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Bills
+\end_layout
+
+\begin_layout Enumerate
+
+\color purple
+[CONTACT] Let Yoav pick a time and make time for a meeting | 
+\series bold
+ACCEPTED
+\series default
+, see 
+\emph on
+Context-4
+\end_layout
+
+\begin_layout Enumerate
+
+\color lightgray
+[CONTROL] Divide Issues section by Opened, Resolved, Opened and Resolve
+ and relevant subsections | 
+\series bold
+PENDING
+\end_layout
+
+\begin_layout Enumerate
+
+\color lightgray
+[CONTROL] Format issues as 
+\family typewriter
+[PROJECT] Description | 
+\series bold
+STATUS
+\series default
+; Status description,
+\family default
+ where STATUS may be OPEN, SOLVED or REF (for refacroting) | 
+\series bold
+PENDING
+\end_layout
+
+\begin_layout Enumerate
+
+\color lightgray
+[CONTROL] Allow arbitrary, nested issue categorization via enumeration and
+ indentation | 
+\series bold
+PENDING
+\end_layout
+
+\begin_layout Enumerate
+
+\color lightgray
+[CONTROL] File 
+\emph on
+Incidents
+\emph default
+ for unexpected impactful events, such that aftermath, causes and lessons
+ can be studied more formally and centrally | 
+\series bold
+ACCEPTED
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Issues
+\end_layout
+
+\begin_layout Subsection
+Opened
+\end_layout
+
+\begin_layout Enumerate
+Unasserted Times
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\color orange
+[HOC] Quadruple Discord with 3339 | 
+\series bold
+OPEN
+\series default
+; Seems to be left/forgotten by captains; should talk with them.
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Resolved
+\end_layout
+
+\begin_layout Standard
+N/A 
+\end_layout
+
+\begin_layout Subsection
+Opened and Resolved
+\end_layout
+
+\begin_layout Enumerate
+Unasserted Times
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\color yellow
+[PHY] Marathon | 
+\series bold
+SOLVED
+\series default
+; Scheduled Sunday 9:30, Monday 11:15
+\end_layout
+
+\begin_layout Enumerate
+
+\color purple
+[CONTACT] Meeting with Yoav | 
+\series bold
+SOLVED
+\series default
+;
+\series bold
+ 
+\series default
+Scheduled for next weekend.
+\end_layout
+
+\begin_layout Enumerate
+
+\color purple
+[TAHEL] Purim Zoom | 
+\series bold
+REF
+\series default
+; Just fell off.
+ Update TAHEL context.
+\end_layout
+
+\begin_layout Enumerate
+
+\color violet
+[PLAY] Meeting | 
+\series bold
+REF
+\series default
+; Refile as PLAY task and LOVE issue.
+\end_layout
+
+\end_deeper
+\begin_layout Subsection
+Relevant
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Notes
+\end_layout
+
+\begin_layout Enumerate
+
+\color lightgray
+[CONTROL] In regards to 
+\emph on
+Task-3 
+\emph default
+(/HOC/Incidents/02-23/Aftermath/Corona Restrictions/Check/Ministry of Health/),
+ I may call the ministry of health under *5400, or talk via text (it seems)
+ in 
+\begin_inset CommandInset href
+LatexCommand href
+name "this link"
+target "https://govextra.gov.il/ministry-of-health/corona/corona-virus/"
+literal "false"
+
+\end_inset
+
+ (see 
+\begin_inset Quotes eld
+\end_inset
+
+Corona Bot
+\begin_inset Quotes erd
+\end_inset
+
+ in the bottom-left corner).
+ 
+\end_layout
+
+\begin_layout Enumerate
+
+\color orange
+[HOC] In regards to Task-7 (/Incidents/02-23/Aftermath/Assert meeting form/),
+ I should check how long a presence in the same class, keeping distance,
+ is required for isolation duty.
+ The official instructions seem to imply more than 15 minutes, which may
+ allow for more complex yet safer policies for meeting
+\end_layout
+
+\begin_layout Enumerate
+
+\color purple
+[CONTACT] In regards to continued action with /Yoav Levi/, it might be best,
+ given our workload, to try and recontact more heavily after the math bagrut;
+ At least, be transparent about the difficulty to make time currently.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Insights
+\end_layout
+
+\begin_layout Enumerate
+
+\color lightgray
+[CONTROL] Somewhat unsuprisingly,promising seems to work well.
+ That being said, this is somewhat related to jsut making the decision to
+ do it immediately upon deciding to do it, which may be unrelated.
+\end_layout
+
+\begin_layout Enumerate
+
+\color lightgray
+[CONTROL] Aftermath of Task-3: not required to isolation.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Appendixes
+\end_layout
+
+\begin_layout Standard
+N/A
+\end_layout
+
+\end_body
+\end_document

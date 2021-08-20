@@ -1,0 +1,140 @@
+# LyX 2.3.3 generated this file. If you want to make your own
+# modifications you should do them from inside LyX and save.
+
+Format 24
+
+
+#
+# MISC SECTION ######################################
+#
+
+\kbmap true
+\kbmap_primary "null"
+\kbmap_secondary "hebrew"
+\serverpipe "/home/atai/.lyx"
+\user_name "Atai Ambus"
+\user_email ""
+
+#
+# SCREEN & FONTS SECTION ############################
+#
+
+\screen_font_sizes 5 7 8 9 10 12 14.4 17.26 20.74 24.88
+\single_instance false
+
+#
+# COLOR SECTION ###################################
+#
+\set_color "cursor" "#657b83"
+\set_color "background" "#fdf6e3"
+\set_color "foreground" "#657b83"
+\set_color "selection" "#93a1a1"
+\set_color "selectiontext" "#fdf6e3"
+\set_color "latex" "#657b83"
+\set_color "preview" "#657b83"
+\set_color "inlinecompletion" "#93a1a1"
+\set_color "nonuniqueinlinecompletion" "#93a1a1"
+\set_color "note" "#268bd2"
+\set_color "notebg" "#eee8d5"
+\set_color "commentbg" "#eee8d5"
+\set_color "greyedoutbg" "#eee8d5"
+\set_color "shaded" "#dc322f"
+\set_color "listingsbg" "#268bd2"
+\set_color "footlabel" "#6c71c4"
+\set_color "urllabel" "#657b83"
+\set_color "urltext" "#657b83"
+\set_color "depthbar" "#2aa198"
+\set_color "language" "#657b83"
+\set_color "command" "#2aa198"
+\set_color "commandbg" "#eee8d5"
+\set_color "commandframe" "#93a1a1"
+\set_color "special" "#81a2be"
+\set_color "graphicsbg" "#eee8d5"
+\set_color "math" "#657b83"
+\set_color "mathbg" "#fdf6e3"
+\set_color "mathmacrobg" "#eee8d5"
+\set_color "mathmacroframe" "#eee8d5"
+\set_color "mathmacroblend" "#657b83"
+\set_color "mathmacronewarg" "#657b83"
+\set_color "mathframe" "#657b83"
+\set_color "mathcorners" "#eee8d5"
+\set_color "mathline" "#657b83"
+\set_color "collapsible" "#d0caff"
+\set_color "collapsibleframe" "#eee8d5"
+\set_color "insetframe" "#93a1a1"
+\set_color "eolmarker" "#2aa198"
+\set_color "added_space" "#2aa198"
+\set_color "appendix" "#dc322f"
+\set_color "changebar" "#4d4d4c"
+\set_color "addedtext" "#8b0000"
+\set_color "changedtextauthor1" "#2aa198"
+\set_color "changedtextauthor2" "#d33682"
+\set_color "changedtextauthor3" "#cf4b16"
+\set_color "changedtextauthor4" "#b58900"
+\set_color "changedtextauthor5" "#859900"
+\set_color "tabularline" "#657b83"
+\set_color "tabularonoffline" "#93a1a1"
+\set_color "newpage" "#2aa198"
+\set_color "pagebreak" "#268bd2"
+\set_color "buttonframe" "#93a1a1"
+\set_color "buttonbg" "#fdf6e3"
+\set_color "buttonhoverbg" "#eee8d5"
+\set_color "paragraphmarker" "#8abeb7"
+\set_color "previewframe" "#657b83"
+
+#
+# PRINTER SECTION ###################################
+#
+
+
+#
+# TEX SECTION #######################################
+#
+
+
+#
+# FILE SECTION ######################################
+#
+
+\completion_inline_text true
+\completion_popup_text true
+
+\example_path "/home/atai/.lyx/examples/"
+\template_path "/home/atai/.lyx/templates/"
+\backupdir_path "/home/atai/.lyx/backups/"
+#
+# PLAIN TEXT EXPORT SECTION ##############################
+#
+
+
+#
+# SPELLCHECKER SECTION ##############################
+#
+
+
+#
+# LANGUAGE SUPPORT SECTION ##########################
+#
+
+\visual_cursor true
+
+#
+# 2nd MISC SUPPORT SECTION ##########################
+#
+
+
+#
+# FORMATS SECTION ##########################
+#
+
+\default_otf_view_format dvi3
+
+#
+# CONVERTERS SECTION ##########################
+#
+
+
+#
+# COPIERS SECTION ##########################
+#
+

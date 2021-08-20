@@ -1,0 +1,578 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass heb-article
+\begin_preamble
+\def\HeblatexEncoding{HE8}
+\def\HeblatexEncodingFile{he8enc}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "filecolor=teal"
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\backgroundcolor #222831
+\fontcolor #ececec
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+נקודות לראיון גאמא
+\end_layout
+
+\begin_layout Section
+ספר לי על עצמך
+\end_layout
+
+\begin_layout Itemize
+עתי אמבוס, בן
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+17
+\end_layout
+
+\begin_layout Itemize
+גר בקדימה צורן, שלוש אחיות, אמא מורה ואבא מהנדס
+\end_layout
+
+\begin_layout Itemize
+כרגע לומד בתיכון עודד, לקראת בגרויות בפיזיקה, מתמטיקה ותנ
+\begin_inset Quotes erd
+\end_inset
+
+ך
+\end_layout
+
+\begin_layout Itemize
+מנהל צוות תוכנה, פרוייקט אפליקציה, בתקווה פסיכומטרי
+\end_layout
+
+\begin_layout Itemize
+נפגש עם חברים למארוול כל שבוע, וגם עם החברה
+\end_layout
+
+\begin_layout Section
+משפחה
+\end_layout
+
+\begin_layout Itemize
+מאוד קרובים
+\end_layout
+
+\begin_layout Itemize
+מתייעצים
+\end_layout
+
+\begin_layout Itemize
+מבלים זמן יחד, יוצאים לטיולים
+\end_layout
+
+\begin_layout Section
+תכונות חיוביות
+\end_layout
+
+\begin_layout Enumerate
+יסודיות — מניקיון שירותים וחדר עד תכנון קוד רובוט
+\end_layout
+
+\begin_layout Enumerate
+סבלנות — לדעת להקשיב, רוגע, לחזור לנסות לפתור את הבעיה )כשאני עוזר לאחותי(
+\end_layout
+
+\begin_layout Enumerate
+חוש הומור — לא שאני בהכרח מתבדח הרבה, אבל אני יודע לצחוק.
+\end_layout
+
+\begin_layout Section
+פרט שלוש תכונות שליליות המעידות על עצמך
+\end_layout
+
+\begin_layout Enumerate
+חוסר פרקטיקה — חושב על מערכות מסובכות לניהול פגישות והפקת לקחים, ובסוף לא
+ באמת בא לידי ביצוע
+\end_layout
+
+\begin_layout Enumerate
+הערכת זמן לא נכונה — לוקח יותר מידי מחויבויות )בגרות, מיונים, פסיכומטרי,
+ רובוטיקה, פרוייקט גמר...(
+\end_layout
+
+\begin_layout Enumerate
+נטייה 
+\begin_inset Quotes eld
+\end_inset
+
+לעופף
+\begin_inset Quotes erd
+\end_inset
+
+ — שלשום באוטובוס
+\end_layout
+
+\begin_layout Section
+פרט עיסוקים ותחביבים בשעת הפנאי
+\end_layout
+
+\begin_layout Itemize
+תוכנית הרובוטיקה 
+\end_layout
+
+\begin_layout Itemize
+להיפגש עם חברים והחברה שלי
+\end_layout
+
+\begin_layout Itemize
+צפייה בסדרות עלילתיות
+\end_layout
+
+\begin_layout Itemize
+ריצה 
+\end_layout
+
+\begin_layout Itemize
+משחקי תפקידים שולחניים )לדוגמא מבוכים ודרקונים(
+\end_layout
+
+\begin_layout Itemize
+לקרוא כתבות ומאמרי דעה 
+\end_layout
+
+\begin_layout Section
+האם אתה מתכנת להנאתך? האם ביצעת פרויקטים שלא במסגרת הלימודים? 
+\end_layout
+
+\begin_layout Itemize
+סקריפטים ללינוקס )ארגון ופתיחת קבצים, מיקוד והגדרת חלונות, שליטה מהירה על
+ וויפי...(
+\end_layout
+
+\begin_layout Itemize
+כמה פרוייקטים בפיית'ון )סידור יוזמה, דף דמות(
+\end_layout
+
+\begin_layout Standard
+מצו
+\begin_inset Quotes erd
+\end_inset
+
+ס
+\end_layout
+
+\begin_layout Section
+האם השתתפת בתנועת נוער, התנדבות, חוגי העשרה, תחרויות ידע או קורסים כלשהם
+ במסגרת זמנך הפנוי?
+\end_layout
+
+\begin_layout Itemize
+רובוטיקה
+\end_layout
+
+\begin_layout Itemize
+התנדבות בכיתה י'
+\end_layout
+
+\begin_layout Itemize
+הדרכה בקייטנה
+\end_layout
+
+\begin_layout Section
+האם עבדת במסגרת כלשהי )כולל תחומים שאינם טכנולוגיים(?
+\end_layout
+
+\begin_layout Itemize
+מדריך בקייטנה
+\end_layout
+
+\begin_layout Itemize
+מחפש עבודה כמתכנת
+\end_layout
+
+\begin_layout Section
+מהו סוג האנשים שהיית מעדיף לא להיות בחברתם?
+\end_layout
+
+\begin_layout Itemize
+אנשים שאני לא מתעניין בתחומי העניין שלהם
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+מי שמעניין אותם רק ספורט, לימודים חברים או ריאליטי נראים לי די שטחיים.
+\end_layout
+
+\begin_layout Itemize
+אין לי באמת בעיה להיות עם אנשים כאלה; אבל זה פשוט די משעמם.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+אנשים צעקניים ואלימים
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+אנשים שמדברים בטון מזלזל, שמתפרצים, שלא מקשיבים — בחטיבה הכיתה שלי הייתה
+ מלאה באנשים כאלה וזה היה אחד המקומות שהרגשתי הכי פחות נוח בהם.
+\end_layout
+
+\begin_layout Itemize
+אני משתדל לשמור על קור רוח, להיות ענייני להימנע משיח מיותר או וויכוחים.
+\end_layout
+
+\end_deeper
+\begin_layout Section
+מהם צפיותיך משירותך הצבאי?
+\end_layout
+
+\begin_layout Itemize
+מבגר
+\end_layout
+
+\begin_layout Itemize
+לפגוש אנשים חדשים
+\end_layout
+
+\begin_layout Itemize
+בתקווה מעניין ומלמד
+\end_layout
+
+\begin_layout Section
+מהם חששותיך הנוגעים לשירותך הצבאי?
+\end_layout
+
+\begin_layout Itemize
+שאמצא עצמי בתפקיד שלא יתאים לי, או שארגיש שהוא לא משמעותי
+\end_layout
+
+\begin_layout Section
+לגבי קבע
+\end_layout
+
+\begin_layout Itemize
+אני לא בטוח ב
+\numeric on
+100%
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+— אני חושב שזו תקופה שקצץ קשה לי באמת לתפוש
+\end_layout
+
+\begin_layout Section
+קורס קצינים
+\end_layout
+
+\begin_layout Section
+פרוייקטים / רקע במחשבים
+\end_layout
+
+\begin_layout Itemize
+תכנות רובוט לתחרות רובוטיקה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+FRC
+\lang hebrew
+ 
+\end_layout
+
+\begin_layout Itemize
+מסגרת שבה אני פעיל כבר 3 שנים , הפיתוח כולל ביצוע פעולות מכניות מורכבות,
+ באופן אוטונומי ובשליטה מרחוק וכלל עבודה עם תוותים נוספים במקבילך בתחופם
+ המכניקה והאלקטרוניקה.
+ בשנתיים האחרונות שימשתי כאראש צוות פיתוח תוכנה של כ7 אנשים.
+ במסגרת התפקיד העברתי הכשרות תכנות, והייתי אחראי על ניהול פרוייקטים )זיהוי
+ תמונה, בקרה, ועוד( ולוחות זמנים, כמו גם שיתוף הפעולה הכלל קבוצתי עם צוותי
+ מכניקה ואלקטרוניקה.
+ 
+\end_layout
+
+\begin_layout Itemize
+פרוייקט גמר בהנדסת תוכנה — אפליקצייה לטובת פעילות הרובוטיקה הכוללת כלים
+ לאיסוף וניתוח מידע בתחרויות וניהול משימות.
+\end_layout
+
+\begin_layout Itemize
+פרוייקטים קטנים בשפת
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+C#
+\lang hebrew
+ עם שימוש ב
+\lang english
+GUI
+\lang hebrew
+ פשוט דרך
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+Windows Forms
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\xout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\xout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+)איקס-עיגול, משחק זיכרון, דך דמות למבוכים ודרקונים(
+\end_layout
+
+\begin_layout Itemize
+כתיבת סקריפטים להתאמה אישית של מחשב אישי על מערכת הפעלה אובונטו לינוקס,
+ תוך שימוש ב
+\lang english
+bash
+\lang hebrew
+ ופיית'ון
+\end_layout
+
+\begin_layout Itemize
+לימוד עצמי נרחב בשפות פיית'ון ו
+\lang english
+C#
+\lang hebrew
+ מאמצע כיתה ט' עד אמצע כיתה י', שכלל לערך את כל החומר לבגרות מדעי המחשב
+ בנוסף להורשה, שימוש בקבצי טקסט וכמה כלים ספציפיים בשפות )לדוג' גנרטורים(
+ - השלמת בגרות במדעי המחשב ופיזיקה
+\end_layout
+
+\begin_layout Itemize
+שימוש נרחב ב
+\lang english
+git
+\end_layout
+
+\begin_layout Itemize
+שימוש רחב ב
+\lang english
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

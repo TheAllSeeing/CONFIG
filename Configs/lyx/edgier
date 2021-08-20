@@ -1,0 +1,6 @@
+#!/bin/env bash
+
+lead='^# COLOR SECTION ###################################$'
+tail='^# PRINTER SECTION ###################################$'
+sed -e "/$lead/,/$tail/{ /$lead/{p; r dark-mode.theme
+        }; /$tail/p; d }"  light-mode.prf

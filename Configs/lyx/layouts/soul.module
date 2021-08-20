@@ -1,0 +1,94 @@
+#\DeclareLyXModule[soul.sty]{Soul Text Markup}
+#DescriptionBegin
+#Defines some custom insets to implement the soul package.
+#DescriptionEnd
+#Requires	
+#Excludes
+
+#Author: Stephen [original implementation],
+#        Juergen Spitzmueller <spitz@lyx.org> [fixes]
+
+Format	 	 66
+
+InsetLayout Flex:Spaceletters
+	LyxType		charstyle
+	LabelString	spaced
+	Decoration	conglomerate
+	LatexName	so
+	Font
+		Color	blue
+		Family	Typewriter
+	EndFont
+	LabelFont
+		Color	blue
+		Family	Sans
+		Size	Small
+	EndFont
+	MultiPar	true
+	LatexType	command
+	Requires	 soul
+End
+
+InsetLayout Flex:Strikethrough
+	CopyStyle	Flex:Spaceletters
+	LabelString	strike
+	LatexName	st
+	BgColor	black
+	Font
+		Color	red
+		Family	Typewriter
+	EndFont
+End
+
+InsetLayout Flex:Underline
+	CopyStyle	Flex:Spaceletters
+	LabelString	ul
+	LatexName	ul
+	BgColor	blue
+	Font
+		Color	yellow
+		Family	sans
+	EndFont
+End
+
+InsetLayout Flex:Highlight
+	CopyStyle	Flex:Spaceletters
+	LabelString	hl
+	LatexName	hl
+	BgColor	yellow
+	Font
+		Color	blue
+	EndFont
+	Requires	soul,color
+End
+
+InsetLayout Flex:Capitalise
+	CopyStyle	Flex:Spaceletters
+	LabelString	caps
+	LatexName	caps
+	Font
+		Shape	smallcaps
+	EndFont
+End
+
+# Obsolete lowecase forms
+
+InsetLayout Flex:spaceletters
+	ObsoletedBy	Flex:Spaceletters
+End
+
+InsetLayout Flex:strikethrough
+	ObsoletedBy	Flex:Strikethrough
+End
+
+InsetLayout Flex:underline
+	ObsoletedBy	Flex:Underline
+End
+
+InsetLayout Flex:highlight
+	ObsoletedBy	Flex:Highlight
+End
+
+InsetLayout Flex:capitalise
+	ObsoletedBy	Flex:Capitalise
+End

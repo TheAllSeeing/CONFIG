@@ -1,0 +1,825 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\definecolor{teal}{rgb}{0.0, 0.5, 0.5}
+\definecolor{lime}{rgb}{0.87, 1.0, 0.0}
+\definecolor{khaki}{rgb}{0.74, 0.72, 0.42}
+\definecolor{violet}{rgb}{0.56, 0.0, 1.0}
+\definecolor{purple}{rgb}{0.62, 0.0, 0.77}
+
+
+% Adds unicode characters.
+\usepackage{wasysym}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "filecolor=teal"
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\backgroundcolor #222831
+\fontcolor #ececec
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Daily Statement
+\end_layout
+
+\begin_layout Date
+2021-06-26
+\end_layout
+
+\begin_layout Author
+Atai Ambus
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Theme: 
+\series default
+Foundations
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\full}{\CIRCLE}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\leftc}{\LEFTcircle}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\rightc}{\RIGHTcircle}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\none}{\Circle}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Outline
+\end_layout
+
+\begin_layout Section
+Overview
+\end_layout
+
+\begin_layout Standard
+A bagrut and Arielle's birthday.
+ It's a friday and I need to help with cleaning, I need to make Arielle
+ a gift, and I'd like to write and send some end-year-letters, and ask Ya'ara
+ out, why not.
+\end_layout
+
+\begin_layout Section
+Schedule
+\end_layout
+
+\begin_layout Enumerate
+
+\color lightgray
+[SOE] Final Bagrut, at 8:50, at school
+\end_layout
+
+\begin_layout Enumerate
+
+\color purple
+[BIRTHDAY] Arielle's birthday party, at 22:00, Tel Mond, Hashalva 9
+\end_layout
+
+\begin_layout Section
+Statement
+\end_layout
+
+\begin_layout Standard
+Today, I will:
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+\color gray
+Pass the Software Engineering bagrut with a high grade
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+\color gray
+Finish my cleaning duties
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+\color purple
+Ask Ya'ara out
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+\color purple
+Make Arielle a great gift
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+\color lightgray
+Complete a daily statement
+\end_layout
+
+\begin_layout Section
+Tasks
+\end_layout
+
+\begin_layout Enumerate
+
+\color lightgray
+CONTROL
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\bar under
+\color lightgray
+210615C
+\bar default
+ State ongoing projects
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\bar under
+\color lightgray
+210615C-3
+\bar default
+ Driver's License acquisition
+\end_layout
+
+\begin_layout Enumerate
+
+\bar under
+\color lightgray
+210615C-5
+\bar default
+ Rest system
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+
+\color purple
+BIRTHDAY
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\color purple
+Arielle
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\color purple
+Gift
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\color purple
+Incence
+\end_layout
+
+\begin_layout Enumerate
+
+\color purple
+Mushroom
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\color purple
+Blessing
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+
+\color purple
+LOVE
+\end_layout
+
+\begin_layout Section
+Habits
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\bar under
+\color lightgray
+CONTROL/210615E
+\bar default
+ Set up daily statement
+\series default
+ — each day.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\bar under
+\color lightgray
+CONTROL/210615F
+\bar default
+ Update statements
+\series default
+ — preferably throughout each day, and otherwise at its end.
+ in accordance with 
+\shape slanted
+System210606C-2.
+\end_layout
+
+\begin_layout Section
+Embargoes
+\end_layout
+
+\begin_layout Standard
+N/A
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Status
+\end_layout
+
+\begin_layout Section
+Project Overview
+\end_layout
+
+\begin_layout Section
+Habit Overview
+\end_layout
+
+\begin_layout Section
+Open Issues
+\end_layout
+
+\begin_layout Standard
+N/A
+\end_layout
+
+\begin_layout Section
+Open Proposals
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Results
+\end_layout
+
+\begin_layout Section
+Overview
+\end_layout
+
+\begin_layout Section
+Incidents
+\end_layout
+
+\begin_layout Standard
+N/A
+\end_layout
+
+\begin_layout Section
+New Context
+\end_layout
+
+\begin_layout Itemize
+
+\color gray
+I have officially finished my high school studies.
+\end_layout
+
+\begin_layout Section
+Mood
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="2cm">
+<column alignment="center" valignment="top" width="2cm">
+<column alignment="center" valignment="top" width="2cm">
+<column alignment="center" valignment="top" width="2cm">
+<column alignment="center" valignment="top" width="2cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Start
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+End
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Max
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Min
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Average
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Sleep
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="6">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="2cm">
+<column alignment="center" valignment="top" width="2cm">
+<column alignment="center" valignment="top" width="2cm">
+<column alignment="center" valignment="top" width="2cm">
+<column alignment="center" valignment="top" width="2cm">
+<column alignment="center" valignment="top" width="2cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Went
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fell
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Woke
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Up
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Duration
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Rating
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+00:39
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1:08
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+7:40
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+8:00
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+6:32
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.75
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Rest
+\end_layout
+
+\begin_layout Section
+Habits
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="6cm">
+<column alignment="center" valignment="top" width="1cm">
+<row>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\noindent
+
+\color lightgray
+CONTROL/210615E
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" bottomline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\noindent
+
+\color lightgray
+\begin_inset Formula $\none$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\noindent
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\noindent
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\noindent
+
+\color lightgray
+CONTROL/210615F
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\none$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Failures
+\end_layout
+
+\begin_layout Section
+Task Closure
+\end_layout
+
+\begin_layout Standard
+N/A
+\end_layout
+
+\begin_layout Section
+Issue Closure
+\end_layout
+
+\begin_layout Standard
+N/A
+\end_layout
+
+\begin_layout Section
+New Tasks
+\end_layout
+
+\begin_layout Standard
+N/A
+\end_layout
+
+\begin_layout Section
+New Issues
+\end_layout
+
+\begin_layout Standard
+N/A
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Conclusions
+\end_layout
+
+\begin_layout Section
+Proposal Closure
+\end_layout
+
+\begin_layout Standard
+N/A
+\end_layout
+
+\begin_layout Section
+New Proposals
+\end_layout
+
+\end_body
+\end_document

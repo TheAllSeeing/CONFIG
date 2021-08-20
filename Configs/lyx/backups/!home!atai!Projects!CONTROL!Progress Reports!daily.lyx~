@@ -1,0 +1,1750 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\definecolor{teal}{rgb}{0.0, 0.5, 0.5}
+\definecolor{violet}{rgb}{0.56, 0.0, 1.0}
+\definecolor{purple}{rgb}{0.62, 0.0, 0.77}
+\definecolor{olive}{rgb}{0.74, 0.72, 0.42}
+\definecolor{khaki}{rgb}{0.74, 0.72, 0.42}
+\definecolor{lime}{rgb}{0.74, 0.72, 0.42}
+\definecolor{chartreuse}{RGB}{154, 205, 50}
+\definecolor{magenta}{RGB}{154, 205, 50}
+\definecolor{gray}{rgb}{0.64, 0.64, 0.64}
+\definecolor{green}{rgb}{0.0, 0.5, 0.0}
+
+\definecolor{TextColor}{rgb}{1.0, 0.99, 1.0}
+
+% Adds unicode characters.
+\usepackage{wasysym}
+\usepackage{amssymb}
+
+\usepackage{tikz}
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+            \node[shape=circle,draw,inner sep=0.5pt] (char) {#1};}}
+
+\newcommand\pt{\mathbin{\vcenter{\hbox{\scalebox{2}{$\bullet$}}}}}
+
+% \newenvironment{coin}{\par\color{blue}}{\par}
+\newcommand{\coin}[1]{{\leavevmode\color{chartreuse}[#1]}}
+\newenvironment{nc}{\par\color{blue}}{\par}
+\end_preamble
+\use_default_options true
+\begin_modules
+enumitem
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "filecolor=teal"
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\backgroundcolor #222831
+\fontcolor #ececec
+\notefontcolor #877c7c
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Progress Report: 2021-05-06
+\end_layout
+
+\begin_layout Author
+Atai Ambus
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\emph on
+Standing Up
+\end_layout
+
+\begin_layout Standard
+\begin_inset FormulaMacro
+\newcommand{\fail}{\circled{X}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\do}{\circled{D}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\pend}{\circled{P}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\done}{\circled{\checkmark}}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\full}{\CIRCLE}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\leftc}{\LEFTcircle}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\rightc}{\RIGHTcircle}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\none}{\Circle}
+\end_inset
+
+
+\begin_inset FormulaMacro
+\newcommand{\coin}[1]{{\color{chartreuse}#1}}
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Outline
+\end_layout
+
+\begin_layout Section
+Overview
+\end_layout
+
+\begin_layout Enumerate
+No lessons today
+\end_layout
+
+\begin_layout Enumerate
+Should work on physics, app
+\end_layout
+
+\begin_layout Enumerate
+And get on with the licence, and job.
+\end_layout
+
+\begin_layout Section
+Schedule
+\end_layout
+
+\begin_layout Standard
+N/A
+\end_layout
+
+\begin_layout Section
+Statement
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Today I will:
+\end_layout
+
+\begin_layout Itemize
+
+\color green
+[LICENCE] Start Theory Practice
+\end_layout
+
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+coin{
+\end_layout
+
+\end_inset
+
+[APPLY] Send message to Tami
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+
+\color yellow
+[PHY] Solve at least 4 questions
+\end_layout
+
+\begin_layout Itemize
+
+\color yellow
+[APP] FInish menus, add goal editing
+\end_layout
+
+\begin_layout Itemize
+
+\color gray
+[KEEP] Clean room floor, empty trashcan.
+\end_layout
+
+\begin_layout Section
+Tasks
+\end_layout
+
+\begin_layout Enumerate
+
+\color green
+LICENCE
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\color green
+Theory
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\color green
+Start
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\color green
+Go over material
+\end_layout
+
+\begin_layout Enumerate
+
+\color green
+Locate resources
+\end_layout
+
+\begin_layout Enumerate
+
+\color green
+Do example test
+\end_layout
+
+\end_deeper
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+coin{
+\end_layout
+
+\end_inset
+
+APPLY
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Tami
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+Compose message
+\end_layout
+
+\begin_layout Enumerate
+Send
+\end_layout
+
+\begin_layout Enumerate
+? Update resume 
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+
+\color yellow
+PHY
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\color yellow
+Practice Electrostatics
+\end_layout
+
+\begin_layout Enumerate
+
+\color yellow
+Practice Electromagnetism
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\color yellow
+APP
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\color yellow
+features
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\color yellow
+Subtasks context menu — edit, view
+\end_layout
+
+\begin_layout Enumerate
+
+\color yellow
+Task options menu — parent, root task, goal, dashboard, edit mode, mark
+ complete
+\end_layout
+
+\begin_layout Enumerate
+
+\color yellow
+Refactor Goal View to use intents
+\end_layout
+
+\begin_layout Enumerate
+
+\color yellow
+Add subtasks to goal editor
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\color yellow
+Project Book
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\color yellow
+Part 1 — introduction
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Enumerate
+
+\color gray
+KEEP
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\color gray
+Physical
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\color gray
+Clean Room
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+
+\color gray
+Clean Floor
+\end_layout
+
+\begin_layout Enumerate
+
+\color gray
+Empty Trash Can
+\end_layout
+
+\begin_layout Enumerate
+
+\color gray
+Get rid of Archimedes
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+
+\color gray
+Buy Glasses
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Section
+Habits
+\end_layout
+
+\begin_layout Enumerate
+
+\color red
+[RUN] Exercise (
+\begin_inset Formula $\full$
+\end_inset
+
+ Run | 
+\begin_inset Formula \rightc\ 
+
+\end_inset
+
+ Walk)
+\end_layout
+
+\begin_layout Enumerate
+
+\color lightgray
+[ACCESS] Physical Order (
+\begin_inset Formula $\full$
+\end_inset
+
+ Full order)
+\end_layout
+
+\begin_layout Enumerate
+
+\color lightgray
+[ACCESS] Digital Order (
+\begin_inset Formula $\full$
+\end_inset
+
+ Organized Project)
+\end_layout
+
+\begin_layout Enumerate
+
+\color lightgray
+[CONTROL] Journaling (
+\begin_inset Formula $\full$
+\end_inset
+
+ Report | 
+\begin_inset Formula \rightc\ 
+
+\end_inset
+
+ Theme Journal)
+\end_layout
+
+\begin_layout Enumerate
+
+\color yellow
+[Code-Yellow] Schoolwork (
+\begin_inset Formula $\full$
+\end_inset
+
+ 1 Unit, 
+\begin_inset Formula $\rightc$
+\end_inset
+
+ 
+\begin_inset Formula $\frac{1}{2}$
+\end_inset
+
+ Unit)
+\end_layout
+
+\begin_layout Enumerate
+
+\color green
+[LICENCE] Theory Practice (
+\begin_inset Formula $\full$
+\end_inset
+
+ 30 Minutes)
+\end_layout
+
+\begin_layout Enumerate
+
+\color cyan
+[READ] Reading (
+\begin_inset Formula $\full$
+\end_inset
+
+ Read)
+\end_layout
+
+\begin_layout Enumerate
+
+\color cyan
+[MEDIA] Healthy Rest (
+\begin_inset Formula $\leftc$
+\end_inset
+
+ No Social Media | 
+\begin_inset Formula \rightc\ 
+
+\end_inset
+
+ No news)
+\end_layout
+
+\begin_layout Section
+Embargoes
+\end_layout
+
+\begin_layout Enumerate
+
+\color cyan
+No Social Media
+\end_layout
+
+\begin_layout Enumerate
+
+\color cyan
+No News
+\end_layout
+
+\begin_layout Section
+Context
+\end_layout
+
+\begin_layout Standard
+N/A
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Status
+\end_layout
+
+\begin_layout Section
+Project Overview
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="3">
+<features booktabs="true" islongtable="true" longtabularalignment="center">
+<column alignment="center" valignment="top" width="4cm">
+<column alignment="center" valignment="top" width="4cm">
+<column alignment="center" valignment="top" width="4cm">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\color green
+LICENCE
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+
+\backslash
+coin{
+\end_layout
+
+\end_inset
+
+APPLY
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\series bold
+}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+KEEP
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Later.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Later.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Later.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\color yellow
+PHY
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\color yellow
+APP
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+After app
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Now.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Habit Overview
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="3">
+<features booktabs="true" islongtable="true" longtabularalignment="center">
+<column alignment="center" valignment="top" width="4cm">
+<column alignment="center" valignment="top" width="4cm">
+<column alignment="center" valignment="top" width="4cm">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\color red
+Exercise
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\color lightgray
+Physical Order
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\color green
+Theory Practice
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\none$
+\end_inset
+
+ I should probably do this today if thursday's MARVEL.
+ Still, evening
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\none$
+\end_inset
+
+ I'll get to it.
+ I'm a bit deflated.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\none$
+\end_inset
+
+ Later.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\color lightgray
+Journaling
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\color yellow
+Schoolwork
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\color lightgray
+Early
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\none$
+\end_inset
+
+ Will do my best.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\none$
+\end_inset
+
+ Definitely,
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\none$
+\end_inset
+
+ Nope.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\color purple
+Relationships
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\color cyan
+Reading
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\color cyan
+Healthy Rest
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\none$
+\end_inset
+
+ Noping on this one today.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\none$
+\end_inset
+
+ Will do.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\none$
+\end_inset
+
+ Haha, not much
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Open Issues
+\end_layout
+
+\begin_layout Standard
+N/A
+\end_layout
+
+\begin_layout Section
+Pending Bills
+\end_layout
+
+\begin_layout Standard
+N/A
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Results
+\end_layout
+
+\begin_layout Section
+Overview
+\end_layout
+
+\begin_layout Standard
+N/A
+\end_layout
+
+\begin_layout Section
+Incidents
+\end_layout
+
+\begin_layout Standard
+N/A
+\end_layout
+
+\begin_layout Section
+Work
+\end_layout
+
+\begin_layout Standard
+N/A
+\end_layout
+
+\begin_layout Section
+Habits
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="3">
+<features booktabs="true" islongtable="true" longtabularalignment="center">
+<column alignment="center" valignment="top" width="4cm">
+<column alignment="center" valignment="top" width="4cm">
+<column alignment="center" valignment="top" width="4cm">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\color red
+Exercise
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\color lightgray
+Physical Order
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\color green
+Theory Practice
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\none$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\none$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\none$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\color lightgray
+Journaling
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\color yellow
+Schoolwork
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\color lightgray
+Early
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\none$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\none$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\none$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\color purple
+Relationships
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\color cyan
+Reading
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\color cyan
+Healthy Rest
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\none$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\none$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\none$
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Rest
+\end_layout
+
+\begin_layout Standard
+N/A
+\end_layout
+
+\begin_layout Section
+Context Changes
+\end_layout
+
+\begin_layout Standard
+N/A
+\end_layout
+
+\begin_layout Section
+Mood
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="5">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="2cm">
+<column alignment="center" valignment="top" width="2cm">
+<column alignment="center" valignment="top" width="2cm">
+<column alignment="center" valignment="top" width="2cm">
+<column alignment="center" valignment="top" width="2cm">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Start
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+End
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Min
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Max
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Average
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Issues
+\end_layout
+
+\begin_layout Standard
+N/A
+\end_layout
+
+\begin_layout Section
+Failures
+\end_layout
+
+\begin_layout Standard
+N/A
+\end_layout
+
+\begin_layout Section
+Notes
+\end_layout
+
+\begin_layout Standard
+N/A
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Conclusions
+\end_layout
+
+\begin_layout Section
+Lessons
+\end_layout
+
+\begin_layout Standard
+N/A
+\end_layout
+
+\begin_layout Section
+Suggestions
+\end_layout
+
+\begin_layout Standard
+N/A
+\end_layout
+
+\begin_layout Section
+Decisions
+\end_layout
+
+\begin_layout Standard
+N/A
+\end_layout
+
+\begin_layout Section
+Next
+\end_layout
+
+\begin_layout Standard
+N/A
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+\start_of_appendix
+Appendixes
+\end_layout
+
+\end_body
+\end_document

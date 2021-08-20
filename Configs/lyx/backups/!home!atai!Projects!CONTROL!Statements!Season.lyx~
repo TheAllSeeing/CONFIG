@@ -1,0 +1,907 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\definecolor{violet}{rgb}{0.56, 0.0, 1.0}
+\definecolor{purple}{rgb}{0.62, 0.0, 0.77}
+\definecolor{gray}{rgb}{0.64, 0.64, 0.64}
+\definecolor{steel}{RGB}{206,211,212}
+\definecolor{green}{rgb}{0.0, 0.5, 0.0}
+\definecolor{blue}{RGB}{11, 11, 96}
+
+\definecolor{lightgray}{RGB}{206,211,212}
+
+
+\renewcommand{\labelenumii}{(\alphalph{\value{enumii}})}
+
+% Adds unicode characters.
+\usepackage{wasysym}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "filecolor=teal"
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\backgroundcolor #222831
+\fontcolor #ececec
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Summer Statement
+\end_layout
+
+\begin_layout Author
+Atai Ambus
+\end_layout
+
+\begin_layout Date
+2021, W22-W35
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Outline
+\end_layout
+
+\begin_layout Section
+Overview
+\end_layout
+
+\begin_layout Standard
+Under the theme 
+\emph on
+foundations
+\emph default
+, I plan to start building the form and framework I'd like to work with,
+ as well as aquiring the basic elements of adult life.
+ As part of this, I would like to think up more defined systems for my decision
+ making and organization of info, as well as make more concious decisions
+ on general health, self-help and relationship habits.
+ In addition, I wish to create new and more varied friendships, that will
+ hopefully survive in the long term as well.
+\end_layout
+
+\begin_layout Section
+Context
+\end_layout
+
+\begin_layout Itemize
+
+\color red
+My once strict sleep schedule has shifted and gone skightly less stable.
+ I usually go to sleep 22:30-23:30 and wake up 6:30-8:00.
+ I no longer am able to see the sunrise.
+\end_layout
+
+\begin_layout Itemize
+
+\color red
+I have managed to run every once in a while, and am in a fairly good shape,
+ but have not excercised consistently.
+\end_layout
+
+\begin_layout Itemize
+
+\color red
+My braces have been removed and I now use dental plates.
+\end_layout
+
+\begin_layout Itemize
+
+\color purple
+The Marvel group (Tom, Tzur, Noa & I) is still persistent and fairly close
+ and consistent.
+ In general, we meet once a week for a movie night and hot chocolate speech.
+\end_layout
+
+\begin_layout Itemize
+
+\color purple
+The Microscope group (Tom, Arielle & I) is persistent as well.
+ Tom and I got invited to Arielle's birthday party-thing.
+\end_layout
+
+\begin_layout Itemize
+
+\color purple
+My D&D group (Tom, Yoav Levi, Ori Barkai & I) is another social group with
+ weekly gathering, although it trends more toward green than purple.
+\end_layout
+
+\begin_layout Itemize
+
+\color purple
+During the yearly trip, I have gone more open socially and have talked and
+ got a bit closer o numerous people.
+ I am planning to contact some of them again via End-year letters, we'll
+ see what comes out.
+\end_layout
+
+\begin_layout Itemize
+
+\color purple
+The Tahel group is practically dissolved, and I find myself still mostly
+ angry at them.
+ Am planning some more offical closure with my end-year letters.
+\end_layout
+
+\begin_layout Itemize
+
+\color purple
+My relationship with Shir has ended and I believe I learned a lot from it,
+ about how I feel and what I want, et cetera et cetera.
+ I do not want to get back with her and do not believe friendship would
+ want prior to her improving herself significantly, emotionally, mentally
+ and socially, but I would love to have a girlfriend again, for the intimacy
+ and fullfilent it provides.
+\end_layout
+
+\begin_layout Itemize
+
+\color green
+In the realm of applying skill, I am set to start a job by July's start,
+ and it is projected to expend big chunks of my time.
+ 
+\end_layout
+
+\begin_layout Itemize
+
+\color green
+D&D group provides means for self expression and creativity
+\end_layout
+
+\begin_layout Itemize
+
+\color gray
+I am essentially completely done with school obligations, and soon from
+ robotics as well.
+\end_layout
+
+\begin_layout Section
+Theme
+\end_layout
+
+\begin_layout Standard
+I have picked a 
+\emph on
+Summer of Foundations.
+\end_layout
+
+\begin_layout Standard
+Partially due to my own actions and partially due to external factors —
+ namely, the end of the COVID-19 pandemic and Israel and the end of my school
+ years, my 
+\shape slanted
+Spring of Standing Up
+\shape default
+ can be mostly deemed a success.
+ I have resolved the relationship with Shir, and at the end have stabilzied
+ emotionally and understood myself better for it
+\end_layout
+
+\begin_layout Section
+Schedule
+\end_layout
+
+\begin_layout Enumerate
+
+\color purple
+[EDU] School Trip, -06-07 to -06-09
+\end_layout
+
+\begin_layout Enumerate
+
+\color gray
+[SOE] Matkonet, –06-13, at school
+\end_layout
+
+\begin_layout Enumerate
+
+\color gray
+[BOT] Matkonet, -06-14, at school
+\end_layout
+
+\begin_layout Enumerate
+
+\color purple
+[EDU] Graduation Ceremony, -06-15, at school
+\end_layout
+
+\begin_layout Enumerate
+
+\color purple
+[EDU] Graduation Show, -06-16, at Hadassi,
+\end_layout
+
+\begin_layout Enumerate
+
+\color gray
+[BOT] Bagrut, -06-18, at school
+\end_layout
+
+\begin_layout Enumerate
+
+\color gray
+[SOE] Bagrut, -06-25, at school
+\end_layout
+
+\begin_layout Enumerate
+
+\color gray
+[APPLY] Job Interview, -06-20]
+\begin_inset Newline newline
+\end_inset
+
+
+\color inherit
+
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "15col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Active Projects
+\end_layout
+
+\begin_layout Itemize
+
+\color lightgray
+CONTROL
+\end_layout
+
+\begin_layout Section
+Habits
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\bar under
+\color lightgray
+CONTROL/210615A
+\bar default
+ Set Themes
+\series default
+ — every 3 months, September 1st, December 1st, March 1st, June 1st.
+ Pick a new theme in accordance with 
+\shape slanted
+System210615A.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\bar under
+\color lightgray
+CONTROL/210615B
+\bar default
+ Set up seasonally statement
+\series default
+ — At the start of September, December, March and June, or in the week prior.
+ In accordance with 
+\shape slanted
+System210606C-2
+\shape default
+, 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\bar under
+\color lightgray
+CONTROL/210615C
+\bar default
+ Set up monthly statement
+\series default
+ — upon the last week of each month, towards the next one, in accordance
+ with 
+\shape slanted
+System210606C-2
+\shape default
+, 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\bar under
+\color lightgray
+CONTROL/210615D
+\bar default
+ Set up weekly statement
+\series default
+ — each week, set up weekly statement in accordance with 
+\shape slanted
+System210606C-2
+\shape default
+, 
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\bar under
+\color lightgray
+CONTROL/210615E
+\bar default
+ Set up daily statement
+\series default
+ — each day.
+\end_layout
+
+\begin_layout Itemize
+
+\series bold
+\bar under
+\color lightgray
+CONTROL/210615F
+\bar default
+ Update statements
+\series default
+ — preferably throughout each day, and otherwise at its end.
+ in accordance with 
+\shape slanted
+System210606C-2.
+\end_layout
+
+\begin_layout Section
+Embargoes
+\end_layout
+
+\begin_layout Standard
+N/A
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Status
+\end_layout
+
+\begin_layout Section
+Project Overview
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="3cm">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+CONTROL
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\color gray
+APPLY
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Currently working on season statement.
+ To initialize grays later.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color gray
+Will schedule with Efrat this Thursday
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Habit Overview
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="6" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="3cm">
+<column alignment="center" valignment="top" width="3cm">
+<row>
+<cell multicolumn="1" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\color lightgray
+CONTROL
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell multicolumn="2" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\bar under
+\color lightgray
+210615A
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\bar under
+\color lightgray
+210615B
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\bar under
+\color lightgray
+210615C
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color lightgray
+Done!
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color lightgray
+Should be updated throughout, but done.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color lightgray
+Will start at last week of June.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\bar under
+\color lightgray
+210615D
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\bar under
+\color lightgray
+210615E
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\bar under
+\color lightgray
+210615F
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color lightgray
+Currently writing
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color lightgray
+will have for the later half of the week.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\color lightgray
+I do my best.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Open Issues
+\end_layout
+
+\begin_layout Standard
+N/A
+\end_layout
+
+\begin_layout Section
+Open Proposals
+\end_layout
+
+\begin_layout Enumerate
+
+\bar under
+\color lightgray
+CONTROL/210615A
+\bar default
+ Consider using Branches project for actual task management 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Results
+\end_layout
+
+\begin_layout Section
+Overview
+\end_layout
+
+\begin_layout Standard
+Have made the base statements, currently setting up my progress statements
+ in order to be more comfortable with my base status.
+\end_layout
+
+\begin_layout Section
+Incidents
+\end_layout
+
+\begin_layout Enumerate
+
+\bar under
+\color gray
+APPLY/210621A
+\bar default
+ Had a small meltdown after getting a job offer.
+\end_layout
+
+\begin_layout Section
+Habits
+\end_layout
+
+\begin_layout Standard
+N/A
+\end_layout
+
+\begin_layout Section
+Failures
+\end_layout
+
+\begin_layout Enumerate
+APPLY/210621A
+\end_layout
+
+\begin_layout Section
+Closed Projects
+\end_layout
+
+\begin_layout Standard
+N/A
+\end_layout
+
+\begin_layout Section
+Closed Issues
+\end_layout
+
+\begin_layout Standard
+N/A
+\end_layout
+
+\begin_layout Section
+New Projects
+\end_layout
+
+\begin_layout Standard
+N/A
+\end_layout
+
+\begin_layout Section
+New Issues
+\end_layout
+
+\begin_layout Standard
+N/A
+\end_layout
+
+\begin_layout Part
+Conclusions
+\end_layout
+
+\begin_layout Section
+Proposal Closure
+\end_layout
+
+\begin_layout Standard
+N/A
+\end_layout
+
+\begin_layout Section
+New Proposals
+\end_layout
+
+\begin_layout Standard
+N/A
+\end_layout
+
+\begin_layout Section
+Lessons
+\end_layout
+
+\begin_layout Standard
+N/A
+\end_layout
+
+\end_body
+\end_document

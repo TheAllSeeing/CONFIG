@@ -1,0 +1,492 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\definecolor{teal}{rgb}{0.0, 0.5, 0.5}
+\definecolor{lime}{rgb}{0.87, 1.0, 0.0}
+\definecolor{khaki}{rgb}{0.74, 0.72, 0.42}
+\definecolor{violet}{rgb}{0.56, 0.0, 1.0}
+\definecolor{purple}{rgb}{0.62, 0.0, 0.77}
+
+\renewcommand{\labelenumii}{(\alphalph{\value{enumii}})}
+
+% Adds unicode characters.
+\usepackage{wasysym}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "filecolor=teal"
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\backgroundcolor #222831
+\fontcolor #ececec
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Optimizer Algorithms
+\end_layout
+
+\begin_layout Section
+Gradient Decent (GD)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+V_{t}=\eta\nabla J\left(\theta\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Stochastic Gradient Descent (SGD)
+\end_layout
+
+\begin_layout Section
+Mini Batch SGD (MB-SGD)
+\end_layout
+
+\begin_layout Section
+SGD with Momentum
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+V_{t}=\gamma V_{t-1}+\eta\nabla J\left(\theta\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Nesterov Accelerated Gradient (NAG)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+V_{t}=\gamma V_{t-1}+\eta\nabla J\left(\theta+\gamma V_{t}\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Adaptive Gradient (AdaGrad)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+g_{t}=\nabla J\left(\theta\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+V_{t}=\gamma V_{t-1}+\frac{\eta}{\sqrt{\sum_{i=1}^{t-1}g_{i}^{2}+\epsilon}}g_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\epsilon$
+\end_inset
+
+ is a very small number 
+\begin_inset Formula $\epsilon\approx0$
+\end_inset
+
+ used only to ensure the denominator is above 0.
+ Then the denominator can be roughly simplified to 
+\begin_inset Formula $\sqrt{\sum_{i=1}^{t-1}g_{i}^{2}}$
+\end_inset
+
+ which is actually kind of the general pythagorean theorem — and should
+ measure a kind of total distance of the vector of all gradients, a kind
+ of total change to the parameters.
+ 
+\end_layout
+
+\begin_layout Standard
+The square of the gradient, in this case, is the outer product of it with
+ itself, simply meaning the squaring of each of it.
+ So more specifically, this new 
+\begin_inset Quotes eld
+\end_inset
+
+total change vector
+\begin_inset Quotes erd
+\end_inset
+
+ will contain a measure of the total change 
+\emph on
+for each parameter.
+\end_layout
+
+\begin_layout Standard
+The reason this is useful, is that when 
+\end_layout
+
+\begin_layout Standard
+The, as we change the weights more, the effective learning rate — the coefficien
+t of the gradient, becomes s 
+\end_layout
+
+\begin_layout Section
+AdaDelta
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $\gamma\in\left(0,1\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $\epsilon\in\mathbb{R}^{+},\epsilon\approx0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $g_{t}=\nabla J\left(\theta\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+E\left[g^{2}\right]_{t}=\begin{cases}
+\left(1-\gamma\right)g_{t}^{2} & t=0\\
+\gamma E\left[g^{2}\right]_{t-1}+\left(1-\gamma\right)g_{t}^{2} & t>0
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+=\sum_{i=0}^{t}\gamma^{t}\left(1-\gamma\right)g_{t}^{2}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+V_{t}=\gamma V_{t-1}+\frac{\eta}{\sqrt{E\left[g^{2}\right]_{t}+\epsilon}}g_{t}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+RMSProp
+\end_layout
+
+\begin_layout Section
+Adam
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $g_{t}=\nabla J_{t}\left(\theta\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula 
+\[
+\left\{ \beta_{1},\beta_{2},\alpha\right\} \in\left(0,1\right)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+m_{t}=\begin{cases}
+\left(1-\beta_{1}\right)g_{t} & t=0\\
+\beta_{1}m_{t+1}+\left(1-\beta_{1}\right)g_{t}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+v_{t}=\begin{cases}
+\left(1-\beta_{1}\right)g_{t}^{2} & t=0\\
+\beta_{2}m_{t+1}+\left(1-\beta_{2}\right)g_{t}^{2} & t=1
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+V_{t}=\frac{\alpha m_{t}}{\sqrt{v_{t}+\epsilon}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $m_{t}$
+\end_inset
+
+ is called the first moment and 
+\begin_inset Formula $v_{t}$
+\end_inset
+
+ is called the second moment.
+ 
+\end_layout
+
+\begin_layout Standard
+Applying the recursion to express them only in terms of the hyoer parameters
+ and the gradient, we can get 
+\begin_inset Formula $m_{t}=\sum_{i=0}^{t}\beta_{1}^{i}\left(1-\beta_{1}\right)g_{t}$
+\end_inset
+
+ and 
+\begin_inset Formula $\sum_{i=0}^{t}\beta_{2}^{i}\left(1-\beta_{2}\right)g_{t}^{2}$
+\end_inset
+
+ .
+ Since 
+\begin_inset Formula $\left(1-\beta_{1}\right)$
+\end_inset
+
+ and 
+\begin_inset Formula $\left(1-\beta_{2}\right)$
+\end_inset
+
+ are constants, we can take them out of the sigma operator, resulting in
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $m_{t}=\left(1-\beta_{1}\right)\sum_{i=0}^{t}\beta_{1}^{i}g_{t}$
+\end_inset
+
+ and
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $v_{t}=\left(1-\beta_{2}\right)\sum_{i=0}^{t}\beta_{2}^{i}g_{t}^{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Sometimes there is an additional step called 
+\begin_inset Quotes eld
+\end_inset
+
+bias correction
+\begin_inset Quotes erd
+\end_inset
+
+ which replaces 
+\begin_inset Formula $m_{t}$
+\end_inset
+
+ and 
+\begin_inset Formula $v_{t}$
+\end_inset
+
+ with 
+\begin_inset Formula $\hat{m_{t}}=\frac{m_{t}}{1-\beta_{1}^{t}}$
+\end_inset
+
+ and 
+\begin_inset Formula $\hat{v}_{t}=\frac{v_{t}}{1-\beta_{2}^{t}}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Notably, 
+\begin_inset Formula $1-\beta^{t}$
+\end_inset
+
+ can be simplified to 
+\begin_inset Formula $\left(1-\beta\right)\sum_{i=0}^{t}\beta^{i}$
+\end_inset
+
+, which would results in 
+\begin_inset Formula 
+\[
+\hat{m}_{t}=\frac{\sum_{i=0}^{t}\beta_{1}^{i}g_{t}}{\sum_{i=0}^{t}\beta_{1}^{i}}
+\]
+
+\end_inset
+
+ and 
+\begin_inset Formula 
+\[
+\hat{v}_{t}=\frac{\sum_{i=0}^{t}\beta_{1}^{i}g_{t}^{2}}{\sum_{i=0}^{t}\beta_{1}^{i}}
+\]
+
+\end_inset
+
+, which is basically a weighted average of all gradients and squares of
+ gradients, respectively, where the weights of each gradient decay exponentially
+ at a rate of 
+\begin_inset Formula $\beta$
+\end_inset
+
+ — giving each gradient more significance the more recent it is.
+\end_layout
+
+\begin_layout Standard
+Since 
+\begin_inset Formula $\beta_{1}\in\left(0,1\right)$
+\end_inset
+
+ makes old values of 
+\begin_inset Formula $m$
+\end_inset
+
+ and 
+\begin_inset Formula $t$
+\end_inset
+
+ to exponentially decay.
+\end_layout
+
+\end_body
+\end_document

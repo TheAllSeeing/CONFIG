@@ -1,0 +1,19 @@
+#
+
+\set_color "cursor" "#ffffff"
+\set_color "background" "#000000"
+\set_color "foreground" "#ffffff"
+\set_color "preview" "#393939"
+\set_color "note" "#555500"
+\set_color "notebg" "#4b4b00"
+\set_color "commentbg" "#a0756e"
+\set_color "greyedoutbg" "#232120"
+\set_color "graphicsbg" "#5b5754"
+\set_color "math" "#0ab5f3"
+\set_color "mathbg" "#000000"
+\set_color "mathmacrobg" "#000000"
+\set_color "mathcorners" "#4a4746"
+\set_color "tabularline" "#3b3b3b"
+\set_color "buttonframe" "#bfb7ae"
+
+#

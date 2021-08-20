@@ -1,0 +1,5932 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\definecolor{teal}{rgb}{0.0, 0.5, 0.5}
+\definecolor{lime}{rgb}{0.87, 1.0, 0.0}
+
+\usepackage{sectsty}
+
+\sectionfont{\Huge}
+\subsectionfont{\LARGE}
+\subsubsectionfont{\Large}
+
+\renewcommand\paragraph{\@startsection{paragraph}{4}{\z@}%
+   {-1.7ex\@plus -1ex \@minus -.2ex}%
+   {1ex \@plus .2ex}%
+   {\large\large\bfseries}}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "filecolor=teal"
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\use_minted 0
+\backgroundcolor #222831
+\fontcolor #ececec
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth -2
+\tocdepth 5
+\paragraph_separation skip
+\defskip medskip
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+A Journal 
+\end_layout
+
+\begin_layout Author
+Atai Ambus
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+2020
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+August
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Week #34
+\end_layout
+
+\begin_layout Subsubsection
+18 | Tuesday
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+11:49
+\end_layout
+
+\begin_layout Standard
+Today is my First Order (Turtle).
+\end_layout
+
+\begin_layout Standard
+It's a bit sad that I didn't prepare for it really, but that is behind us.
+\end_layout
+
+\begin_layout Standard
+For some reason I remembered the time we need to go out an hour late and
+ then I definitely missed the 6:50 mark, but it was well.
+ I organized fairly slowly, walked Dvash, discovered that the plan was 6:50,
+ hurriedly gathered the food and my glasses, put on shoes, and we wend to
+ Tel Hashomer.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Week #35
+\end_layout
+
+\begin_layout Subsubsection
+25 | August
+\end_layout
+
+\begin_layout Standard
+New Height.
+ :).
+\end_layout
+
+\begin_layout Standard
+Love-Filled? Super-Joyful?
+\end_layout
+
+\begin_layout Standard
+Waking up at Shir's, 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+29 | Saturday
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+10:00
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Mood: 75, Confident.
+\end_layout
+
+\begin_layout Standard
+A quiet morning so far.
+\end_layout
+
+\begin_layout Standard
+I woke up at 7:40, after probably the weirdest dream I ever had (including
+ grandma Eti as an elephant who joked about brutally murdering me), and
+ organized fairly quickly.
+\end_layout
+
+\begin_layout Standard
+I intended to drink tea (and the AC was on so it was fitting), but Dvash
+ cried to me like crazy, so I walked her.
+ It was pretty hot outside, so I just did not feel like tea after.
+ 
+\end_layout
+
+\begin_layout Standard
+By 8:40 I was back on the computer; Checked Emails - some incredibly nostalgic
+ messages.
+ A reminder from Sdarot (which, btw, really support is ran by a Likudnic,
+ ugh) and a notification about a reply on a Gravity Falls Forum; A post
+ from 2017.
+ There was confusion for a code talking about 1000 years in the future,
+ the show being set in 2012 and present being 2020.
+ I had considered organizing the timeline for them, for old times sake,
+ but then say I kinda already did that in my old comment on that post (that
+ was the reason I got the email notification).
+ I decided against it.
+\end_layout
+
+\begin_layout Standard
+Another Email was an XKCD notification, and I ended browsing that site for
+ another ten minutes, but after that and an additional two minutes quickly
+ checking how to properly filter commands for the last hour (see Insight-1
+ for more on that), I launch my docs and started organizing.
+\end_layout
+
+\begin_layout Standard
+I resorted the tasks, marked successes and failures for routines, and resorted
+ bills.
+ Then I moved unto the Day Report.
+ I reorganized tasks and schedule (see decision-4).
+ 
+\end_layout
+
+\begin_layout Standard
+Dad needed some help transporting part of his old desk, as he was organizing
+ the back patio.
+ I helped.
+ Then I went back up, update my report's timeline a bit, ans started a Journal!
+\end_layout
+
+\begin_layout Standard
+I was called to breakfast - it is Saturday, pancakes and french toast, very
+ nice.
+ Then I discovered I was called, in fact, to set the table
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+14:00
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Mood: 60, Content
+\end_layout
+
+\begin_layout Standard
+I was called for lunch, a very tasty 
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Appendixes
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset href
+LatexCommand href
+name "Archived Gravity Falls forum page"
+target "https://web.archive.org/web/20200829085100/https://gravityfalls.fandom.com/wiki/Thread:136971"
+literal "false"
+
+\end_inset
+
+ (see Part 1)
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset href
+LatexCommand href
+name "Today's XKCD comic"
+target "https://xkcd.com/2352/"
+literal "false"
+
+\end_inset
+
+ (see Part 1)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Week #36
+\end_layout
+
+\begin_layout Subsubsection
+30 | Sunday
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+10:00
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Mood: 75, Confident.
+\end_layout
+
+\begin_layout Standard
+I woke up around 6:15, and snoozed for another 10 minutes, then realized
+ that I need to snooze to 6:45 to sleep my intended 7 hours, then tried
+ very very awkwardly to go back to sleep after the snooze ended, for that
+ 20 minutes, but just kind of failed.
+\end_layout
+
+\begin_layout Standard
+I actually 
+\emph on
+got
+\emph default
+ up at 6:45, and organized.
+ As I was brushing my teeth, I thought about buying dice for TAHEL, if we
+ actually play AD&D.
+ I checked out sales, and after going through amazon (shipping far too pricey),
+ freak and the kingdom (just kind of bland), I found Mist, that sold at
+ a lower price and exactly the variety I needed.
+ Rounding it up it would be 146 Shekels, including delivery.
+ Shiny orange, red, white, black dice, and metallic silver for me (which
+ cost 3 shekels more).
+ See Appendix-1 and Appendix-2.
+\end_layout
+
+\begin_layout Standard
+At any rate, I finishe
+\color yellow
+d organizin
+\color inherit
+g, stared at the dice for a bit, went downstairs, cleared the dishwasher,
+ set up week report (a bit).
+ I also managed a day report.
+ I wondered off a lot though; At first into finishing my automatic LyX PDF
+ updater, which after an hour or maybe a bit less I finally finished.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+14:00
+\end_layout
+
+\begin_layout Standard
+I wondered farther, into Everlib and its current Range half done infrastructure
+ and uncommitted changes - see Decision-1 and Work-2 and Work-3.
+ Yahli got back, and I went to grandma's to bring her beer.
+ I continued the reports - and this journal.
+ I updated relevant todos and overall just organized with relatively little
+ genuine external project work.
+ We had lunch early - enough for me to get to robotics around time (15 minutes
+ late, but I managed to talk with Tom before and it was fine).
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+Appendixes
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset href
+LatexCommand href
+name "Shiny Dice"
+target "https://www.myst.co.il/items/1615489-%D7%A1%D7%98-%D7%A7%D7%95%D7%91%D7%99%D7%95%D7%AA-%D7%9E%D7%A0%D7%A6%D7%A0%D7%A6%D7%95%D7%AA"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset href
+LatexCommand href
+name "Metalic Dice"
+target "https://www.myst.co.il/items/1615530-%D7%A1%D7%98-%D7%A7%D7%95%D7%91%D7%99%D7%95%D7%AA-%D7%9E%D7%98%D7%90%D7%9C%D7%99%D7%95%D7%AA"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+31 | Monday,
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+10:00
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Mood: 85, At Peace
+\end_layout
+
+\begin_layout Standard
+I woke up at 5:20, the dark still covering the outside.
+ After a 10 minute snooze I very slowly grouched from my bed, only by 5:40
+ or so I was actually up.
+ I organized fairly quickly, made tea and watched the sunrise, sitting on
+ the stone pile this time, drinking tea.
+ It was very unique and, just, beautiful.
+ The patterns of light were literally a-mazing and when the sun rose I quickly
+ moved to the usual position and watched it as it rose; There was fog and
+ so I was able to watch it directly and I was very happy.
+\end_layout
+
+\begin_layout Standard
+I returned home, opened my computer and started the newly resurrected Bamba
+ game; Nostalgia is nice.
+ But Mom bothered about going to the beach and I surrendered.
+ It 
+\emph on
+is
+\emph default
+ our yearly tradition.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Mood: 50, Content
+\end_layout
+
+\begin_layout Standard
+We went to the beach, I tried to quickly convert my documents to org and
+ transport that to my computer but I couldn't finish on time so I just left
+ it; The beach was fine, but not very quiet, and I just didn't really feel
+ it, I guess; I didn't have much fun.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+14:00
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Mood: 75, Confident (~10:45)
+\end_layout
+
+\begin_layout Standard
+On the way back we bought chocolate milk and burekas, and that was nice.
+ Yahli played Zohar's new album and it was very, very, great.
+ I showered.
+ It was nice.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Mood: 40, Numb (~11:45)
+\end_layout
+
+\begin_layout Standard
+Yahli did not walk Fibi as she should have, and I had to do it in her place.
+ With the heat outside and it being around 11:00 already, it was not nice
+ and I was annoyed and somewhere between empty and angry; Together with
+ the beach taking many many hours of potential productivity.
+ I tried to set up fish and omf on termux meanwhile, but the app threw a
+ lot of errors at me.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Mood: 50, Content (12:45)
+\end_layout
+
+\begin_layout Standard
+I arrived back, took my shirt off and opened ,my computer.
+ At first I tried to make an automatic conversion of sync of my documents
+ to org on mobile, but after it got long and I felt hollow, I decided to
+ go on to reports.
+ I started organizing.
+ It being 12:00 at this point though, I am very frustrated with my almost
+ 6 lost hours of doing things.
+ Nothing I can do it though.
+ I set up some more tasks for the week, and wrote this journal.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Mood: 75, Confident (14:00)
+\end_layout
+
+\begin_layout Standard
+I organized my tasks for the day, and it was nice because there was a lot
+ to do and I felt I could do it.
+ I started composing a message for TAHEL, meanwhile helping with dishes
+ and chicken
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+September
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Week #37
+\end_layout
+
+\begin_layout Subsubsection
+07 | Monday
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+10:00
+\end_layout
+
+\begin_layout Standard
+I woke up at 6:15; Snoozed slightly but got up even before.
+\end_layout
+
+\begin_layout Standard
+I watched the sun with Dvash, a cloudy day but light breaks through.
+ A beauty in its on right.
+ A quick tea cup after, on the deck, holding a computer
+\end_layout
+
+\begin_layout Standard
+We had a final Civic Studies lesson, mostly consisting of a Kahoot over
+ last year's material.
+ It was nice, and I got to 4th place.
+ Surprisingly, I actually remembered most of the material, when asked.
+ Still, it would be best to prepare for the Civic Studies test.
+\end_layout
+
+\begin_layout Standard
+My Mom picked me and Tom up; There was some confusion over the roundabout
+ on which to wait, between Tom and me, it was cute.
+ I also wondered whether Tom was uncomfortable with my Mom picking us up
+ while in isolation; I was a bit uncomfortable myself.
+\end_layout
+
+\begin_layout Standard
+I liked the launch at home (15:00); The traditional cut potato-carrot with
+ rice and lentil and fried onion.
+ With chilly left from the weekend.
+ It was tasty.
+ And homey, too.
+\end_layout
+
+\begin_layout Standard
+For rest, I just downloaded and watched the new episode of The Boys (15:30).
+ It was interesting, and there was a win for a change! But it still has
+ a lot of moments that just aren't fun to watch.
+ Intentionally, but still not fun.
+ 
+\end_layout
+
+\begin_layout Standard
+Finishing the episode, I sat a bit about Napoli and Sicily and Pompeii,
+ and got a more accurate map, then looked again at the thing with Okular
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Week #38
+\end_layout
+
+\begin_layout Subsubsection
+13 | Sunday
+\end_layout
+
+\begin_layout Standard
+I went for a walk, it was nice and fun, at the start there was a wind and
+ I just, felt so grateful, specifically for Tom and Shir and my wonderful,
+ amazing friends.
+ I listened for some Aviators songs, and it was great as well, and the sunset
+ was beautiful and O just felt..
+ alive.
+\end_layout
+
+\begin_layout Standard
+Later it became much more hot and humid and it was kind of a drag, but the
+ experience was definitely great overall.
+\end_layout
+
+\begin_layout Standard
+Getting back, a lovely thank you from Shir.
+ That is always nice.
+\end_layout
+
+\begin_layout Standard
+We had a family
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+14 | Monday
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+10:00
+\end_layout
+
+\begin_layout Standard
+I took a walk, quickly after organizing.
+\end_layout
+
+\begin_layout Standard
+It was an interesting one, I checked WhatsApp, and the News.
+\end_layout
+
+\begin_layout Standard
+Nofar got glasses now! Great series.
+ Thematic something.
+ Change!
+\end_layout
+
+\begin_layout Standard
+Our government is terrible
+\end_layout
+
+\begin_layout Standard
+Really
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+19 | Saturday
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+10:00
+\end_layout
+
+\begin_layout Standard
+I was so tired yesterday that I forgot to set the alarm before going to
+ sleep (or connecting my phone to the charger) - so I slept for 10 hours
+ and woke up at 8:45.
+ An interesting way to start a new year.
+\end_layout
+
+\begin_layout Standard
+Due to the late hour, my Do Not Disturb was also turned off, and I immediately
+ saw some messages - (See Note-1) - specifically a beautiful new-year wish
+ from Nofar
+\end_layout
+
+\begin_layout Standard
+New things.
+ I wore my blue shirt, and nice jeans.
+ It's my 
+\begin_inset Quotes eld
+\end_inset
+
+Casual Holiday
+\begin_inset Quotes erd
+\end_inset
+
+ clothes, a bit silly
+\end_layout
+
+\begin_layout Standard
+It's a new year, I love it
+\end_layout
+
+\begin_layout Standard
+I love holidays in general.
+ But that was nice.
+\end_layout
+
+\begin_layout Standard
+And, you know, it's way sometimes to forget how amazing my friends from
+ Mosinzon are.
+ Then I remember (see appendix-1).
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+14:00
+\end_layout
+
+\begin_layout Standard
+We ate our Saturday breakfast - pancakes and french toast .
+\end_layout
+
+\begin_layout Standard
+Then I rested a bit - newspaper, google photos - see appendix-2 for the
+ gorgeous photos from Kineret ereyesterday - and organized the journal and
+ reports a bit.
+ I tried linking the zoom meeting on the schedule list, but they would be
+ colored magenta and changing it only for that specific link took a lot
+ of ugly latex.
+ 
+\end_layout
+
+\begin_layout Standard
+After that, I mostly just organized the Google-Drive old AD&D directory,
+ and its newer counterparts, NOVUM and HOMEBREW.
+ It was nice.
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Paragraph
+Appendixes
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset href
+LatexCommand href
+target "Nofar's New Year Blessing"
+literal "false"
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Week #39
+\end_layout
+
+\begin_layout Subsubsection
+20 | Sunday
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+10:00
+\end_layout
+
+\begin_layout Standard
+I woke up around 6:05, then snoozed to 6:15.
+ I woke up and went to watch the sunrise - just chilling.
+ I thought of a thing about a riddle I made Tom and conversed about with
+ Shir, and sent it it was quite funny (see appendix-1).
+ I went back - opened the door for Dvash and pet her a little - as she went
+ back before me and could not open the door, she was quite stressed, and
+ then worked on my new Logger thing, killing about an hour and a half -
+ kinda sad, to be honest.
+ I really need to be careful with easy projects like this.
+\end_layout
+
+\begin_layout Standard
+I tinkered just a bit more with the Logger, logging this very entry.
+ I played a bit with ipython and QUEST, deleting entries that were never
+ filled.
+ Before I finished I was called for breakfast, to set the table - before
+ Yahli goes for another army rehearsal.
+ Where my parents actually advise lying to cops, because the army does not
+ really take people on days without public transport, and the thing is kinda
+ complicated (they chose to go for a rehearsal since the performance is
+ close).
+\end_layout
+
+\begin_layout Standard
+After breakfast, we talked a bit with Mom about our internal freedom to
+ tour the world, and learn wherever we want, and then I finished clearing
+ QUEST.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+14:00
+\end_layout
+
+\begin_layout Standard
+I...
+ mostly continued to develop Logger, breaking to help Mom and Dad in various
+ chores, building and making potatoes and such.
+\end_layout
+
+\begin_layout Standard
+At a certain point I went ahead and played 
+\begin_inset Quotes eld
+\end_inset
+
+Bubble Struggle
+\begin_inset Quotes erd
+\end_inset
+
+ (see appendix-1)
+\end_layout
+
+\begin_layout Standard
+We went for lunch at grandma's.
+ Again.
+ So much for quarantine, I guess.
+ There was grill and potatoes - that I made! It was tasty and fun.
+ I played with my adorable cousins, and talked with Merchi, Mom and Ella
+ about underage drinking a little.
+ It was nice.
+ After going back home I mostly just watched a YouTube documentary about
+ Flat Earth and QAnon, to pass the time (see appendix-2).
+\end_layout
+
+\begin_layout Standard
+We are going to go to 
+\end_layout
+
+\begin_layout Paragraph
+Appendixes
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset href
+LatexCommand href
+name "“Bubble Struggle” in Internet Archive"
+target "https://web.archive.org/web/20200920114422/http://games.moomoo.co.il/3747.html"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+21 | Monday
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+10:00
+\end_layout
+
+\begin_layout Standard
+I woke up late - again! And after a quick organize cleaned up my room, finally
+ - sorted trash, recycling and waste.
+ Old pillows to the storeroom, old sheet to trash.
+ And then I even swept the shoe shelf, and got out my fantasy stuff to hang
+ (Yahli was just going out, so I am waiting for her to come back and advise
+ before doing with them).
+ My room was actually organized again, that was really nice!
+\end_layout
+
+\begin_layout Standard
+I got a response for a google-drive-ocamlfuse issue (see appendix-1), so
+ I sent over the relevant logs (see appendix-2) and investigated a little
+ myself, not to much success.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+14:00
+\end_layout
+
+\begin_layout Standard
+I continues investigating, and after about half an hour I also got to breakfast
+ (this is 10:30).
+ It was nice and tasty, and after that we suddenly had a power outage, kinda
+ annoying with the heat.
+ 
+\end_layout
+
+\begin_layout Standard
+I got a response from gdfuse's developer, and he quickly figured out that
+ the problem was when it trimmed the directory's optional final slash /,
+ which I didn't use.
+ Adding it solved the issue, and that was quite great as well.
+\end_layout
+
+\begin_layout Standard
+I worked on Logger for about an hour and a half, and then another half an
+ hour after a short break.
+ Making and debugging a very long, annoying formula (see appendix-3).
+ That didn't feel great and I resolve to time-bind my work on this, from
+ now on.
+\end_layout
+
+\begin_layout Standard
+I accidentally missed a Bible Studies lesson, oops.
+ I also briefly got annoyed at politics, of course.
+\end_layout
+
+\begin_layout Standard
+We ate lunch, which was very tasty, if a bit messy - a gobble of grilled
+ chicken, corn pie, oven potatoes and .
+\end_layout
+
+\begin_layout Standard
+I watched a couple videos of communities, and walked Dvash, and then I 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+23 | Wednesday
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+10:00
+\end_layout
+
+\begin_layout Standard
+I woke up 6:35, too late to watch the sunrise :(.
+ But I did utilize the deck, and fall is here! It's amazing.
+\end_layout
+
+\begin_layout Standard
+Or at least the terrible whether we had all month finally ceased, that's
+ one thing to tick.
+\end_layout
+
+\begin_layout Standard
+I had a physics class at 7:45, and I feel quite confident about my capabilities
+ in this area (though I 
+\emph on
+should 
+\emph default
+practice more).
+ After that...
+ I worked a bit on the fall array and the training clusters, organizing
+ (I hope we finish the division today), and other than that, mostly bumbled.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+14:00
+\end_layout
+
+\begin_layout Standard
+I read - always nice - and A Wizard of Earthsea - even nicer, but other
+ than that, I guess I mostly bumbled about, new python changes and strongly
+ hoping google chrome –app returned to work, or shortcut as window not slowing
+ everything to a halt.
+ Sadly, not niceness there.
+ But I got a grip, eventually; I am continuing the math homework, and I
+ wrote this.
+\end_layout
+
+\begin_layout Standard
+I walked Dvash - it was fun, and quite soon 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+24 | Thursday
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+10:00
+\end_layout
+
+\begin_layout Standard
+I woke up at 6, finally, got to watch the early sunrise; I opened the door
+ back for Dvash before going to see a bit more, but after I returned again
+ she wanted out once more, it was annoying, but it wasn't very long.
+ I prepared for the Civics quiz, kind of well? 
+\end_layout
+
+\begin_layout Standard
+Then I made the incredibly dumb decision of not eating breakfast before
+ the quiz, resulting in me spending the first two thirds of it being very
+ very dumb.
+ I don't think I did very well, but I guess it does not matter that much.
+ The quiz was pretty dumb in it of itself, as we could basically do whatever
+ we wanted on the computer with nobody overseeing it, although he did force
+ us to open our cameras and occasionally our mics.
+ er full way or not at all; Come on!
+\end_layout
+
+\begin_layout Standard
+Shir sent the finished puzzle from the 24th of august, that was awesome.
+\end_layout
+
+\begin_layout Standard
+Then there was a quick bible lesson, where we were organized into random
+ groups and were assigned at task.
+ Both the Internet and em were mostly dead, and we didn't manage to finish
+ it during the lesson anyway; at any rate, we could do it a-synchronously.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+14:00
+\end_layout
+
+\begin_layout Standard
+I mostly rested - read a lot, then watched two episodes of Sex Education.
+ I was tired.
+ I loved both of them, though! The Wizard of Earthsea and the Netflix show.
+ They are - genuinely - great.
+ Even if Sex Education has practically alien teenagers.
+ It's interesting.
+\end_layout
+
+\begin_layout Standard
+We ate lunch at around 14:00, the potatoes and carrot on the pan together
+ with rice, fried onions and lentils.
+ I like it! I was still a bit irritated, but I made tea - talked a bit with
+ Mom and Yahli, and started organizing this - and I think it's quite great!
+\end_layout
+
+\begin_layout Standard
+I watched another episode of Deca Dense - ahh I love it! And ate my Milky,
+ week-late; A lot of it was actually after the episode ended; I started
+ writing the Worship Story for Shir'el's character in NOVUM - which went
+ slowly, but was actually really fun.
+ I needed to fix up my Gods a bit, and then, actually, a bit in parallel,
+ too, I listened to conquest of paradise.
+ I felt something missing, so then I lit up a candle.
+ I loved it!
+\end_layout
+
+\begin_layout Standard
+I miss D&D so muchhhhhhhhh 
+\begin_inset Formula $\frownie$
+\end_inset
+
+!
+\end_layout
+
+\begin_layout Standard
+I really loved the aesthetic though, not just the environment but all the
+ stuff I made for Shir'el (see appendix-1)
+\end_layout
+
+\begin_layout Standard
+I briefly entered a dumb BUILD media crew explanation team meeting, then
+ left after two minutes because it was not useful and I had things to do.
+\end_layout
+
+\begin_layout Standard
+Namely - I had exercise.
+ I run - all 5 kilometers, nearly completely continuously (50-meter breaks
+ after 3, 4.3).
+ It was so much flipping fun! An zombies run - half of the season one 10k
+ race - also really flipping awesome! It was great.
+ I even did the circuit training after quite well, and I am starting to
+ see shades of abs!
+\end_layout
+
+\begin_layout Standard
+We ate dinner together - really all of us, including Jessie - and it was
+ nice (love my family!).
+ We talked quite a bit more, and then I took my thought from yesterday,
+ and read Wizard of Earthsea, on the deck, with tea, it was utterly brilliant,
+ and just, true! I like the book, though it has quite a weird pacing.
+\end_layout
+
+\begin_layout Standard
+Then I went here, with Yahli and Jessie playing Monopoly, writing this little
+ journal, and it's really quite lovely!
+\end_layout
+
+\begin_layout Standard
+I also tried helping Mom a bit with zoom, but honestly just not right now.
+\end_layout
+
+\begin_layout Standard
+And Maya talked a bit on our TAHEL WhatsApp group, and it was nice, and
+ beyond that, the contrast - between our relationships, and the rest, just
+\end_layout
+
+\begin_layout Standard
+I love my friends
+\end_layout
+
+\begin_layout Standard
+I love other people as well
+\end_layout
+
+\begin_layout Standard
+A specific person 
+\end_layout
+
+\begin_layout Standard
+Also a friend
+\end_layout
+
+\begin_layout Standard
+Ahhhhhhrgerghhhhhhhhh!
+\end_layout
+
+\begin_layout Paragraph
+Appendixes
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset CommandInset href
+LatexCommand href
+name "Shir'el's character expiriences"
+target "https://docs.google.com/document/d/1EVwpbYWcImaFo4sg8cOJ_VLgNPUL3uO0zHrRqb3CAco/edit"
+literal "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+25 | Friday
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+10:00
+\end_layout
+
+\begin_layout Standard
+I woke up pretty early, but not enough for sunrise :(.
+ Around 6:30.
+ 
+\end_layout
+
+\begin_layout Standard
+I organized quickly 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+October
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Week #40
+\end_layout
+
+\begin_layout Subsubsection
+01 | Thursday
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\series bold
+10:00
+\end_layout
+
+\begin_layout Standard
+I woke up at 6:25, after a 1`0 minute snooze, and went to watch the sunrise.
+ Dvash went out but decided to not follow, and my tea was gross fro some
+ reason, but still, the sunrise is beautiful.
+\end_layout
+
+\begin_layout Standard
+After that...
+\end_layout
+
+\begin_layout Standard
+I had civic studies and education class (in which I still left my dumb extra
+ zoom mute on through system wide audio settings, oops), and honestly my
+ energies were just very low throughout.
+\end_layout
+
+\begin_layout Standard
+I read the news and compiled my list of our cartoonishly fascist government,
+ but it was pretty empty.
+\end_layout
+
+\begin_layout Standard
+For breakfast I ate yogurt with granola and a single Patit with pesto.
+ It was tasty, but still, almost empty.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\series bold
+14:00
+\end_layout
+
+\begin_layout Standard
+I got here, and I put on Rise by Skillet, and that was nice.
+ 
+\end_layout
+
+\begin_layout Standard
+I ditched PE, oops (not really)
+\end_layout
+
+\begin_layout Standard
+And then preceded to keep avoiding responsibility and logging stuff
+\end_layout
+
+\begin_layout Standard
+Quite silly really
+\end_layout
+
+\begin_layout Standard
+But I listened to more songs, and it 
+\emph on
+is
+\emph default
+ energy inducing.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+02 | Friday
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\series bold
+10:00
+\end_layout
+
+\begin_layout Standard
+My phone got disconnected from the charger during the night, and the battery
+ ran out around 4:30 AM.
+ So I didn't have an alarm clock.
+ But I still woke up at 7:00, and that was nice.
+ I walked Dvash - who waited for me on the hill I always go to watch the
+ sunrise - cutest dog ever! I read the newspaper over a cup of tea in the
+ back patio (deck was already to warm), and then went to my room.
+ I read a bit more news, then made the decision to turn off news notifications
+ - as part of the new project INFORM.
+ I also added a sleep tab to the logger, and accepted my proposal to merge
+ it with journal.
+ In parallel I read a bit about sleep trackers.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\series bold
+14:00
+\end_layout
+
+\begin_layout Standard
+I built logger more, looked a bit at the news.
+ Listened to protest song.
+ I feel purposeful.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Week #41
+\end_layout
+
+\begin_layout Subsubsection
+04 | Sunday
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\series bold
+10:27:46
+\end_layout
+
+\begin_layout Standard
+I woke u around 6:20.
+ I actually only snoozed 3 minutes today.
+ Getting there!
+\end_layout
+
+\begin_layout Standard
+I watched the sunrise, and drank some tea, and then I mostly worked on the
+ Logger, while listening to Tuna's first big album, mostly, actually.
+ I added functionality to automatically log the 
+\begin_inset Quotes eld
+\end_inset
+
+folders
+\begin_inset Quotes erd
+\end_inset
+
+/Groups used along with their associated activities/locations/people.
+\end_layout
+
+\begin_layout Standard
+I made myself breakfast - just toast with white cheese and scrambled eggs
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\series bold
+15:17
+\end_layout
+
+\begin_layout Standard
+After Lunch, I wanted to watch The Boys, but discovered that it was (somewhat
+ predictably) wiped from /tmp.
+ So I had to download it over again.
+ I sat next to the router - it still taking around 30 minutes in the end,
+ and just tried to pass the time.
+\end_layout
+
+\begin_layout Standard
+I read news, watched a silly, not very funny, American skit, watched like,
+ 5 minutes of youtube, and then just read really gross erotica, and remembered
+ why I decided not to do that.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\series bold
+16:36:20
+\end_layout
+
+\begin_layout Standard
+I got a bit of a grip, and initialized the week report, and started sorting
+ through tasks, making decisions an so on.
+\end_layout
+
+\begin_layout Standard
+Protest songs really give me energy.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+06 | Tuesday,
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\series bold
+08:23
+\end_layout
+
+\begin_layout Standard
+I woke at around 5:20, I think, but I closed the shutter and went back to
+ sleep and my alarm only rang 3 minutes before its latest possible, at 6:07.
+ And I woke up - it was a quality sleep, I felt refreshed, and I organized,
+ and I watched the sun rise.
+\end_layout
+
+\begin_layout Standard
+It was nice and peaceful and I thought about a lot of things - but mainly
+ Shir and our Government and Gila Gamliel - but it was peaceful.
+\end_layout
+
+\begin_layout Standard
+And it was cold! Really cold! I love the changing weather.
+ The ever-changing wind.
+ I went to open the door for Dvash at a certain point, and to refill my
+ tea.
+ Dvash wanted to go out with Mom and Fibi, but she would have never energy
+ for the full walk again, so we took her in, that made me a little sad.
+\end_layout
+
+\begin_layout Standard
+I am very, very happy about the conversation with Shir yesterday; I have
+ a instinct to meta-analyze myself, by I'm trying not too - I think, really,
+ just let's have fun being young, in love or whatever.
+\end_layout
+
+\begin_layout Standard
+I read a bit of news, for like an hour, went around Wikipedia as well, haaretz
+ and stuff.
+\end_layout
+
+\begin_layout Standard
+...What's going on beyond in the green line, is
+\end_layout
+
+\begin_layout Standard
+It's horrible
+\end_layout
+
+\begin_layout Standard
+Really really horrible.
+\end_layout
+
+\begin_layout Standard
+But it's not something I think I can deal with now.
+\end_layout
+
+\begin_layout Standard
+And I organized my reports and things, answered my question for the morning.
+ For a good day!
+\end_layout
+
+\begin_layout Standard
+For a good day.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\series bold
+11:51
+\end_layout
+
+\begin_layout Standard
+I ate breakfast - the Matbuha is really tasty, especially with cottage,
+ and I worked a bit.
+\end_layout
+
+\begin_layout Standard
+I fixed a problem with the Logger - some ranges that were off, though it
+ took some debugging to find out.
+ I wrote the pink and azure laws, which was really great.
+ Felt a bit horny, that was what prompted it
+\end_layout
+
+\begin_layout Standard
+I miss Shir
+\end_layout
+
+\begin_layout Standard
+Teenagers.
+\end_layout
+
+\begin_layout Standard
+Anyway, I also finished commenting over the whole Conversation Box with
+ the Riki project for APP, and I think overall organized...
+\end_layout
+
+\begin_layout Standard
+I More debugging, and a bit more doing; I fixed the buggy update-lyx.sh;
+ Just gave up and listed everything except Drive with find.
+ Currently means no spaces in ACCESS directories though, which is quite
+ annoying.
+\end_layout
+
+\begin_layout Standard
+I also made teaaaaaa!
+\end_layout
+
+\begin_layout Standard
+It was great.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+18:04
+\end_layout
+
+\begin_layout Standard
+Whoo!
+\end_layout
+
+\begin_layout Standard
+Lots of things>.
+\end_layout
+
+\begin_layout Standard
+I was tired and wanted to rest, but then Dad asked me to help with installing
+ a new fan for Grandma, so there was that, and it was nice but I was tired
+ so it was not as nice
+\end_layout
+
+\begin_layout Standard
+And then I cam back and mostly just tried out the show Atypical, which was
+ nice! I'll try the next few episodes.
+ I have yet to decide if I'll really have fun watching it.
+\end_layout
+
+\begin_layout Standard
+We had lunch - at first a lentil soup I didn't really like and then a tastier
+ thingie with tomato and potato and a lot of other things 
+\end_layout
+
+\begin_layout Standard
+I had a very quick youtube rest (Phinieas and Ferb Analysis) before the
+ robotics meetings, which was funny because Dor didn't come and I didn't
+ really have stuff to do.
+\end_layout
+
+\begin_layout Standard
+But I talked a bit with Tom and then I wrote out the PLN project statement,
+ which was actually quite great, but that took some time and I was only
+ done around 17:30, oops.
+ Then I kinda laid back a bit, didn't really do anything, I masturbated
+ and then promptly organized and move outside to 
+\emph on
+actually 
+\emph default
+rest (SAO Arc 1 Finale!), but thought I should probably log a bit before,
+ I forgot to do that before moving to PLN.
+\end_layout
+
+\begin_layout Standard
+I decided not to run today, due to the general tiredness, but since darkness
+ is much earlier nowadays I can actually do this on Wednesday-Friday, so
+ it works!
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\series bold
+21:10
+\end_layout
+
+\begin_layout Standard
+I watched the SAO finale.
+ It's 
+\end_layout
+
+\begin_layout Standard
+Really,
+\end_layout
+
+\begin_layout Standard
+Really,
+\end_layout
+
+\begin_layout Standard
+well made.
+\end_layout
+
+\begin_layout Standard
+Really.
+\end_layout
+
+\begin_layout Standard
+(
+\begin_inset Formula $\eighthnote$
+\end_inset
+
+ To the Right, to the left! We will fight, to the death! To the edge, of
+ the earth! It's a brave new world, it's a brave new world from the last
+ to the first! 
+\begin_inset Formula $\eighthnote$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+And I talked with Shir
+\end_layout
+
+\begin_layout Standard
+And ate my Milky
+\end_layout
+
+\begin_layout Standard
+and that was nice
+\end_layout
+
+\begin_layout Standard
+Interestingly, I was sexually aroused
+\end_layout
+
+\begin_layout Standard
+From texting
+\end_layout
+
+\begin_layout Standard
+With a girl I like, sure
+\end_layout
+
+\begin_layout Standard
+But from 
+\emph on
+texting
+\end_layout
+
+\begin_layout Standard
+She doesn't even have a profile picture
+\end_layout
+
+\begin_layout Standard
+And I wasn't thinking of that at all
+\end_layout
+
+\begin_layout Standard
+(Unbelievable).
+\end_layout
+
+\begin_layout Standard
+Teenagehood.
+\end_layout
+
+\begin_layout Standard
+But it was nice.
+\end_layout
+
+\begin_layout Standard
+We later ate dinner - it was nice, and I think that is all
+\end_layout
+
+\begin_layout Standard
+I also made some tea and read the news, that was fun.
+\end_layout
+
+\begin_layout Standard
+I like Shir
+\end_layout
+
+\begin_layout Standard
+A lot.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+07 | Wednesday
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\series bold
+7:41
+\end_layout
+
+\begin_layout Standard
+I woke up, nicely, at 5:45, and I got to see the colors change
+\end_layout
+
+\begin_layout Standard
+And
+\end_layout
+
+\begin_layout Standard
+It was very, very
+\end_layout
+
+\begin_layout Standard
+Beautiful.
+\end_layout
+
+\begin_layout Standard
+I made tea, it spilled, I went and made another one, it was a bit silly,
+ and just when I got back I had to go put with Dvash, and altogether, with
+ me also browsing the news for some reason (news flash: our government sucks).
+\end_layout
+
+\begin_layout Standard
+I lost an hour, that sucks.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\series bold
+13:53
+\end_layout
+
+\begin_layout Standard
+I solved a few math questions, then around 11, I browsed news for a bit
+ and then somewhere between 11 and 12, started reading The Amulet of Samarkand.
+ it was nice.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\series bold
+20:58
+\end_layout
+
+\begin_layout Standard
+It's been quite some time
+\end_layout
+
+\begin_layout Standard
+Hasn't it
+\end_layout
+
+\begin_layout Standard
+I ate lunch - Chicken Breast with mustard and honey and mushed potatoes,
+ very very tasty.
+\end_layout
+
+\begin_layout Standard
+And I watched some YouTube, all kinds of stuff, kinda forgetting my meeting
+ with Tom
+\end_layout
+
+\begin_layout Standard
+But he reminded me and it was quite productive - we went over BUILD's PLN.
+\end_layout
+
+\begin_layout Standard
+And I watched SAOA Episodes 12 and 13.
+ Which were really really great, as well.
+\end_layout
+
+\begin_layout Standard
+I read quite a bit of OSP Red's comic 
+\begin_inset Quotes eld
+\end_inset
+
+Aurora
+\begin_inset Quotes erd
+\end_inset
+
+ (see appendix-1), and it's actually quite well made.
+\end_layout
+
+\begin_layout Standard
+Took Fibi for a walk - fucking gorgeous sunset - or really, more just the
+ transition into night.
+\end_layout
+
+\begin_layout Standard
+And continued reading
+\end_layout
+
+\begin_layout Standard
+And then talked with Shir
+\end_layout
+
+\begin_layout Standard
+It was very fun
+\end_layout
+
+\begin_layout Standard
+She invited me to meet after the quarantine
+\end_layout
+
+\begin_layout Standard
+I said I'd be glad to 
+\begin_inset Formula $\heartsuit$
+\end_inset
+
+ (with the heart)
+\end_layout
+
+\begin_layout Standard
+She responded with a hear of her own
+\end_layout
+
+\begin_layout Standard
+It was
+\end_layout
+
+\begin_layout Standard
+Very nice efforts and lawbook, but sure
+\end_layout
+
+\begin_layout Standard
+And I made dinner - mostly just omelet, cucumber and toast - matbucha with
+ cottage is really quite tasty 
+\begin_inset Formula $\smiley$
+\end_inset
+
+.
+ And also some mushed potatoes left from lunch
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+08 | Thursday
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\series bold
+09:14
+\end_layout
+
+\begin_layout Standard
+I woke up at 5:45, but decided to go back to sleep.
+ I have yet decided whether that was a good decision or a bad one.
+ My alarm rang at 6:15.
+ I snoozed.
+ 6:28 I was up.
+\end_layout
+
+\begin_layout Standard
+I watched the actual sunrise, this time, and that was nice.
+ The tea (orange this time) was fun.
+ At around 7:15 I sat here; Organized the reports, answered the morning
+ question - today was a lot of fun!, and then 
+\end_layout
+
+\begin_layout Standard
+I concatenated all the journal entries and then played with gedit replace
+ (required an additional replace of the queries themselves,of / to // and
+ newline to 
+\backslash
+n) to remove all the titles and authors, and organize it into a single united
+ diary.
+ That was actually quite great; reminiscing is fun.
+\end_layout
+
+\begin_layout Standard
+I also listened to a few Tuna songs.
+ Always chill and fun.
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+10 | Saturday
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\series bold
+9:34
+\end_layout
+
+\begin_layout Standard
+Even though I only fell asleep at 00:34, I naturally woke up at 7:00, and
+ have been pretty drowsy ever since.
+ I tried to go to sleep for a bit, and didn't really manage.
+ Although I also just preferred waking up earlier, and also had a really
+ interesting dream I did not want to forget.
+\end_layout
+
+\begin_layout Standard
+That was a mouthful.
+ At any rate I organized quickly, and took Dvash, and the weather is terrible,
+ and then I tried to fix something with the sleep graphs, to no avail, and
+ finally read a bit of XKCD, Running into 1190: Time.
+ An animation uploaded frame by frame, every hour, or half an hour, for
+ 124 days.
+ An insane project, a whole story and lore and a really, really cool project.
+ I didn't watch the full thing - I went here instead.
+ And man I missed writing down cool dreams.
+ I also composed it a bit, in my head, int he morning, or at least some
+ of what comes after, made it up.
+ With machines a bunkers and drama, nice.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\series bold
+15:30
+\end_layout
+
+\begin_layout Standard
+Okay...
+\end_layout
+
+\begin_layout Standard
+So I started with some math exercise, that kept me until about 12:30, I
+ think.
+ I then worked on my sleep charts, and did some olive harvest, while listening
+ to the Anthropocene Reviewed.
+ It's...
+ a really, really good podcast.
+ I think, second or so episode, 
+\begin_inset Quotes eld
+\end_inset
+
+Sycamore Trees
+\begin_inset Quotes erd
+\end_inset
+
+, 
+\end_layout
+
+\begin_layout Standard
+Despair, Hope.
+\end_layout
+
+\begin_layout Standard
+Light, Darkness.
+\end_layout
+
+\begin_layout Standard
+It was, in every sense of the word, good.
+\end_layout
+
+\begin_layout Standard
+I continued a bit with the sleep charts and - mostly - finished them! It
+ was actually quite interesting, and it's fun to see my obsessive logging
+ coming into good use.
+ 
+\end_layout
+
+\begin_layout Standard
+We had lunch, the Lasagna being the ever greatest food
+\end_layout
+
+\begin_layout Standard
+Or
+\end_layout
+
+\begin_layout Standard
+It's just, distinctly, us.
+\end_layout
+
+\begin_layout Standard
+And that is nice.
+\end_layout
+
+\begin_layout Standard
+When I started working on math, at the start, I put Tunapark on.
+ And
+\end_layout
+
+\begin_layout Standard
+From Lost in Space, Summer Day, On the Train
+\end_layout
+
+\begin_layout Standard
+It has a habit of really reaching.
+\end_layout
+
+\begin_layout Standard
+And Lost in Space especially.
+\end_layout
+
+\begin_layout Standard
+Like it or not, we are all humans,
+\end_layout
+
+\begin_layout Standard
+And in anything that actually matters
+\end_layout
+
+\begin_layout Standard
+We are all brothers and sisters.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\series bold
+20:10
+\end_layout
+
+\begin_layout Standard
+I watched about two episodes of Atypical, it's a nice show.
+ Not 
+\emph on
+amazing
+\emph default
+ by any means, but it's nice.
+\end_layout
+
+\begin_layout Standard
+Then Mom reminded me of the coming protest, and I used my 15 minutes left
+ for doing the Lawbook statement a bit.
+ That was nice, But before too long, and before I finished it, we needed
+ to go.
+\end_layout
+
+\begin_layout Standard
+So that was my 17:20-18:40, and that was really great - and I shouted and
+ held signs and photographed, and that was great and important.
+ Ella also did that on her side, and Tomer and Nini came by as well, though
+ only to grandma, I don't think they went to the protest at the end.
+\end_layout
+
+\begin_layout Standard
+We got back, and I was really, really tired.
+ still am.
+\end_layout
+
+\begin_layout Standard
+I made a small dinner, just one of the leftover pancake and yogurt with
+ Granola.
+\end_layout
+
+\begin_layout Standard
+And I made milk tea and took some carrot cake, and I talked a bit Shir
+\end_layout
+
+\begin_layout Standard
+And although it was shorter than the usual
+\end_layout
+
+\begin_layout Standard
+I think
+\end_layout
+
+\begin_layout Standard
+I love her, a lot
+\end_layout
+
+\begin_layout Standard
+And 
+\end_layout
+
+\begin_layout Standard
+I think I can ask her out, tomorrow.
+\end_layout
+
+\begin_layout Standard
+I realized this - I don't when today, maybe yesterday, I don't remember
+ exactly, even ereyesterday
+\end_layout
+
+\begin_layout Standard
+But we have settled into a new type of relationship, for me
+\end_layout
+
+\begin_layout Standard
+With just talking about things for a long time
+\end_layout
+
+\begin_layout Standard
+And a lot of heart emojis
+\end_layout
+
+\begin_layout Standard
+I think this something that already is, I think that there is no point in
+ waiting now, the way things are now feels, almost dishonest.
+ It seems, really, we both like each other, romantically, a lot.
+ And I feel we express that
+\end_layout
+
+\begin_layout Standard
+But we kind of dance around it
+\end_layout
+
+\begin_layout Standard
+I see no reason for it.
+\end_layout
+
+\begin_layout Standard
+Otherwise, I am still, incredibly, tired.
+ I feel on the verge of collapse, almost.
+ Probably because of significantly shorter than usual sleep (around 6 hours
+ and 30 minutes.
+ Not terrible but I am used to more).
+ And I think I'll go to sleep, maybe even before 21:00.
+ 
+\end_layout
+
+\begin_layout Standard
+Also Jessie is going through something hard,with the army and choices, it
+ really, really, aches me to see.
+ I can't really help, I don't think I can.
+ but I really really hope she feels better.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Week #42
+\end_layout
+
+\begin_layout Subsubsection
+11 | Sunday
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\series bold
+09:05
+\end_layout
+
+\begin_layout Standard
+I woke up early, for a change! I think, around 5:55.
+ I watched the sunrise, or rather, the light shift - it is so late now!
+ (and I'd really like to watch it with Shir before we switch to Standart
+ Time and the chance is lost.
+ I didn't go to open the door for Dvash and I was a bit sad for her.
+ I opened my computer and docs, and started working: I finished last week's
+ report, and answered the morning question.
+ I also merged the questions into a final diary, and billed that I just
+ move to using the full diaries only, in LOG as well.
+ Then I got here, and logged my sleep, which then caused a slight bug with
+ me technically going to sleep yesterday twice, (after midnight and then
+ at the later night).
+ So I messed with it a bit and also cleaned some stuff.
+ And then finished this.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+12:02
+\end_layout
+
+\begin_layout Standard
+I ate breakfast, organized the report for today, and then organized the
+ reports into a single dossier as well.
+ Not much, to be honest.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+15:39
+\end_layout
+
+\begin_layout Standard
+I was really tired, and watched two episodes of Atypical to rest a bit.
+ It helped - a lot.
+ And then I worked a bit on some math exercise.
+ It was really great being productive.
+ And debugging in math is a little better than in software.
+ Then I was called to lunch, an always tasty orange soup, and some majedra
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+Sunday Food
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Neat.
+\end_layout
+
+\begin_layout Standard
+I felt a bit hoeny, I guess, and read Erotica, before remembering why I
+ don't read Erotica.
+ I am MERLINing decision 1.5.4.
+ I watched another episode of atypical, which was actually really, really
+ good, and heartwarming.
+ And, I sat for a bit, in the chill.
+ And started this; 
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+20:20
+\end_layout
+
+\begin_layout Standard
+I mostly just did some math exercise.
+ Then I tried to graph my mood from Logger.
+ That worked less well (see the issues from today's report).
+ I cleared the dishwasher, and watered the plants (to the sound of The Anthropoc
+ene Reviewed, QWERTY Keyboard).
+ And I tried - really tried to work more on the math, but it was late and
+ I didn't have the energy.
+\end_layout
+
+\begin_layout Standard
+I ran instead!
+\end_layout
+
+\begin_layout Standard
+And it was great.
+ I tried listening to Tunapark, but I think lyrical just does not work for
+ me.
+ I took a new route - cutting the promenade through Hankin.
+ It was nice, even if exhausting.
+ Yahav brought Pizza and I was tempted not to do the circuit training, but
+ they needed to be heated anyway.
+ It was nice!
+\end_layout
+
+\begin_layout Standard
+After showering, I ate the pizza and talked a bit with Shir.
+ I didn't have the energy for our Road sign Rad Routine™, but I talked with
+ her about all the mess with robotics, and she was really cute and nice
+ and gave good advice
+\end_layout
+
+\begin_layout Standard
+I like her a lot
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\heartsuit$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+(I also like heart emojis)
+\end_layout
+
+\begin_layout Standard
+Dad talked with Gila about said mess, and he said she seemed sympathetic,
+ didn't really know what was going on, and sh wanted to talk with me tomorrow.
+ We'll see how that goes.
+\end_layout
+
+\begin_layout Standard
+The main approach, my dad suggested, is that Tom and I just work really
+ well together, that we decided to work together, and as long as it works,
+ there is no real reason to dismantle it.
+ I honestly don't really care if they want to have a separate HoC forum,
+ and have certain discussion just with that group,.
+ I'll admit I am a bit scared of the miscommunication.
+ But especially this year, if that's what they want to do, they can go for
+ it.
+ But in internal software management - I just don't really see a reason
+ to mess with that.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+12 | Tuesday
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\series bold
+12:30
+\end_layout
+
+\begin_layout Standard
+Urghhh!
+\end_layout
+
+\begin_layout Standard
+I slept well, and woke up with motivation.
+ I watched the sunrise - for realsies, I organized well fro the test and
+ I had a quite tasty breakfast.
+\end_layout
+
+\begin_layout Standard
+My test went well overall, but I did not manage to do everything on time.
+ I just write a bit slowly, I think.
+\end_layout
+
+\begin_layout Standard
+But atfer that
+\end_layout
+
+\begin_layout Standard
+School just takes sio much time!
+\end_layout
+
+\begin_layout Standard
+And it is so, so useless!!!
+\end_layout
+
+\begin_layout Standard
+I really, really need to talk with the teachers and stuff
+\end_layout
+
+\begin_layout Standard
+And even in the best case scenario I'll still suffer with Civic and Bible
+ studies.
+ 
+\begin_inset Formula $\frownie$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+I played a bit more with the mood graph, though.
+ Just using the moving average seems promising.
+ And I amde a candlstick chart! Which is actually a quite great way to see
+ the flactuations every day.
+ It's great!
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+I like Shir a lot.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+13 | Tuesday
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+I woke up still in the darkness.
+ A really pretty view to the point I opened the window completley and jus
+ took a picture.
+\end_layout
+
+\begin_layout Standard
+It was really
+\end_layout
+
+\begin_layout Standard
+Really
+\end_layout
+
+\begin_layout Standard
+Beautiful.
+\end_layout
+
+\begin_layout Standard
+Should be.
+\end_layout
+
+\begin_layout Standard
+I took Dvash back this time; There really is no need for a rope.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+medskip
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+I
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+14 | Wednesday
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\series bold
+13:31; Mixed; 0.55
+\end_layout
+
+\begin_layout Standard
+I've been really stressed out the entire day.
+\end_layout
+
+\begin_layout Standard
+School is incredibly frustrating.
+ It's just so many useless empty hours; I hate it.
+\end_layout
+
+\begin_layout Standard
+I am glad that I asked Shir on the date.
+ I like her a lot and I think she like me and this feels
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+15 | Thursday
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+15:49 | Joyful-2 | 
+\begin_inset Formula $\boldsymbol{\uparrow}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Lunch was nice; we had a leftovers meal and the lasagna was really quite
+ tasty.
+\end_layout
+
+\begin_layout Standard
+I had a few chores, threw waste, water sprinklers, droppers, etc.
+\end_layout
+
+\begin_layout Standard
+Then I just watched the two episodes of Atypical season 3.
+ It's going to be hard without it.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+16 | Friday
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+I woke up at 6:25; And this is a good season for sunrises.
+\end_layout
+
+\begin_layout Standard
+I miss cloudy.
+\end_layout
+
+\begin_layout Standard
+I actually managed to forget the mug there! I almost lost it really, but
+ I couldn't find my glasses, and that's how I found it.
+ The hillarious part is that they eneded up being at the edge of my bed.
+\end_layout
+
+\begin_layout Standard
+It's been a very slow day.
+\end_layout
+
+\begin_layout Standard
+I listened to music, ate brekafast, organized the logger, fixed some bugs.
+\end_layout
+
+\begin_layout Standard
+I don't know, I guess.
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Week #43
+\end_layout
+
+\begin_layout Subsubsection
+18 | Sunday
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\series bold
+12:44
+\series default
+ | Joyful-3
+\end_layout
+
+\begin_layout Standard
+I...
+\end_layout
+
+\begin_layout Standard
+My sleep felt all wonky, I think I woke up a bit in the night.
+ I don't know, I felt weird.
+\end_layout
+
+\begin_layout Standard
+But my alarm rang at 6:20 I snoozed, thankfully the sunrise is very late
+ these days so I still got there in time.
+ Chill as always.
+\end_layout
+
+\begin_layout Standard
+Software Engineering class was really, really, dumb, as always.
+ But eventually Tom and I got into a room, and talked a bit, as much as
+ our terrible Internet allowed us (we actually had to move to discord, and
+ even then we could barely communicate).
+ I ate cereals for breakfast.
+ Posssibly a bad idea concidereing my current hunger.
+\end_layout
+
+\begin_layout Standard
+Instead of math, I mostly just organized my projects - archived and renamed
+ and refiled and whatnot.
+ I finally did some of last week's steel tasks - merging REPORT into MOTHERBOARD
+, JOUNRAL and RECORD into LOG, removing dossier types! 
+\end_layout
+
+\begin_layout Standard
+And I reorganized this diary per my Days Dossier system (Y/m/V/d | A/),
+ gave Tom some more reference frame for his background (was really great)
+ and wrote this.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+
+\series bold
+16:23 | Joyful-2 | 
+\begin_inset Formula $\searrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+I browsed the news, for a bit.
+ There is just so, so much hate everywhere, so much.
+\end_layout
+
+\begin_layout Standard
+Lunch was nice, not amazing or anything but pretty taty, and as much as
+ they are really, really annoying, I love my family.
+ We all ate together for a change.
+\end_layout
+
+\begin_layout Standard
+I watched two more episodes of Atypical.
+ This show has a way of having just, to my feeling, 
+\shape slanted
+real
+\shape default
+, characters.
+ At the end of the second (S3E6) I even cried a little.
+ In the middle of the first one I also walked Dvash.
+ She is one adorable dog.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+21:01 | Tired-3 | 
+\begin_inset Formula $\searrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+19 | Monday
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+08:27 | Confident-2
+\end_layout
+
+\begin_layout Standard
+I woke up at 6:17, then snoozed for 10 minutes, of course.
+\end_layout
+
+\begin_layout Standard
+Still, the sunrise is really late these days and I got it, though it was
+ only average, and my glasses got filled with dust.
+\end_layout
+
+\begin_layout Standard
+Here, I mostly looked over some materials for the English test and organized
+ the reports somewhat.
+ Got here,got back to the reports, rememberred I have so, so much homework.
+ Despaired a bit!
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+17:01 | Together-3 | 
+\begin_inset Formula $\nearrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+I ate a tasty breakfast, accidentally entered the wrong Civics classes,,
+ and worked on the math homework.
+\end_layout
+
+\begin_layout Standard
+They were suprisingly very short! I finished almost everything, and then
+ relized I was 4 minutes late to the English quiz.
+ A few technical difficulties, 7 minutes and a very dumb question (the exam
+ code was already sent, in fact, not said in the zoom - just sent in the
+ WhatsApp group, hours ago).
+ I also forgot to turn on my camera.
+ Oops.
+ But the module G was of coiurse really, really easy, Arguabkly the unseen
+ was even easier than the typical module E.
+ And that says something.
+ I did write over three and a half times the word limit in the opinion essay
+ - but really she can't take off points for that.
+\end_layout
+
+\begin_layout Standard
+I finished up the math homework - all of them! Thank god, and went to lunch.
+ I still don't enjoy vegetrian cuscus too much, but it was ncie.
+ There was some mess with Mom's schedule and at the end I only ate with
+ Yahav, but Yahli also got back in the middle, and it was nice.
+\end_layout
+
+\begin_layout Standard
+I watched two more episodes of atypical - that is, still, an amazing show.
+ I cried a bit (S3E8).
+ Oh no.
+ I don't have many episodes left, do I.
+\end_layout
+
+\begin_layout Standard
+Brothers and Sisters (and all that's in between).
+\end_layout
+
+\begin_layout Standard
+I like Tuna's songs a lot.
+\end_layout
+
+\begin_layout Standard
+Anyway, it's been a bit slow aon the past hour, I logged a bit, talked with
+ Mom and Yahli (a super-taklnted guy who produces a shitload of famous albums
+ and worked with everyone asked her to go on an ense,ble with her.
+ Because of course he did).
+\end_layout
+
+\begin_layout Standard
+And just chill, Tuna's albums are great.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+20 | Tuesday
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+12:16 | Tired-2
+\end_layout
+
+\begin_layout Standard
+Boring so far.
+ 
+\end_layout
+
+\begin_layout Standard
+I woke up slightly earlier, at 6:17 after a snooze.
+ The sunrise was nice, I'm starting to like our gate.
+ I fixed a problem in the diaries, where the contents metadata got all jumbled
+ up (see 
+\shape slanted
+appendix-1, decision-1 
+\shape default
+and 
+\shape slanted
+issue-closed-1
+\shape default
+ from today's report).
+ Then we had a very dumb SRE workshop, where we ere told to not Sexually
+ Assault women we don't know, and that we shouldn't ask girls we've texting
+ with a bit for nudes, or post intimite pictures of people.
+ I learned so much.
+ There was a single point, I think that was a bit actually good, where we
+ mentioned we should no
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+21 | Wednesday
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+I missed the sunrise :(.
+\end_layout
+
+\begin_layout Standard
+Worth it.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+November
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Week #45
+\end_layout
+
+\begin_layout Subsubsection
+01 | Sunday
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+11:10 | Calm-1
+\end_layout
+
+\begin_layout Standard
+I actually - hear me out - woke up at 
+\shape slanted
+4:50
+\shape default
+! I went to sleep at 20:30, So I still slept more than enough.
+ That was cool.
+ But my day started, and continued, a bit sluggish.
+ I snoozed for 10 minutes, then only actually went up to get dressed at
+ 5:35.
+ Did get bays formula during these 30 min though, just kinda randomly let
+ it click.
+ That was cute.
+\end_layout
+
+\begin_layout Standard
+In my sunrise - or, rather, staring at the still pretty cloudy sky, I also
+ mentally proved by induction that the maxima is the necessarily highest
+ point of the function in the range behind , as long as it is continuous,
+ until it reaches minima.
+ 
+\begin_inset CommandInset href
+LatexCommand href
+name "Dumb Yahli"
+target "https://photos.app.goo.gl/ZMZpsoi4k5Sdhswh8"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+I 
+\end_layout
+
+\begin_layout Standard
+I'm actually not super sure what I did in the following
+\end_layout
+
+\begin_layout Standard
+5 hours
+\end_layout
+
+\begin_layout Standard
+But - 
+\end_layout
+
+\begin_layout Standard
+I ate breakfast
+\end_layout
+
+\begin_layout Standard
+Read 
+\shape slanted
+a lot
+\shape default
+ of StackExchange and XKCD
+\end_layout
+
+\begin_layout Standard
+And worked a bit on my Law of the Lawbook
+\end_layout
+
+\begin_layout Standard
+Also 35 minutes of dumb personal question in zoom get together with my math
+ teacher.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+02 | Monday
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+09:42 | Tired-3
+\end_layout
+
+\begin_layout Standard
+I woke up at 5:45, got up at 5:50.
+ It's a start I guess.
+ I got in time for the sunrise, thought a bit about Israel in international
+ politics again, kinda felt, emtpy.
+\end_layout
+
+\begin_layout Standard
+I did math, mostly, not fun.
+\end_layout
+
+\begin_layout Standard
+I did like breakfast, Dad's new bread is nice.
+ There was a bit of pesto left.
+ 
+\end_layout
+
+\begin_layout Standard
+Music's nice, too.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+12:56 | Tired 3 | —
+\end_layout
+
+\begin_layout Standard
+I did some more math
+\end_layout
+
+\begin_layout Standard
+Started a rewatch of Dr.
+ Stone, it is
+\end_layout
+
+\begin_layout Standard
+Really great
+\end_layout
+
+\begin_layout Standard
+Than an episode of Charlotte
+\end_layout
+
+\begin_layout Standard
+That was
+\end_layout
+
+\begin_layout Standard
+Facinating
+\end_layout
+
+\begin_layout Standard
+They've been twisting a lot lately
+\end_layout
+
+\begin_layout Standard
+But I can't talk about it with anyonnnnnnnnnnnnnnnnnne
+\end_layout
+
+\begin_layout Standard
+I miss Shir 
+\begin_inset Formula $\frownie$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+I thought a bit over superpower / hero genres and how to separate everything
+ and try to define it.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset href
+LatexCommand href
+name "Robotics is dumb"
+target "https://photos.app.goo.gl/mkAfPgZrwcm4H1tz8"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+17:23 | Confident 1 | 
+\begin_inset Formula $\nearrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Noodles for lunch
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Week #46
+\end_layout
+
+\begin_layout Subsubsection
+09 | Monday
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+13:16 | Confident 2
+\end_layout
+
+\begin_layout Standard
+Neat sunrise
+\end_layout
+
+\begin_layout Standard
+I really missed the day reports!
+\end_layout
+
+\begin_layout Standard
+I opened the day (after the sunrise) with two Math question.
+ It's really nice to tick these tasks done.
+\end_layout
+
+\begin_layout Standard
+Played harry the hamster during Civic Studies, was pretty dumb.
+ But at the start I also listened to the first half of our physics material
+ on Khan Academy, in preparation for the test on Wednesday.
+ Midway I unmuted the teacher and moved to the game (with him in the background)
+, figuring that I should probably lints so I don't have to learn it all
+ completely before the next test.
+ But the game thing was dumb.
+\end_layout
+
+\begin_layout Standard
+After the lesson I finished the videos, and we then had a test in English.
+ Ridiculously easy, of course, but I liked doing the essay.
+ 
+\shape slanted
+So technophobic.
+\end_layout
+
+\begin_layout Standard
+Shir initiated conversation, that's always nice.
+ But I felt a bit off.
+ I don't know why.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+15:18 | Together 4 | 
+\begin_inset Formula $\nearrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+I had education class.
+ Apparently we are supposed to be in Poland right now, and she made a game
+ where everyone sent her the three things that they would have to take to
+ the trip, and the rest of the class guessed who it is.
+ Apearantly mine (computer, thermos, warm clothes) was pretty signature
+ because 
+\shape slanted
+everyone
+\shape default
+ got it immediatley.
+ It's nice, I like standing out, not fading to invisibility.
+\end_layout
+
+\begin_layout Standard
+Lunch was actually really tasty, 
+\begin_inset Quotes eld
+\end_inset
+
+chinese
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+And The Society is one very powerful series.
+ Just, you feel it, and there's no idiocy of the story (not a lot, at least),
+ and the characters feel real and their choices feel real and you can just
+ 
+\shape slanted
+feel
+\shape default
+ these powerful events.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+10 | Tuesday
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+12:07 | Joyful 4
+\end_layout
+
+\begin_layout Standard
+The sunrise was very very pretty, with clouds this time.
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Note Note
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename .visuals/2020-11-10 Sunrise.jpg
+	lyxscale 50
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Forgot my glasses on the hill.
+ Oops.
+\end_layout
+
+\begin_layout Standard
+English was funny, I just made breakfast during.
+\end_layout
+
+\begin_layout Standard
+I listened to more Khan academy
+\end_layout
+
+\begin_layout Standard
+The weather is great.
+\end_layout
+
+\begin_layout Standard
+Got a nostalgia burst thanks to google photos - 
+\end_layout
+
+\begin_layout Standard
+800003, Ken!
+\end_layout
+
+\begin_layout Standard
+I took 
+\shape slanted
+so many
+\shape default
+\emph on
+ 
+\emph default
+screenshots of PVZ heroes!
+\end_layout
+
+\begin_layout Standard
+And talked a bit with Shir
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset href
+LatexCommand href
+name "Cute af"
+target "https://lh3.googleusercontent.com/CQhQJ5jdhMxw9GuOkwiDctBhjkpR9bONFeps6bQi3tJwXXfcC-58fmAmN0_JwVMb_q0ER0STP6PUxe78Ujw0lg-XD2RbcsALMf9fhXmTxZ6nNz7cGYUUU9vrddZ2-pKl3jHtrWaNtRg9SG9mrADh2UUoTKR3_OhwB2QHya8ksqSTKcFRkfge6pf6XmTAKKhsjgOneSxTCapZvJVpQwGwMUemi2yyyFm3-z-oKc_x53f4vhGSuvtAKdWZnHj1KFnfzQ8eEwsCX1_SDidNWXAfyVYqm12qFp6WGK7B8TuMniOdVSn8Yw5byn1oSEibTCtT82JSiBTzPHEdDS83aPLtecMvDip9Wogn2bb5RxLfc7vQ7v5MiDBdrSIzc0s-QC41ud0PVGOiBKUuJUVILaOXq991xNHb-d2aWJtFmozRAkzI0cL8m_oe2P8oe8HQHw1rEiUmRYLisekhbwnXUpQDpsqbIjgHcYwYQ88z9wSbchBmD_IR0bvzoEkRi9amI7Zd0cVWpy-dcNTtlu6YuHjrYUc8CCN44J3mV3GyT_qxXWGymFAcTNzYRuuwBRBTfS40nI695NvVL5XgefuZhOwqZtakiViz9P0HfTXHzv6_iuTkX6JLRYdFpKa76OsS8p9_NzOtLAthkuox7S5wX4VoFW6gOE91LkMlnrya_H71xoVdjZXf-IX1Yx9uUFQW99Y=w963-h413-no?authuser=0"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+I like Tuna's album.
+\end_layout
+
+\begin_layout Standard
+And I missed my day reports.
+ They really do organize things.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+15:40 | Held-2 | 
+\begin_inset Formula $\downarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+I don't know...
+\end_layout
+
+\begin_layout Standard
+Math was allright, but I think it cheapened the music a bit.
+ AndI was somewhat exhausted.
+\end_layout
+
+\begin_layout Standard
+Lunch was nice.
+\end_layout
+
+\begin_layout Standard
+The Society....
+\end_layout
+
+\begin_layout Standard
+It is a very good show,
+\end_layout
+
+\begin_layout Standard
+but yeah it is very well capable of making you incredibly uncomfortable.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+11 | Wednesday
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+11:05 | Whole-2
+\end_layout
+
+\begin_layout Standard
+The sunrise is pretty
+\end_layout
+
+\begin_layout Standard
+Notsalgia is nice.
+\end_layout
+
+\begin_layout Standard
+Morning Cereal are a nice luxury
+\end_layout
+
+\begin_layout Standard
+I love winter!!!
+\end_layout
+
+\begin_layout Standard
+Green and cold and together and quiet and pleasant.
+\end_layout
+
+\begin_layout Standard
+The physics demo test was easy.
+\end_layout
+
+\begin_layout Standard
+Removing dumb distractions is nice (exited the physics group without the
+ teachers).
+\end_layout
+
+\begin_layout Standard
+I like the proper authority in robotics.
+\end_layout
+
+\begin_layout Standard
+Yuval Noah Harrary wrote a pretty good book.
+\end_layout
+
+\begin_layout Standard
+Tuna's songs are indeed really great.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+18:29 | Mixed-4 | 
+\begin_inset Formula $\downarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dvash is not feeling well.
+\end_layout
+
+\begin_layout Standard
+Working with Tom in Software Enginer was nice
+\end_layout
+
+\begin_layout Standard
+Reading was nice.
+\end_layout
+
+\begin_layout Standard
+Lunch was tasty
+\end_layout
+
+\begin_layout Standard
+The Society...
+\end_layout
+
+\begin_layout Standard
+Was not fun.
+\end_layout
+
+\begin_layout Standard
+It's good
+\end_layout
+
+\begin_layout Standard
+But it's pretty terrible, like
+\end_layout
+
+\begin_layout Standard
+Not a 
+\shape slanted
+fun 
+\shape default
+watching expirience.
+\end_layout
+
+\begin_layout Standard
+Walked it off.
+\end_layout
+
+\begin_layout Standard
+Lightshift is incredibly pretty.
+\end_layout
+
+\begin_layout Standard
+Songs are also nice.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+December
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Week #50
+\end_layout
+
+\begin_layout Subsubsection
+12 | Saturday
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+08:42 | Confident-2
+\end_layout
+
+\begin_layout Standard
+I woke up at around 07:00, and actually felt some motivation.
+ Not a lot happened yet - mostly tea and thought, but it looks nice.
+ I miss Shir quite a lot.
+ I downloaded a cute app that turns pictures into renaissance portraits,
+ and I miss Shir.
+ I also thought a bit of Israeli politics, and how we are all so, so fucked.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Week #51
+\end_layout
+
+\begin_layout Subsubsection
+18 | friday
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+11:00 | Confident-2
+\end_layout
+
+\begin_layout Standard
+I woke up at 09:29, some tea, customized my phone.
+ 
+\end_layout
+
+\begin_layout Standard
+Slow morning.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+13:21 | Coherent-3 | 
+\begin_inset Formula $\nearrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+I played a lot with windows, fixed Super-Tab! I made the decision to leave
+ the current funciton of LWin as is, so I can use the search function like
+ in ubuntu.
+ I also tried to create spotify shortcuts, but they seem to work very wonkily.
+\end_layout
+
+\begin_layout Standard
+It was really really annoying though, being so unproductive; I went and
+ finished the presentation for Lesson #1 of BUILD's PLN's funcitonal programming
+ group.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+15:45 | Unsure-3 | 
+\begin_inset Formula $\downarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Cleaned the patio - thought I actually hadn't eaten breakfast and I was
+ very very sloppy.
+ It was annoying.
+ I cleaned my floor a bit, then I played a bit with windows, found a FOSS
+ to mount Drive, started setting it up - and then finally went to eat lunch.
+ The Shakshuka was very, very good.
+\end_layout
+
+\begin_layout Standard
+I made a mistake and tried to finish the setup before resting - leading
+ to some very frustrating times trying to get it to work, and wasting a
+ lot of precious time.
+ It was annoying.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+18:00 | Unsure-4 | 
+\begin_inset Formula $\nearrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+I decided to just leave it and watched some Big Mouth episodes, which seems
+ to have seriously downgraded for its third season - they started an unrelevant
+ gross incest plot.
+ and kind of strayed away from the original educational poin t to 
+\begin_inset Quotes eld
+\end_inset
+
+LOL, awful shit 
+\begin_inset Quotes eld
+\end_inset
+
+ vibes.
+ After I finished it was already 17:15 and I felt quite shitty, but I wrote
+ the previous two logs, and together with the music it quite eleveated my
+ mood - introspecting always feels productuve - and I also made the decision
+ to always log mood upon change, regardless of time, to perserve vallies
+ (or hills) like that.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+22:48 | Peacful1-1 | 
+\begin_inset Formula $\uparrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+I showered, and shaved, and wore some pretty clothes - I love the yellow
+ seatshirt and the black jeans - and read some newspaper.
+ The shaving felt pretty tedious - and I still didn't get everything - and
+ I didn't have quite enough hot water (I mean I had 
+\shape slanted
+enough, 
+\shape default
+but not more than that), But still, it was quite nice, 
+\end_layout
+
+\begin_layout Standard
+Indeed, I read sp,e newspaper - and oh, we are so fucked.
+ Specifically, we are going to have an alt right prime minister while I'm
+ in the army
+\end_layout
+
+\begin_layout Standard
+So YAY
+\end_layout
+
+\begin_layout Standard
+But anyway, I cleared the dishwaser, reportedly thought about Shir a little,
+ she is indeed funcking adorable
+\end_layout
+
+\begin_layout Standard
+And 
+\series bold
+dinner
+\series default
+.
+\end_layout
+
+\begin_layout Standard
+I love East-European food.
+ Quite good meat.
+ Some check soup with hotdogs and conqured cabbage.
+ We sat at the living room, I organized my phone a bit, and we made tea!
+ and there was carrot cake, and it wa faboulus!
+\end_layout
+
+\begin_layout Standard
+We also watched a movie, after ages - 
+\begin_inset Quotes eld
+\end_inset
+
+Tenet
+\begin_inset Quotes erd
+\end_inset
+
+ I mean I ended up being the only one lfet with Mom and Dad - and then I
+ left midway becuase I was too tired to follow - but it was nice.
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+23:25 | Love-Filled-2 | 
+\begin_inset Formula $\nearrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Not much - watched a little bit more of the movie, then indeed left, showered.
+ I thought biut Shir a bit, and love, and awesome people.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Week #52
+\end_layout
+
+\begin_layout Subsubsection
+21 | Monday
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Paragraph
+10:15 | Coherent-3
+\end_layout
+
+\begin_layout Standard
+I woke up at 5:45, but decided to allow myself additional 15 minutes - mostly
+ because I didn't want to get out of bed, but I rationalized by the low
+ sleep yesterday (
+\begin_inset Formula ${\rm 6\frac{1}{4}}$
+\end_inset
+
+ hours).
+ 
+\end_layout
+
+\begin_layout Standard
+But I watched the sunrise - Dvash was funny, she cried when I went to heat
+ up water, so I opened the door and somehow she bypassed the gate, but she
+ was still very very excited to see me and ran to the hill when I walked,
+ but almost immediately wanted back.
+ It was nice to sit there and think - I almost can't remember what; I should
+ make sure to write in that notepad.
+\end_layout
+
+\begin_layout Standard
+I organized a lot of stuff - weekly reports, robotics plans, class agenda,
+ and so on.
+ I read my LAWBOOK statement and resolved to work on that.
+ 
+\end_layout
+
+\begin_layout Standard
+Breakfast was great, with the Matbuha (although really it needs more spice).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+2021
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+January
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Week #03
+\end_layout
+
+\begin_layout Subsubsection
+17 | Sunday 
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series medium
+Yesterday, I decided to take an hour off my sleep to put my sleep cycle
+ into order.
+ Can't say this has worked, but at the very least, I did wake up around
+ 5:45.
+ I did snooze of course, so it was basically 6:00, but the sky was still,
+ quite pretty.
+ I love rain clouds.
+\end_layout
+
+\begin_layout Standard
+I worked with Tom on the Treetop screens, and that was quite nice, but afterward
+s I just kind of...
+ fell.
+\end_layout
+
+\begin_layout Standard
+I tried to do stuff on telegram, which was the kind of useless annoyance
+ that draws all energy, and just fooled around.
+ Arielle responded to my message from yesterday, but I was 
+\emph on
+not
+\emph default
+ in the mood for conversation.
+ I tried to put our work from yesterday into a spreadsheet, and I did, but
+ it felt..
+ just, 
+\emph on
+empty
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+I played a bit more with telegram during Civics, but just...
+ eh.
+ It 
+\shape slanted
+was 
+\shape default
+nice to have the Arses Trio on telegram.
+\end_layout
+
+\begin_layout Standard
+Lunch was actually very tasty, with rosemary potatoes and tomato sauce beans
+ (which were large, quality beans —) and that was nice.
+\end_layout
+
+\begin_layout Standard
+I established a work meeting with Tom on 16:15, and rested.
+ Erased was...
+ whelming.
+\end_layout
+
+\begin_layout Standard
+Pulling out these twists, OUCH.
+ I think only the 1988 episodes of the first arc—about 6 in total, I believe—wer
+e 
+\emph on
+very
+\emph default
+ good, but the rest is nice as well.
+ I have 1 episode left, now.
+\end_layout
+
+\begin_layout Standard
+Tom and I forgot about the robotics zoom.
+ I went in for a bit but then decided to go for a quick run, to preserve
+ my habits, as I decided.
+ 
+\end_layout
+
+\begin_layout Standard
+I did, and quickly—or at least, after 3 kilometers—discovered that it was
+ way too cold and I was way out of shape for this.
+ My vision fogged, and my ears started pounding.
+ I only felt it after stopping, but it was overwhelming.
+ I need to buy long sleeved running pants, and use a beany when I run.
+ Oh well.
+ I walked back, and no circuit training, obviously.
+ That being said, of course this was the point when I woke up again.
+ Exercise is good.
+\end_layout
+
+\begin_layout Standard
+Might have been for the best, as shortly after (while I was showering) a
+ storm broke out.
+ 
+\end_layout
+
+\begin_layout Standard
+I absolutely adore the rain.
+\end_layout
+
+\begin_layout Standard
+I talked with Shir, for 50 minutes, until she had to go eat (although she
+ asserted 
+\begin_inset Quotes eld
+\end_inset
+
+this conversation will continue later).
+\end_layout
+
+\begin_layout Standard
+We decided to meet together next week, whatever happens.
+\end_layout
+
+\begin_layout Standard
+And to make a blanket fort, and watch Hamilton, and probably educate her
+ on Hashminia and Hapijamot.
+ Seriously!
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\heartsuit\heartsuit\heartsuit$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+I love Shir.
+\end_layout
+
+\begin_layout Standard
+I also talked with Arielle.
+ I sent a long message, I recommend reading.
+ I feel...
+\end_layout
+
+\begin_layout Standard
+I want to reach this with Shir, but it will take some time
+\end_layout
+
+\begin_layout Standard
+I just, I still feel very close to Arielle, and I can send her stuff like
+ my light or poem or these monologues about deeper things.
+ It's nice to have a friend like that.
+\end_layout
+
+\begin_layout Standard
+We should talk more.
+\end_layout
+
+\begin_layout Standard
+Dinner was nice, and that bread is, quite nice.
+\end_layout
+
+\begin_layout Standard
+I told Mom about my poem, and...
+\end_layout
+
+\begin_layout Standard
+Honestly I feel like I still have a bit of a gap, but we did eat supper
+ quite late, and I did a lot of chores around that.
+\end_layout
+
+\begin_layout Standard
+I fiddled with YouTube redundantly for half an hour instead of organizing,
+ and then decided to also start doing this, this week.
+ Single, daily journal.
+\end_layout
+
+\begin_layout Standard
+Good night 
+\begin_inset Formula $\heartsuit$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+(P.S.
+ heart emoji animation on telegram have vibrating heartbeats! It's lovely
+ 
+\begin_inset Formula $\smiley$
+\end_inset
+
+.)
+\end_layout
+
+\begin_layout Standard
+(Another thing — defining a function to utilize write18 and download images
+ to tmp then insert them, to use images from web links instead of having
+ to keep a local copy — that's a very nice idea.)
+\end_layout
+
+\begin_layout Standard
+(Also, em dashes are neat).
+\end_layout
+
+\begin_layout Standard
+But seriously, good night 
+\begin_inset Formula $\heartsuit$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+18 | Monday
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+I woke up around 6:10, and was already out by 6:30 — not much sunrise, though.
+\end_layout
+
+\begin_layout Standard
+I was kind of dizzy, and I made a fatal mistake and didn't protect my phone
+ well enough, in the rain
+\end_layout
+
+\begin_layout Standard
+Ouch.
+\end_layout
+
+\begin_layout Standard
+The screen died, and nervous that I was, I did not put it in enough rice.
+ Oh well.
+\end_layout
+
+\begin_layout Standard
+We had physics and civics and mulittudes of things
+\end_layout
+
+\begin_layout Standard
+I worked on more Treetop screens, and we finished scouting, and almost all
+ of the design.
+\end_layout
+
+\begin_layout Standard
+Lunch was Pasta and a nice soup, with especially tasty oven vegetables.
+\end_layout
+
+\begin_layout Standard
+I bubbled a bit with YouTube and a random Ecchi anime (let's not do that
+ again)
+\end_layout
+
+\begin_layout Standard
+I went to the robotics meeting, but I'm just...
+ Not feeling it.
+\end_layout
+
+\begin_layout Standard
+After a bit I quit, I went and tried to fix my phone, but ItayPhone was
+ closed.
+\end_layout
+
+\begin_layout Standard
+I rested a bit, then worked on screens
+\end_layout
+
+\begin_layout Standard
+But again - not quite feeling it.
+\end_layout
+
+\begin_layout Standard
+I 
+\shape slanted
+tried
+\shape default
+\emph on
+ 
+\emph default
+to do my routine, but was bothered by Yahli and Tuli needing a lot of help.
+ Jesus fucking christ Yahli has an impressive resume.
+\end_layout
+
+\begin_layout Standard
+ANYWAY - I really need to go to sleep, and I hope Shir joins telegram.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+19 | Tuesday
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+I forgot to connect my charger to power yesterday.
+ My Mom woke me up at 6:35.
+ Ugh.
+\end_layout
+
+\begin_layout Standard
+I took a walk tough, with Dvash, and I got some of the prettiest images
+ so far.
+ A giant rainbow, clear and colorful.
+ A puddle with a day of rain clear of clouds.
+ Fields of Venice - the water covering every inch between the flowerbeds
+\end_layout
+
+\begin_layout Standard
+I bumbled, telegram and news and...
+ knowyourmeme, notably.
+ I ate cereals for breakfast and then went to Tom at 9:00.
+ I decided to block XKCD, XKCD explained and knowyourmeme.
+ Easily distracted, I suppose.
+\end_layout
+
+\begin_layout Standard
+I love tuna songs, and my liked songs in general.
+ Rain is always pretty.
+\end_layout
+
+\begin_layout Standard
+I worked with Tom on a variety of things, but at the end of the day we got
+ not much done.
+ In Treetop, we decided to implement User as a special kind of Unit, and
+ we played a bit with Firebase to get how it works.
+ I think we got the concepts, but actual code is still pending.
+\end_layout
+
+\begin_layout Standard
+We worked on the experiment, but not understanding the format, we still
+ indeed kind of fumbled around.
+ And I've just been feeling so...
+\end_layout
+
+\begin_layout Standard
+Asleep, again.
+ It's weird — and I do not like it.
+\end_layout
+
+\begin_layout Standard
+I went for a rainy walk, with Tom's coat, and sat a long little while against
+ his house from Hapalmach.
+ Technically against his neighbor two houses away, I suppose, but the point
+ still stands.
+ The rain was weak , and pleasant, and there was a large puddle, clean and
+ clear and sharp.
+ I felt...
+ 
+\end_layout
+
+\begin_layout Standard
+It felt like I am 
+\shape slanted
+trying 
+\shape default
+to wake up, it felt like I was watching eyes open using cracked glasses,
+ it felt, blurred, and just..
+\end_layout
+
+\begin_layout Standard
+Like a word on the edge of my tongue, just, almost.
+ It felt like an almost.
+\end_layout
+
+\begin_layout Standard
+But I part of it was a, creative instinct, a need to write, I think.
+ I want to start doing that.
+\end_layout
+
+\begin_layout Standard
+I went back, eventually, not much progress, nothing crystallized.
+\end_layout
+
+\begin_layout Standard
+And we moved on to robotics.
+\end_layout
+
+\begin_layout Standard
+At 16:00, I am already much out of energy, and today was not different and
+ it never is, for this.
+\end_layout
+
+\begin_layout Standard
+Tom barely listens, and I just...
+ 
+\shape slanted
+try
+\shape default
+ to work, I suppose, but I can't really find what to do.
+\end_layout
+
+\begin_layout Standard
+I went at 18:00, so done.
+\end_layout
+
+\begin_layout Standard
+I think Friday Schnitzels is my second favorite song, immediately after
+ Lost in Space.
+\end_layout
+
+\begin_layout Standard
+Tuli needed help, but I was being kind of a dick.
+ I am, simply, exhausted.
+\end_layout
+
+\begin_layout Standard
+I rested, and OSP make, great videos.
+ Yahav's experiment ice cream was nice.
+\end_layout
+
+\begin_layout Standard
+Dad's tuna balls are nice.
+\end_layout
+
+\begin_layout Standard
+I worked a bit on APP statement, see stuff below.
+\end_layout
+
+\begin_layout Standard
+And I think I'll start Good Omens, Nudges should probably be read more attentive
+ly.
+\end_layout
+
+\begin_layout Standard
+I don't have a report, for today, so I'll bill here - 
+\end_layout
+
+\begin_layout Standard
+Let's do a math test every week.
+ I need to practice test taking anyway, and that will give me good feedback
+ - also quite spreadsheet-able.
+ I need to know where I stand and what I need.
+\end_layout
+
+\begin_layout Standard
+Same goes for physics.
+\end_layout
+
+\begin_layout Standard
+And I decide to focus first on project statements.
+ I need to know what to do.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+20 | Wednesday
+\end_layout
+
+\begin_layout Standard
+Grateful-2
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+I woke up at 5:30, as set.
+\end_layout
+
+\begin_layout Standard
+I missed that.
+ Pretty! Not amazingly pretty, but it was nice.
+ There is something eery about that hour, and the color of the sky is incredible.
+ Dvash got scared so I helped her back and went again.
+ It was chill.
+\end_layout
+
+\begin_layout Standard
+I felt — and feel — awake.
+\end_layout
+
+\begin_layout Standard
+With an impending deadline, I worked on Fertilizer, and rougly got how to
+ work around with firebase.
+ Still, I was very, very far from a meeting.
+\end_layout
+
+\begin_layout Standard
+The morning was a sludge.
+\end_layout
+
+\begin_layout Standard
+Eventually I ditched SE and went for a walk.
+ 
+\end_layout
+
+\begin_layout Standard
+I love the forest.
+\end_layout
+
+\begin_layout Standard
+I found new, spiral paths, and walked amid the admittedly-not-very-dense-but-sti
+ll-woody woods, I saw brilliant combinations of clear skies and heavy clouds,
+ I saw pretty fields of small mallows.
+ 
+\end_layout
+
+\begin_layout Standard
+And hail
+\end_layout
+
+\begin_layout Standard
+HAIL!
+\end_layout
+
+\begin_layout Standard
+I took a few photographs, with my blind phone.
+ They almost exclusively came out terrible, but there were still a few pretty
+ ones.
+\end_layout
+
+\begin_layout Standard
+Getting back, I discovered our test-that-obviously-was-not-going–to-happen
+ was converted into a matkonet to bypass restrictions, making it essentially
+ into a suprise test.
+\end_layout
+
+\begin_layout Standard
+I complained and talked about this with Tom and Tzur, and then took some
+ time and made 
+\begin_inset CommandInset href
+LatexCommand href
+name "my stance"
+target "https://t.me/c/1124533228/420"
+literal "false"
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Lunch was great, and I love the new thing Mom and Dad braught back - some
+ potatoe-pea-chicken tasty dish.
+\end_layout
+
+\begin_layout Standard
+After, I showed Mom my message, and she told me it was, 
+\shape slanted
+too long
+\shape default
+, but rewrote it for me, condenced it to a more readable length - here.
+ I added a line (here) and sent it away.
+\end_layout
+
+\begin_layout Standard
+That was nice.
+\end_layout
+
+\begin_layout Standard
+I imediately was bombarded by replies textually upvoting my message and
+ two students contacted me to use the writing in official messages to the
+ school and higher officials.
+ I also sent a bit in my class group and was complimented and had my message
+ forwarded.
+\end_layout
+
+\begin_layout Standard
+I love it, I love seeing good words resonate, I love seeing people rising
+ up.
+\end_layout
+
+\begin_layout Standard
+Our Oral Bagrut, also got pushed earlier and is set to tuesday.
+\end_layout
+
+\begin_layout Standard
+My grades, are most likely going to suffer.
+\end_layout
+
+\begin_layout Standard
+I also worked a bit on the experiment report, but work was slow.
+\end_layout
+
+\begin_layout Standard
+Dad took my phone to the shop (and noted that maybe it was actually their
+ problem and we can get it for free, although he was very annoyed I lost
+ the recipt from last time).
+\end_layout
+
+\begin_layout Standard
+I dound myself quickly dying out in working the experiment report (it was
+ already after 19:00), so I just aided with formulas by LyX and went my
+ way.
+\end_layout
+
+\begin_layout Standard
+Dinner was quite neat, I ate remainders from lunch and a b it of grandma's
+ new Matvuah
+\end_layout
+
+\begin_layout Standard
+I talked with Shir for an hour or so
+\end_layout
+
+\begin_layout Standard
+I love her, a lot.
+ And I miss her.
+\end_layout
+
+\begin_layout Standard
+And I wrote this, that's nice.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+22 | Friday
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Mixed (4)
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+I woke up at 10:00, of course, after yesterday's night.
+ I slowly rose, and discovered Mom and Dad went to Ata Swamp in the morning,
+ Pretty sad to have missed that 
+\begin_inset Formula $\frownie$
+\end_inset
+
+.
+ At any case, the brought burekas,which I am ashamed to admit was my breakfast.
+\end_layout
+
+\begin_layout Standard
+My troddling for the next three hours was...
+ shameful.
+ Mostly newspaper and Twitter.
+ My phone was still in the shop and disconnected, and so I still did not
+ have WhatsApp.
+ I tried to contact Shir to maybe please download telegram for a bit, but
+ she, well, probably ghosted me, sadly.
+\end_layout
+
+\begin_layout Standard
+I felt like a complete mess, and tried to get a grip and start organizing
+ my tasks, then going on a tangent trying to put Unicode in 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+LaTeX
+\end_layout
+
+\end_inset
+
+.
+ Humph.
+ Then, my dad brought my phone.
+ I messaged quickly to Shir, but didn't really have an energy to talk.
+ Whatmore, I saw that Limor, in response to my organized resistance, has
+ decided I do not feel the 
+\begin_inset Quotes eld
+\end_inset
+
+Learning Spirit
+\begin_inset Quotes erd
+\end_inset
+
+ well enough and is forcing me to come to lessons.
+ It angered me, greatly.
+ But I suppose, oh well.
+\end_layout
+
+\begin_layout Standard
+I spent about another hour trying to debug the Unicode issue but to no avail.
+ To get refreshed, I decided to first go on a walk.
+\end_layout
+
+\begin_layout Standard
+And that was, utterly beautiful.
+ I never noticed how pretty the clear skies are — and I could see the moon.
+ I walked through tall mallows and listened to brilliant music and it was
+ just, so, so, peaceful.
+\end_layout
+
+\begin_layout Standard
+Dad called me back for lunch so my little hike was cut rather abruptly,
+ but at least Shakshuka is pretty tasty.
+ I actually tried still to debug Unicode after, but eventually just faded
+ to YouTube, and Netflix.
+ At this point, I was extremely low on energies.
+ I watched 
+\emph on
+End of the F****** world
+\emph default
+ but could not enjoy it at all.
+ I felt terrible.
+ I went for another walk.
+\end_layout
+
+\begin_layout Standard
+Mixed Results.
+\end_layout
+
+\begin_layout Standard
+One of the prettiest susnets I've had.
+ And beautiful photographs.
+ 
+\end_layout
+
+\begin_layout Standard
+Mom convinced me to take Fibi.
+ And she just could not let me stand and constantly jumped and ran and just...
+ At one point she escaped her leash and I dropped an earbud.
+ Now it plays with almost no volume.
+ The other earbud also almost got dropped — and lost its padding.
+ So much for 
+\emph on
+Lost in Space
+\emph default
+.
+\end_layout
+
+\begin_layout Standard
+I got back, and talked with Shir.
+ That was very heartwarming.
+ And we established our hangout tomorrow.
+\end_layout
+
+\begin_layout Standard
+I showered, and shaved (finally!) and we had an incredible dinner with lasagna
+ and salmon, and an incredible desert with brownies and green tea.
+\end_layout
+
+\begin_layout Standard
+Tuli brought her friends though, for Infinity War.
+ So I couldn't really sit thewre.
+ I was already organizing for sleep when I remembered to do this.
+ I did not have fun and I do want to sleep, but I am very glad i did this.
+ becuse I think it's good maintance, and I think I just need to make sure
+ to do this.
+ Every day.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+23 | Saturday
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Love-Filled (3)
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+I woke up at around 7:00, and...
+ the skies were pretty, and I took a little walk, with Dvash.
+\end_layout
+
+\begin_layout Standard
+I messaged Shir to see when she wanted to meet (suggested 10) and started
+ working on the bible project, and I did some work, but I could not for
+ the life of me concentrate, because I was really waiting on Shir to respond.
+ 
+\end_layout
+
+\begin_layout Standard
+Except my messages would not even get recieved.
+\end_layout
+
+\begin_layout Standard
+I honestly do not really remember what I did for three hours.
+ Eventually I got anxious enough (and did not want to have it missed, with
+ Shir's Nachshon meeting this afternoon), that I asked Nofar to check on
+ her.
+ She did, she tried to wake her up, failed, and made sure that her mom woke
+ her up.
+ Then, I came.
+ 
+\end_layout
+
+\begin_layout Standard
+Apperantly she slept for over 16 hours, 20:00-12:00, except a little before
+ 20:00.
+ Appearantly she also slept around 5 hours per day for the last week.
+ Jesus Fucking Christ.
+\end_layout
+
+\begin_layout Standard
+I went to her place almsot immediaely afterwards, and we hugged a really
+ logn hug, and sat together, and talked, a lot, and did NYT's 
+\begin_inset CommandInset href
+LatexCommand href
+name "36 Questions That Lead to Love"
+target "https://www.nytimes.com/2015/01/09/style/no-37-big-wedding-or-small.html"
+literal "false"
+
+\end_inset
+
+ (through 
+\begin_inset CommandInset href
+LatexCommand href
+name "this site"
+target "http://36questionsinlove.com/"
+literal "false"
+
+\end_inset
+
+).
+ It was interesting, and fun.
+ I feel like we got a lot closer.
+ I learned she had a crush on em on and off since seventh grade, she has
+ a scar on her hand from when she was a toddler, although I can't remember
+ precisely.
+ She wanted to tell me she loved me back, she was grateful for winning against
+ corona, in the widest sense, loved her family, and many more things.
+ We also broke into an argument over death and immortality, watced most
+ of Hamilton, and ate lunch (her grandma's schnizels).
+ And she is so fucking adorable when she sings the words to a song she likes,
+ and so muchI feel, we got much closer.
+ I also talked, about how I feel for her, and how I feel for the world.
+ We bonded.
+ And we held together, tightly, and I liked that.
+ We stared into each other's eyes for four full minutes.
+\end_layout
+
+\begin_layout Standard
+I love her, and I think I missed her, dearly.
+ I just feel...
+ so much more at ease, now.
+ Like a weight off my shoulder.
+ I feel, just so much better held.
+ We kissed goodbye, and had a long, tight hug.
+\end_layout
+
+\begin_layout Standard
+Back home — we took care of Yam (Yae'l's baby) for today, and I played with
+ him for abit when IU arrived, Babies are just, incredbly adorable.
+ I think I got a 
+\emph on
+lot
+\emph default
+ better now, handling little children.
+ I like the idea of fatherhood.
+\end_layout
+
+\begin_layout Standard
+I started making the telegram groups I want to try populate for my homeroom
+ and SE class.
+ And a channel for reminders and messages for homeroom.
+ I started composing a message, but I felt that I was not really in my best
+ writing skills.
+ 
+\end_layout
+
+\begin_layout Standard
+I got the remaining hanburgers from a family brunch I missed.
+ The stars were incredibly clear and I took some quite pretty photographs.
+ It was nice to hug grandma, too.
+\end_layout
+
+\begin_layout Standard
+I ate some of the onion soup — very very tasty, and yahli helped me make
+ a hamburger, which, even if it was simple, was some pretty good hamburger.
+\end_layout
+
+\begin_layout Standard
+And I made this, and I decided thatnext week I am adding questions and a
+ daily report.
+ And 
+\series bold
+running
+\series default
+ (
+\series bold
+!!!
+\series default
+).
+\end_layout
+
+\begin_layout Standard
+Chill night!
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Week #04
+\end_layout
+
+\begin_layout Subsubsection
+24 | Sunday
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+6:10 up, 6:30 out, edge of the sunrise.
+\end_layout
+
+\begin_layout Standard
+7:45 was Software Engineering.
+ Got rebuked the hell out of ourselves by Ricky.
+ We 
+\emph on
+need
+\emph default
+ to get our shit together.
+\end_layout
+
+\begin_layout Standard
+I worked with Tom on more architecture, organized a timeline, it eas nice.
+\end_layout
+
+\begin_layout Standard
+Breakfast, then math schoolwork (no lesson, as they 
+\begin_inset Quotes eld
+\end_inset
+
+Trust our maturity and seriousness
+\begin_inset Quotes erd
+\end_inset
+
+, ugh).
+ That was nice.
+ I started a test, timed, but found I could not finish the first question.
+ I need a 
+\emph on
+lot
+\emph default
+ of excersie.
+\end_layout
+
+\begin_layout Standard
+I also made my daily report.
+ That was nice.
+\end_layout
+
+\begin_layout Standard
+I messed around with telegram during physics, learned how supergroups work
+ and organized thing sin preperation for sending it to the class.
+\end_layout
+
+\begin_layout Standard
+I actually enjoyed bible — exodus is our magnum opus, and is a very powerful
+ story, but it is quite sad they just took off all of the dramatic story
+ this year.
+\end_layout
+
+\begin_layout Standard
+I met with Tom at 15:00, and we worked until almost 20:00.
+ Again, not amazing.
+ Yahli met with Zohar and showed off her new music room.
+ I honestly don't remember a lot.
+ Somehow, we did not progress much.
+ I do like my house though, with its noise and livelihood, as opposed to
+ the passive silence of TOm's first floor, and also Shir's to an extent.
+\end_layout
+
+\begin_layout Standard
+I made some significant decisions — you may read the day report.
+\end_layout
+
+\begin_layout Standard
+I talked with Shir, and that was very nice.
+ I love the stars.
+ I suggested we go hiking sometime and she agreed it's a good idea, but
+ can see no plausability in the near future.
+ I hope she is wrong.
+\end_layout
+
+\begin_layout Standard
+I suppose, not much has happened.
+ But I am keeping these routines and I just feel...
+\end_layout
+
+\begin_layout Standard
+So alive.
+ 
+\end_layout
+
+\begin_layout Standard
+I actually am almost tearful, in this occasion.
+\end_layout
+
+\begin_layout Standard
+And I miss Shir! The quiet from yesterday turned into an overwhelmig longing
+ and I really, really feel a need to see her.
+ Funnily enpugh my energy still remains and the vitality is indeed better,
+ but I would just really quite like to see her again.
+ And hug, and kiss.
+ And talk!
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+25 | Monday
+\end_layout
+
+\begin_layout Standard
+I woke up at 6:00, and then decided to add 20 minutes, the snoozed...
+\end_layout
+
+\begin_layout Standard
+I think I need to get the sleep under schedule.
+\end_layout
+
+\begin_layout Standard
+Some bulldog-poodle went after Dvash, and she was so scared she ended up
+ going straight back 
+\begin_inset Formula $\frownie$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+I came to work on math, but discovered the files deleted.
+ I spend around half an hour putting them together, ate breakfast (butter-Jam
+ is really great!) and started working.
+\end_layout
+
+\begin_layout Standard
+I learned I originally misread the question, and just redid the test all
+ over.
+ Whilewatched  working I also discovered that Melumad's copy of the test
+ has quite a few typos, so I switched to Yoel Geva.
+\end_layout
+
+\begin_layout Standard
+I worked for about three hours, completing all but one clause, and then
+ went for the matkonet.
+ Obviously easy.
+ I finished the math.
+ Rested, lunch — I really really love this pan-potatoe-carrot-lentil-rice
+ thingie.
+ 
+\end_layout
+
+\begin_layout Standard
+I tried todoro on netflix, did not like.
+ Brian David Gilbert is great.
+\end_layout
+
+\begin_layout Standard
+I logged into the robotics meeting, but worked on the experiment in parallel.
+ 
+\end_layout
+
+\begin_layout Standard
+In the middle I took a walk and it was very great and Tuna is an amazing
+ artist and noting beats stars and a full moon.
+\end_layout
+
+\begin_layout Standard
+Eventually I finished it as well.
+\end_layout
+
+\begin_layout Standard
+Dinner was nice.
+ This is as well.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+February
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Week #08
+\end_layout
+
+\begin_layout Paragraph
+27 | Saturday
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset line
+LatexCommand rule
+offset "0.5ex"
+width "100col%"
+height "1pt"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+I woke up, naturally — for the first time in months! I forgot to put on
+ an alarm clock, but predictably woke up at 6:10.
+ I decided to tak an extra fifteen minutes, and then got up.
+\end_layout
+
+\begin_layout Standard
+Took Dvash for a walk, then upon a promise in my new Telegram Promise thing,
+ made a day report.
+ It was...
+ incredibly refreshing, to be honest.
+\end_layout
+
+\begin_layout Standard
+I made my checks with the ministry of health in regards to HOC/20-23 (Corona
+ patient present at a robotics meeting).
+ Predictably, I am not obliged to isolation.
+\end_layout
+
+\begin_layout Standard
+I worked at math, although it was just...
+ really, not hard, but not fun, and I fumbled around a lot.
+ Eventually I was called to breakfast, which, as any Saturday, was a lot
+ of fun 
+\begin_inset Formula $\smiley$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+I decided to continue at it, and finish the math test.
+ It took me hours, but eventually I got it.
+ I think the difficulty was possibly related to the fact I was listening
+ to lyrical music.
+ I took a small break, finished of the math thing, and went on Treetop,
+\end_layout
+
+\begin_layout Standard
+Which did not go that great either.
+ Parallel I was trying ot schedule...
+ Anything (TAHEL, HOC, PHY, APP....
+ see Issues seciton for today), but failed utterly.
+ It was, quite frustrating.
+\end_layout
+
+\begin_layout Standard
+Honestly I am a little to tired to really recount fully today's events.
+ Suffice to say I did not watch any episoed but did take a long walk after
+ the sunset, which was utterly brilliant.
+ My phone seems to have issues with its data connection.
+ Lunch was great, Shnitzel and mushed potatoes.
+ 
+\end_layout
+
+\begin_layout Standard
+A lightning round in the past hour or so to go through remaining tasks proved
+ effective.
+ Daily report is helpful.
+ still, APP has quite a few deficiencies and I 
+\shape slanted
+really
+\shape default
+ need to talk with Shir.
+\end_layout
+
+\begin_layout Standard
+Tea is great.
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+Confident (1).
+ 
+\end_layout
+
+\begin_layout Standard
+Good night!
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\end_body
+\end_document

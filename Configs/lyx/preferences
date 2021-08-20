@@ -1,0 +1,101 @@
+# LyX 2.3.6.1 generated this file. If you want to make your own
+# modifications you should do them from inside LyX and save.
+
+Format 24
+
+
+#
+# MISC SECTION ######################################
+#
+
+\kbmap true
+\kbmap_primary "null"
+\kbmap_secondary "hebrew"
+\serverpipe "/home/atai/.lyx"
+\user_name "Atai Ambus"
+\user_email ""
+\preview on
+
+#
+# SCREEN & FONTS SECTION ############################
+#
+
+\screen_font_sizes 5 7 8 9 10 12 14.4 17.26 20.74 24.88
+\single_instance false
+
+#
+# COLOR SECTION ###################################
+#
+
+\set_color "cursor" "#ffffff"
+\set_color "background" "#000000"
+\set_color "foreground" "#ffffff"
+\set_color "preview" "#d3d7cf"
+\set_color "note" "#555500"
+\set_color "notebg" "#4b4b00"
+\set_color "commentbg" "#a0756e"
+\set_color "greyedoutbg" "#232120"
+\set_color "graphicsbg" "#5b5754"
+\set_color "math" "#0ab5f3"
+\set_color "mathbg" "#000000"
+\set_color "mathmacrobg" "#000000"
+\set_color "mathcorners" "#4a4746"
+\set_color "tabularline" "#3b3b3b"
+\set_color "buttonframe" "#bfb7ae"
+\set_color "previewframe" "#4e9a06"
+
+#
+# PRINTER SECTION ###################################
+#
+
+
+#
+# TEX SECTION #######################################
+#
+
+
+#
+# FILE SECTION ######################################
+#
+
+\document_path "/tmp"
+\example_path "/home/atai/.lyx/examples/"
+\template_path "/home/atai/.lyx/templates/"
+\backupdir_path "/home/atai/.lyx/backups/"
+
+#
+# PLAIN TEXT EXPORT SECTION ##############################
+#
+
+
+#
+# SPELLCHECKER SECTION ##############################
+#
+
+
+#
+# LANGUAGE SUPPORT SECTION ##########################
+#
+
+\visual_cursor true
+
+#
+# 2nd MISC SUPPORT SECTION ##########################
+#
+
+
+#
+# FORMATS SECTION ##########################
+#
+
+\default_otf_view_format dvi3
+
+#
+# CONVERTERS SECTION ##########################
+#
+
+
+#
+# COPIERS SECTION ##########################
+#
+

@@ -1,0 +1,193 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\definecolor{teal}{rgb}{0.0, 0.5, 0.5}
+\definecolor{lime}{rgb}{0.87, 1.0, 0.0}
+\definecolor{khaki}{rgb}{0.74, 0.72, 0.42}
+\definecolor{violet}{rgb}{0.56, 0.0, 1.0}
+\definecolor{purple}{rgb}{0.62, 0.0, 0.77}
+
+\renewcommand{\labelenumii}{(\alphalph{\value{enumii}})}
+
+% Adds unicode characters.
+\usepackage{wasysym}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks true
+\pdf_backref false
+\pdf_pdfusetitle true
+\pdf_quoted_options "filecolor=teal"
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\backgroundcolor #222831
+\fontcolor #ececec
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip medskip
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Cost Functions
+\end_layout
+
+\begin_layout Section
+Mean Square Error (MSE)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+MSE=\frac{1}{n-}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Cross Entropy
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+C\left(\hat{y},y\right)=-\hat{y}\log y
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+This function is meant to train models where the values of 
+\begin_inset Formula $0<\hat{y}_{i}<1$
+\end_inset
+
+ and 
+\begin_inset Formula $y_{i}\in\left\{ 0,1\right\} $
+\end_inset
+
+, and specifically models where the output is the probability of the input
+ belonging to enumerated categories
+\end_layout
+
+\begin_layout Itemize
+.They 
+\begin_inset Formula $\hat{y}$
+\end_inset
+
+ coefficient means this function effectively ignores
+\end_layout
+
+\begin_layout Standard
+This function trends to infinity as the prediction for the correct label
+ approaches to 0 and trends to 0 as  the prediction for the correct output
+ approaches 1 - That way the model is highly incentivized to output 1  for
+ the correct label - which due to the softmax in the last layer means the
+ rest of the output will go to 0,  exactly the desired output.
+  The way it does that it taking the negative log of the current prediction
+ for the correct label.
+ We use the  log function because, negated, it is essentially an inverted
+ exponential, in 0-1 - rising very very  quickly as the values approach
+ 0 and slower when they approach 1.
+   The way this formula is usually writen is " -t log y ", with a sigma
+ before to indicate doing this for each  output neuron.
+ y is the prediction for a label, and t is the desired value - 1 for a matching
+ label and 0 for  the rest.
+ That way, the values of non matching neurons are multiplied by 0 and go
+ away, and we are left only with  the values of the matching neurons, that
+ are multiplied by 1 and thus reduced to the simpler -log y.
+ 
+\end_layout
+
+\begin_layout Subsection
+Categorical Cross Entropy
+\end_layout
+
+\begin_layout Subsection
+Binary Cross Entropy
+\end_layout
+
+\begin_layout Subsection
+Sparse Categorical Cross Entropy
+\end_layout
+
+\end_body
+\end_document
