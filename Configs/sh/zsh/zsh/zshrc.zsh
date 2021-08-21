@@ -2,7 +2,7 @@
 
 [ -f ~/Gray/CONFIG/Configs/sh/sh/confdirs.sh ] && source ~/Gray/CONFIG/Configs/sh/sh/confdirs.sh
 
-[ -f  "$OMZ_DIR/omzrc.zsh" ] && source "$OMZ_DIR/omzrc.zsh"
+[ -f  "$OMZ_DIR/custom/omzrc.zsh.init" ] && source "$OMZ_DIR/custom/omzrc.zsh.init"
 [ -f "$SH_DIR/profile" ] && source "$SH_DIR/profile"
 
 # Title Congfiguration
