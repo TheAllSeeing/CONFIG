@@ -1,3 +1,6 @@
 [submodule "Configs/sh/zsh/oh_my_zsh"]
 	path = Configs/sh/zsh/oh_my_zsh
 	url = https://github.com/ohmyzsh/ohmyzsh
+[submodule "Configs/emacs/emacs"]
+	path = Configs/emacs/emacs
+	url = https://github.com/hlissner/doom-emacs
