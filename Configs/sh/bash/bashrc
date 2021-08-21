@@ -118,8 +118,9 @@ fi
 
 
 
-BASH_DIR="$(dirname "$(readlink -f "$0")")"
-SH_DIR="$(dirname "$BASH_DIR/../sh")"
+
+
+[ -f ~/Gray/CONFIG/Configs/sh/sh/confdirs.sh ] && source ~/Gray/CONFIG/Configs/sh/sh/confdirs.sh
 
 [ -f "$SH_DIR/profile" ] && source "$SH_DIR/profile"
 [ -f "$SH_DIR/search-engines.sh" ] && source "$SH_DIR/search-engines.sh"

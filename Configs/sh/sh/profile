@@ -1,17 +1,11 @@
 #!/bin/sh
 
-# ~/.profile: executed by the command interpreter for login shells.
-# This file is not read by bash(1), if ~/.bash_profile or ~/.bash_login
-# exists.
-# see /usr/share/doc/bash/examples/startup-files for examples.
-# the files are located in the bash-doc package.
-
-# the default umask is set in /etc/profile; for setting the umask
-# for ssh logins, install and configure the libpam-umask package.
-# umask 022
 
 
+[ -f ~/Gray/CONFIG/Configs/sh/sh/confdirs.sh ] && . ~/Gray/CONFIG/Configs/sh/sh/confdirs.sh
 
+[ -f "$SH_DIR/local.sh" ] && . "$SH_DIR/local.sh"
+[ -f "$SH_DIR/search-engines.sh" ] && . "$SH_DIR/search-engines.sh"
 
 # ===APP CONFIGURATION===
 # ---Shell Identifiers---
@@ -82,12 +76,13 @@ alias cat='batcat --paging=never'
 
 # ---Remapping Functions---
 exa() {
-    _exa -I "*.lyx~:*.lyx#:__pycache__"$@
+    _exa -I "*.lyx~|*.lyx#|__pycache__" $@
 }
 
 
+unalias ls
 ls() {
-    _ls -I "{*.lyx~,*.lyx#,__pycache__}"
+    _ls -I "{*.lyx~,*.lyx#,__pycache__}" $@
 }
 
 emacs() { # If emacs is running, open a new frame; otherwise start it

@@ -1,6 +1,6 @@
-#!/usr/bin/env zsh
+#!/usr/bin/env sh
 
-SH_DIR="$(dirname "$(readlink -f "$0")")"
+[ -f ~/Gray/CONFIG/Configs/sh/sh/confdirs.sh ] && . ~/Gray/CONFIG/Configs/sh/sh/confdirs.sh
 
 if [ -f $SH_DIR/local.sh ]; then
     . $SH_DIR/local.sh
@@ -15,10 +15,8 @@ _def_search_engine() {
     addr="$2"
     search_addr="$2/$3"
 
-    echo $engine_name engine
-    eval "echo Defining $engine_name engine; $engine_name() { if [[ -z \"\$@\" ]]; then; echo opening $addr; url $addr; else; sed_str=\"s/%s/\$@/\"; url \"\$(echo '$search_addr' | sed \"\$sed_str\")\"; fi }"
+    eval "$engine_name() { if [[ -z \"\$@\" ]]; then; echo opening $addr; url $addr; else; sed_str=\"s/%s/\$@/\"; url \"\$(echo '$search_addr' | sed \"\$sed_str\")\"; fi }"
 
-    # echo Defining $engine_name engine
     # $engine_name() {
     #     if [[ -z "\$@" ]]; then
     #         echo opening $addr
