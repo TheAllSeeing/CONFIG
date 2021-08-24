@@ -1,7 +1,5 @@
 #!/bin/sh
 
-
-
 [ -f ~/Gray/CONFIG/Configs/sh/sh/confdirs.sh ] && . ~/Gray/CONFIG/Configs/sh/sh/confdirs.sh
 
 [ -f "$SH_DIR/local.sh" ] && . "$SH_DIR/local.sh"
