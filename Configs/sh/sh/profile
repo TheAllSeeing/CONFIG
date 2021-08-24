@@ -86,9 +86,9 @@ ls() {
 
 emacs() { # If emacs is running, open a new frame; otherwise start it
     if test -e "/tmp/emacs1000/server"; then
-        emacsclient -t -a emacs -nc $1
+        emacsclient -t -a emacs -nc $@
     else
-        emacs $@
+        /usr/bin/emacs $@
     fi
 }
 # ------
