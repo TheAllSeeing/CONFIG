@@ -79,7 +79,11 @@ exa() {
 }
 
 
-unalias ls
+
+if alias ls > /dev/null 2>&1; then # ls is commonly aliased by default configuration files which may not have neem overriden.
+    unalias ls
+fi
+
 ls() {
     _ls -I "{*.lyx~,*.lyx#,__pycache__}" $@
 }
