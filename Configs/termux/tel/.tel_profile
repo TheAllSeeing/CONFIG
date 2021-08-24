@@ -1,0 +1,4 @@
+# # # TEL profile file - called with each terminal spawned # # # 
+### liable to be overwritten with updates ###
+# sourced before tel_init .zlogin and .zshrc startup.sh and after .zshenv 
+
