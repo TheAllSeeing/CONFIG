@@ -6,6 +6,7 @@
 
 [ -f "$SH_DIR/local.sh" ] && . "$SH_DIR/local.sh"
 [ -f "$SH_DIR/search-engines.sh" ] && . "$SH_DIR/search-engines.sh"
+[ -f  "$SH_DIR/app_aliases.sh" ] && . "$SH_DIR/app_aliases.sh"
 
 # ===APP CONFIGURATION===
 # ---Shell Identifiers---
