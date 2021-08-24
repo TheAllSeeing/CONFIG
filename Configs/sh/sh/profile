@@ -67,11 +67,9 @@ alias del="rmtrash"
 alias edit="emacs"
 alias mv='mv -i'
 alias cp='cp -i'
-alias xcopy="xclip -sel clip"
-alias xpaste="xclip -sel clip -o"
 alias suspend='"$BIN/Launch/suspend"'
 alias hibernate='"$BIN/Launch/hibernate"'
-alias cat='batcat --paging=never'
+alias cat='bat --paging=never'
 # ------
 
 # ---Remapping Functions---
