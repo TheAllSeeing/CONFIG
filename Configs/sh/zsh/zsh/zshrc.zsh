@@ -15,4 +15,3 @@ _source "$SH_DIR/profile"
 
 # Title Congfiguration
 precmd () { print -Pn "\e]0;Zsh ($ZSH_ID)\a" }
-POWERLEVEL9K_DISABLE_CONFIGURATION_WIZARD=true
