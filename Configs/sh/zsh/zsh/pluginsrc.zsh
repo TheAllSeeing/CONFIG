@@ -9,5 +9,4 @@ _source_package() {
     fi
 }
 
-_source_package 'command-not-found' '/etc/zsh_command_not_found'
 _source_package oh-my-zsh "$OMZ_DIR/custom/omzrc.zsh.init"
