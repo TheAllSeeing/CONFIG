@@ -1,9 +1,10 @@
-#!/bin/bash
+#!/bin/sh
 /home/atai/Gray/AUTOMATE/Daemons/update-lyx.sh &
 # watch -n 60 $BIN/Launch/wifi c &>/dev/null &
 google-drive-ocamlfuse ~/Gray/FILER/Drive/ &
 launch work
-# /opt/google/chrome/google-chrome --app=https://web.whatsapp.com/ &
+/opt/google/chrome/google-chrome --no-startup-window
+/opt/google/chrome/google-chrome --app=https://web.whatsapp.com/ &
 flatpak run com.spotify.Client &
 telegram &
 firefox &
