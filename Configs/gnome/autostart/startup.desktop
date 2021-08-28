@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Startup Scripts
+GenericName=Startup Scripts
+Exec=/home/atai/Gray/CONFIG/Configs/gnome/bin/startup.sh
+Terminal=false
+Type=Application
+Categories=Scripts;Startup;Boot
+X-GNOME-Autostart-enabled=true
+Comment[en_IL]=Designated Startup Script
