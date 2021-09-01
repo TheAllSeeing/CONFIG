@@ -4,18 +4,12 @@
 # DEVICE: AllSeer (Desktop Linux System)
 
 # HOME
-export HOME=/home/atai
-
-# Useful System Directories
-export APPS=/usr/share/applications
-export LAPPS=~/.local/share/applications
-
-# Specific System Path Additions
-export PATH=$PATH:/snap/bin
+export HOME=/cygdrive/c/Users/ataya/Home
 
 # exa pointer (to use in wrapper function)
 _exa() {
-    /usr/local/bin/exa $@
+	echo exa not available for windows
+	return 1
 }
 
 # ls pointer (to use in wrapper funciton)
@@ -25,12 +19,12 @@ _ls() {
 
 # sudo or sudo equivalent pointer (for cygwin, android, etc.)
 sudo() {
-    /usr/bin/sudo $@
+    cygstart --action="runas" $@
 }
 
 # xdg-open or equivalent pointer
 open() {
-    xdg-open "$@"
+    cygstart $@
 }
 
 # Open a url link
