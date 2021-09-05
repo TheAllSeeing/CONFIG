@@ -42,7 +42,6 @@ PROMPT_EOL_MARK=''
 # # # SOURCE CONFIGS ETC  # # #
 . ~/.tel/scripts/readconfigs.sh 	# get user settings
 . ~/.tel/.tel_aliases 			# load tel aliases
-. ~/.aliases 				# load user aliases
 # load external aliases (impervious to deletion upgrade etc)
 [[ -f ~/storage/shared/tel/tel_personal.sh ]] && . ~/storage/shared/tel/tel_personal.sh
 #source tel completions for zsh

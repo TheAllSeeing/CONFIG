@@ -24,6 +24,11 @@ export EDITOR=emacs
 
 # ---Project Directories---
 export BIN=~/Gray/AUTOMATE # Personal scripts project
+export CONFIG=~/Gray/CONFIG
+export FILER=~/Gray/CONFIG
+
+export TMP=~/Gray/FILER/tmp
+export BOIDEM=~/Gray/FILER/Boidem
 export ARCHIVES=Gray/FILER/Archives # Project Archives
 # ------
 
@@ -90,7 +95,7 @@ emacs() { # If emacs is running, open a new frame; otherwise start it
     if test -e "/tmp/emacs1000/server"; then
         emacsclient -t -a emacs -nc $@
     else
-        /usr/bin/emacs $@
+        $PREFIX/bin/emacs $@
     fi
 }
 # ------

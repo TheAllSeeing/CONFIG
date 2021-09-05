@@ -11,8 +11,8 @@ _source() {
 
 _source ~/Gray/CONFIG/Configs/sh/sh/confdirs.sh
 _source "$ZSH_DIR/pluginsrc.zsh"
+_source ~/.tel/.telrc
 _source "$SH_DIR/profile"
 
 # Title Congfiguration
 precmd () { print -Pn "\e]0;Zsh ($ZSH_ID)\a" }
-. ~/.tel/.telrc
