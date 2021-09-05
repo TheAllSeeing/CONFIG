@@ -4,3 +4,6 @@
 [submodule "Configs/emacs/emacs"]
 	path = Configs/emacs/emacs
 	url = https://github.com/hlissner/doom-emacs
+[submodule "Configs/bat/syntaxes/Sublime-GenericConfig"]
+	path = Configs/bat/syntaxes/Sublime-GenericConfig
+	url = https://github.com/skozlovf/Sublime-GenericConfig
