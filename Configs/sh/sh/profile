@@ -26,6 +26,11 @@ export EDITOR=emacs
 
 # ---Project Directories---
 export BIN=~/Gray/AUTOMATE # Personal scripts project
+export CONFIG=~/Gray/CONFIG
+export FILER=~/Gray/FILER
+
+export TMP=~/Gray/FILER/tmp
+export BOIDEM=~/Gray/FILER/Boidem
 export ARCHIVES=Gray/FILER/Archives # Project Archives
 # ------
 
