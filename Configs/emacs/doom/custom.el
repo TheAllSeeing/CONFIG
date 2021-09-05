@@ -4,7 +4,7 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(org-agenda-files (quote ("/home/atai/Code-Steel (ORG)/ACCESS/Agenda")))
- '(package-selected-packages (quote (org-bullets company-tabnine projectile))))
+ '(package-selected-packages (quote (yaml org-bullets company-tabnine projectile))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
