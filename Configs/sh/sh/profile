@@ -68,7 +68,6 @@ export PATH=$PATH:$GOPATH/bin # go packages
 
 # ---Aliases---
 alias del="rmtrash"
-alias edit="emacs"
 alias mv='mv -i'
 alias cp='cp -i'
 alias suspend='"$BIN/Launch/suspend"'
