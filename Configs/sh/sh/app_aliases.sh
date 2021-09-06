@@ -1,4 +1,4 @@
-comm="$comm"
+comm="tel-app -a"
 
 telegram="org.telegram.messenger/org.telegram.ui.LaunchActivity"
 whatsapp="com.whatsapp/.Main"
@@ -10,7 +10,7 @@ docs='om.google.android.apps.docs.editors.docs/com.google.android.apps.docs.app.
 
 toothbrush="enouplus.enouhealth.smilelite/.SplashActivity"
 
-dominos= 'il.co.dominos.android/.MainActivity'
+dominos='il.co.dominos.android/.MainActivity'
 idf='com.ng.malshab.malshab/.ui.MainActivity'
 
 alias msg="$comm $telegram"
