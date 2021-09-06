@@ -102,6 +102,16 @@ emacs() { # If emacs is running, open a new frame; otherwise start it
         /usr/bin/emacs $@
     fi
 }
+
+cd() {
+    if echo "$1" | grep -q ".lnk$" && lnkinfo "$1" >/dev/null 2>&1; then
+        dir="$(dirname "$1")"
+        link="$(lnkinfo "$1" | grep Relative | cut -f2- -d ':' | sed 's/\\/\//g' | sed 's/://' | sed 's/^ //')"
+        builtin cd "$dir/$link"
+    else
+        builtin cd "$@"
+    fi
+}
 # ------
 # ======
 
