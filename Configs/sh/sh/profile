@@ -78,6 +78,7 @@ alias xpaste="xclip -sel clip -o"
 alias suspend='"$BIN/Launch/suspend"'
 alias hibernate='"$BIN/Launch/hibernate"'
 alias cat='batcat --paging=never'
+alias bat='batcat'
 # ------
 
 # ---Remapping Functions---
