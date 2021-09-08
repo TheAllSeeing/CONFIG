@@ -121,6 +121,7 @@ language-pack-gnome-en
 language-selector-gnome
 laptop-detect
 libevent-core-2.1-7
+liblnk-utils
 libreoffice-gnome
 libreoffice-gtk3
 lshw
