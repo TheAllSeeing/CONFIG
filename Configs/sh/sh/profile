@@ -12,6 +12,9 @@
 export FISH_ID=xPV2iC
 export IPYTHON_ID=wS77gy
 export ZSH_ID=NdoBv7
+
+# ---
+export MANPAGER="sh -c 'col -bx | batcat -l man -p'"
 # ------
 
 # ---Default Apps---
@@ -25,7 +28,7 @@ export EDITOR=emacs
 # ---Project Directories---
 export BIN=~/Gray/AUTOMATE # Personal scripts project
 export CONFIG=~/Gray/CONFIG
-export FILER=~/Gray/CONFIG
+export FILER=~/Gray/FILER
 
 export TMP=~/Gray/FILER/tmp
 export BOIDEM=~/Gray/FILER/Boidem
