@@ -17,10 +17,8 @@ alias msg="$comm $telegram"
 alias t="$comm $telegram"
 alias ט="$comm $telegram"
 
-alias w="$comm $whatsApp"
-alias ו="$comm $whatsApp"
-
-alias yt="$comm com.vanced.android.youtube/com.google.android.youtube.app.honeycomb.Shell\$HomeActivity"
+alias w="$comm $whatsapp"
+alias ו="$comm $whatsapp"
 
 alias gui="$comm com.ss.launcher2/.MainActivity"
 
@@ -32,7 +30,7 @@ alias brush="$comm $toothbrush"
 alias tth="$comm $toothbrush"
 alias שן="$comm $toothbrush"
 
-alias p="$comm com.sec.android.app.camera/.Camer"
+alias p="$comm com.sec.android.app.camera/.Camera"
 
 alias g="$comm com.google.android.apps.photos/.home.HomeActivity"
 
@@ -45,7 +43,6 @@ alias pizza="$comm $dominos"
 alias dominos="$comm $dominos"
 alias דומינוס="$comm $dominos"
 
-alias pls="$comm com.android.vending/.AssetBrowserActivity"
 alias ca="$comm com.google.android.calendar/com.android.calendar.AllInOneActivity"
 
 alias docs="$comm $docs"

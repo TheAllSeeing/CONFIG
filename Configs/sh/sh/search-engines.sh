@@ -18,11 +18,10 @@ _def_search_engine() {
     addr="$2"
     search_addr="$2/$3"
 
-    eval "$engine_name() { if [[ -z \"\$@\" ]]; then echo opening $addr; url $addr; else sed_str=\"s/%s/\$@/\"; url \"\$(echo '$search_addr' | sed \"\$sed_str\")\"; fi }"
+    eval "$engine_name() { if [[ -z \"\$@\" ]]; then url $addr; else sed_str=\"s/%s/\$@/\"; url \"\$(echo '$search_addr' | sed \"\$sed_str\")\"; fi }"
 
     # $engine_name() {
     #     if [[ -z "\$@" ]]; then
-    #         echo opening $addr
     #         url $addr
     #     else
     #         sed_str="s/%s/\$@/"
@@ -45,6 +44,7 @@ _def_search_engine drive "https://drive.google.com/drive" "search?q=%s"
 _def_search_engine pic "https://www.google.co.il/images" "?q=%s"
 _def_search_engine translate "http://translate.google.co.ils" "?source=osdd#auto|auto|%s"
 _def_search_engine vid "https://www.youtube.com" "results?search_query=%s&page={startPage?}&utm_source=opensearch"
+_def_search_engine yt "https://www.youtube.com" "results?search_query=%s&page={startPage?}&utm_source=opensearch"
 
 _def_search_engine toheb "http://www.morfix.co.il" "%s"
 _def_search_engine github "https://github.com" "search?q=%s&ref=opensearch"
@@ -56,4 +56,6 @@ _def_search_engine 1337x "https://1337x.to" "srch?search=%s"
 _def_search_engine pirate "https://thepiratebay.asia" "/s/?q=%s&page=0&orderby=99"
 
 _def_search_engine netflix "https://www.netflix.com" "/search?q=%s"
+_def_search_engine pls "https://play.google.com" "store/search?q=%s&c=apps"
+
 # ======

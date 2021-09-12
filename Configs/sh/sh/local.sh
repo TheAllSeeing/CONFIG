@@ -10,6 +10,8 @@ __unalias() {
 
 # HOME
 export HOME=/data/data/com.termux/files/home
+export TMP=/data/data/com.termux/files/usr/tmp
+export EMACS_SERVER=/data/data/com.termux/files/usr/var/run/emacs10730/server
 
 # exa pointer (to use in wrapper function)
 _exa() {
@@ -38,7 +40,7 @@ open() {
 # Open a url link
 __unalias url
 url() {
-    termux-open-url $(echo "$@" | sed "s/ /%20/g")
+    tel-open -u $(echo "$@" | sed "s/ /%20/g")
 }
 
 __unalias xcopy

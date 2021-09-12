@@ -76,6 +76,9 @@ alias cp='cp -i'
 alias suspend='"$BIN/Launch/suspend"'
 alias hibernate='"$BIN/Launch/hibernate"'
 alias cat='bat --paging=never'
+alias P='media -p'
+alias N='media -n'
+alias L='media -r'
 # ------
 
 # ---Remapping Functions---
@@ -94,8 +97,8 @@ ls() {
 }
 
 emacs() { # If emacs is running, open a new frame; otherwise start it
-    if test -e "/tmp/emacs1000/server"; then
-        emacsclient -t -a emacs -nc $@
+    if [ -e "$EMACS_SERVER" ]; then
+        emacsclient -t --socket-name="$EMACS_SERVER" -a emacs -c $@
     else
         $PREFIX/bin/emacs $@
     fi

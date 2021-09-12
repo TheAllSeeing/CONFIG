@@ -3,11 +3,11 @@
 ############## TEL User Preferences Configuration #########
 #               Behavior and program preferences          #
 #                   Restart to see changes             	  #
-###########################################################
+########################### ################################
 
 # Basic #
-export NAME='User' # main/home window name
-export LOCATION="London" # weather command and weather status script - [string]
+export NAME='Atai' # main/home window name
+export LOCATION="Kadima Tzoran" # weather command and weather status script - [string]
 export PATH_TO_SD=none # if not using an sdcard must be set to: none, else path must be absolute (no '~' or '$HOME' !) [none / pathtosdcard]
 
 # Startup #
@@ -26,5 +26,5 @@ export POWER_SAVER_DISPLAY_COMMAND='' #examples: "uptime, neofetch --stdout"
 # Preffered Apps # 
 export BROWSER=links # set your web browser command: [w3m,links,elinks,lynx,brow.sh,emacs..]
 export EDITOR=nano # set your file editor command: [nano,vim,neovim,sublime,emacs..]
-export YT_PKG_NAME="org.schabi.newpipe" #/.MainActivity" # package name to use for youtube searches
-export YT_APP_NAME="NewPipe" # app name to launch for youtube
+export YT_PKG_NAME="com.vanced.android.youtube/com.google.android.youtube.app.honeycomb.Shell\$HomeActivity" #/.MainActivity" # package name to use for youtube searches
+export YT_APP_NAME="YouTube Vanced" # app name to launch for youtube
