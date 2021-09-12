@@ -289,5 +289,8 @@
 
 
 (setq org-latex-toc-command "\\tableofcontents \\clearpage")
+
+(global-set-key (kbd "C-M-/") 'comment-line)
+
 ;; (require 'company-tabnine)
 ;; (add-to-list 'company-backends #'company-tabnine)
