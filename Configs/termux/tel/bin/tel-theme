@@ -1,7 +1,11 @@
 #!/usr/bin/env bash
-#cd ~/../ 
-export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .git'
-wallpaper_folder=~/.wallpapers
+### TEL THEME MANAGER ###
+# sealyj 2021 #
+version=0.2
+FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .git'
+wallpaper_folder=~/.tel/theme/active/wallpaper
+themes_folder=~/.tel/theme/inactive
+active_theme=~/.tel/theme/active
 
 show_help(){
     printf  "%s\n"\
@@ -9,87 +13,158 @@ show_help(){
             "tel-theme [OPTIONS] [PATTERN]"\
             "__________________________"\
 	    "OPTIONS"\
-            "  --install-theme   collect your current theme into a package ready for sharing"\
-            "  --create-theme   collect your current theme into a package ready for sharing"\
-            "  -h   display this help message"\
-            "  -f ~/mywallpaper.jpg  use supplied file"
+            "  -a | --apply		pick + apply a theme from your currently installed themes"\
+            "  -f | --file		auto-gen theme based on an image"\
+            "  -i | --install		install a TEL theme file package"\
+            "  -c | --create		collect and package current files into a theme file"\
+            "  -h | --help 		display this help message"
+}
+
+spinner() {
+	# Spinner animation #
+	# line before calling spinner() must spawn bg process: eg echo hi;sleep 2 &;spinner	
+	# show working spinner
+	PID=$!
+	i=1
+	sp="/-\|"
+	echo -n ' '
+	while [ -d /proc/$PID ]
+	do
+		echo -ne "\b${sp:i++%${#sp}:1}"
+		sleep 0.1
+	done
+	echo -ne "\b${CHECK_MARK}" #remove last spinner	
+}
+
+restart_tel(){
+	tel-restart
+	printf "\n\e[33;5;2m Theme\e[m%s press [Return] to restart + apply changes..\n"
+	read 
+	tel-restart
 }
 
 install_theme(){
-	echo 'this is WIP'
+	selected_theme=$(fd --ignore-case --absolute-path --type f | fzf -e --color=16 --query="$file_search" --prompt="Pick a theme to apply: " --select-1)
+	printf "\e[33;5;2m Theme\e[m%s installing theme file: $selected_theme\n"
+	cp -f $selected_theme $themes_folder
+	printf "\e[33;5;2m Theme\e[m%s installed theme: $selected_theme\n"
 }
 
 create_theme(){
-	mkdir $TEMP/tel-theme
-	cd $TEMP/tel-theme
-	cp ~/.tel/configs/theme.conf .
-	echo 'this is WIP'
+	printf "\e[33;5;2m Theme\e[m%s packaging current files into theme\n"
+	rm -rf $TMPDIR/tel-theme/* > /dev/null 2>&1
+	mkdir -p $TMPDIR/tel-theme/packaging/configs
+	mkdir -p $TMPDIR/tel-theme/packaging/wallpaper
+	mkdir -p $TMPDIR/tel-theme/packaging/termux
+	cd $TMPDIR/tel-theme/packaging
+	mkdir -p ~/.tel/theme/inactive >/dev/null 
+	cp ~/.tel/theme/active/wallpaper/*.jpg ./wallpaper/
+	cp ~/.tel/theme/active/colors.sh .
+	cp ~/.tel/configs/theme.conf ./configs/
+	cp ~/.termux/termux.properties ./termux
+	printf "\e[33;5;2m Theme\e[m%s Enter name for new theme: "
+	while [ -z "$new_theme_name" ] ; do
+		read new_theme_name
+	done
+	printf "\e[33;5;2m Theme\e[m%s Enter name of author: "
+	read author_theme_name
+	tar -v -c -z -f $themes_folder/${new_theme_name}.tar.gz . >&/dev/null &
+	spinner
+	printf "\e[33;5;2m Theme\e[m finished! \n theme to: $themes_folder/${new_theme_name}"
 }
 
+auto_theme(){
+	FZF_DEFAULT_OPTS="
+--info=inline
+--multi
+--preview-window=up:60%:follow:sharp
+--preview '([[ -f {} ]] && (termimage --size=35x35 {} || bat --theme=base16 --style=numbers --color=always {} || cat {})) || ([[ -d {} ]] && (tree -C {} | less)) || echo {} 2> /dev/null | head -200'
+--prompt='∼ ' --pointer='>' --marker='✓'
+--bind '?:toggle-preview'
+--bind 'ctrl-a:select-all'
+--bind 'ctrl-y:execute-silent(echo {+} | pbcopy)'
+"
 
-if [ -z $1 ] ; then
-	cd $wallpaper_folder
-	selected_file=$(ls $wallpaper_folder | fzf -e --cycle --color=16 --prompt=" Pick a file to set as your wallpaper:")
-	options='-f'
-else
+	cd ~
+	if [ -z "$@" ] ; then
+		file_search="$@" 
+	else
+		file_search=".jpg"
+	fi
+	selected_file=$(fd --extension=jpg -e png --follow --absolute-path --hidden --type f | fzf --color=16 --query="$file_search" --prompt="Pick a image to theme from: " --select-1)
+	if [ -z $selected_file ] ; then
+		exit 1
+	fi
+	printf "\e[33;5;2m Theme\e[m%s extracting colorscheme from: $selected_file "
+	(wal -i "$selected_file" -n -q -s -t -e || (echo 'failed to get colors from file' ; exit 1)) &
+	spinner 
+	cp -rf ~/.cache/wal/colors.sh ~/.tel/theme/active/
+	mkdir -p ~/.tel/theme/active/wallpaper >/dev/null 2>&1
+	rm -rf ~/.tel/theme/active/wallpaper/* > /dev/null 2>&1
+	cp "$selected_file" ~/.tel/theme/active/wallpaper/
+	touch ~/.tel/theme/.flag
+	# add flag for setting wallpaper on reboot
+	~/.tel/scripts/apply_colors.sh # propagate colors
+	restart_tel
+}
+
+apply_theme(){
+	cd $themes_folder
+	file_search="$@"
+	selected_file=$(fd --exclude .git --ignore-case --type f | fzf -e --color=16 --query="$file_search" --prompt="Pick a theme to apply: " --select-1)
+	if [ -z $selected_file ] ; then
+		exit 1
+	fi
+	printf "\e[33;5;2m Theme\e[m%s applying: $selected_file "
+	#unzip
+	cd 
+	rm -rf $active_theme >/dev/null
+	mkdir $active_theme 
+	cd $active_theme
+	tar -x -U -f $themes_folder/$selected_file . &
+	spinner
+	touch ~/.tel/theme/.flag
+	# add flag for setting wallpaper on reboot
+	~/.tel/scripts/apply_colors.sh #propagate colors 
+	printf "\n\e[33;5;2m Theme\e[m%s finished applying: $selected_file "
+	restart_tel
+	}
+
+main(){
 	case "$1" in
-		--install-theme)
-		install_theme
-		exit 0
+		-v | --version)
+			printf "\n\e[33;5;2m Theme\e[m%s version: $version"
+			exit 0
 		;;
-		--create-theme)
-		create_theme
-		exit 0
+		-a | --apply)
+			shift
+			apply_theme
+			exit 0
 		;;
-		-f) #use file
-		options=$1
-		selected_file=$2
-		exit 0
+		-f | --file)
+			shift
+			auto_theme
+			exit 0
 		;;
-		-u) #use url
-		options=$1
-		selected_file=$2
-		exit 0
+		-i | --install)
+			install_theme
+			exit 0
+		;;
+		-c | --create)
+			create_theme
+			#read WAL wallpaper
+			exit 0
 		;;
 		# Display the help message
-		-h)                                                                        show_help
-		exit 0
+		-h | --help)
+			show_help
+			exit 0
 		;;
- 	esac
+		*)
+		show_help
+		exit 1
+		;;
+	esac
+}
 
-	file_search="$@"
-	selected_file=$(fzf -e --cycle --color=16 --query="$file_search" --prompt=" Open in app: " --select-1)
-fi
-
-if [ -z $selected_file ] ; then
-#	echo 'No file chosen - Exiting...'
-	exit 1
-else
-	curr_dir=$(pwd)
-	#wal --preview
-	printf "\e[38;5;2m Theme\e[m%s wal is extracting colorscheme from: $selected_file\n"
-	wal -i "$selected_file" -n -q -s -t -e || (echo 'failed to get colors from file' ; exit 1)
-	#sed -n '4,27p' ~/.cache/wal/colors.sh > ~/.termux/color.properties
-	# write to status bar cols
-	sed -i '/status-text-color/d' ~/.tel/configs/theme.conf
-	fg_text_color=$(sed '8q;d' ~/.cache/wal/colors)
-       	echo -e "\nstatus-text-color=$fg_text_color" >> ~/.tel/configs/theme.conf
-
-	printf "\e[38;5;2m Theme\e[m%s setting wallpaper as: $selected_file\n"
-	termux-wallpaper $options "$selected_file" || echo "Couldn't find $selected_file"
-	~/.tel/scripts/wal_cols_termux.sh # copy wal generated cols to ~/.termux/colors.properties
-	am broadcast --user 0 -a com.termux.app.reload_style com.termux > /dev/null 2>&1 # reload cols in termux
-	status_running=$(pgrep -f status_manager.py)
-	if [ ! -z "$status_running" ] ; then
-		~/.tel/scripts/status_manager/toggle_ui.sh
-		sleep 0.7	
-		~/.tel/scripts/status_manager/toggle_ui.sh
-#kill "$(pgrep -f 'status_manager.py')"
-		#pkill -f 'termux-api'
-		#nohup ~/.tel/scripts/status_manager/status_manager.py > /dev/null 2>&1 &
-	fi
-	#printf "\e[38;5;2m Theme\e[m%s TEL must restart for terminal colors to take effect\n"
-	#printf "\e[38;5;2m Theme\e[m%s Restarting TEL...\n"
-	#tel-restart
-fi
-
+main $@

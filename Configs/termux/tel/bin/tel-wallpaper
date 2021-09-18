@@ -1,6 +1,16 @@
 #!/usr/bin/env bash
 #cd ~/../ 
-export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .git'
+FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .git'
+FZF_DEFAULT_OPTS="
+--info=inline
+--multi
+--preview-window=up:60%:follow:sharp
+--preview '([[ -f {} ]] && (termimage --size=35x35 {} || bat --style=numbers --color=always {} || cat {})) || ([[ -d {} ]] && (tree -C {} | less)) || echo {} 2> /dev/null | head -200'
+--prompt='∼ ' --pointer='>' --marker='✓'
+--bind '?:toggle-preview'
+--bind 'ctrl-a:select-all'
+--bind 'ctrl-y:execute-silent(echo {+} | pbcopy)'
+"
 wallpaper_folder=~/.wallpapers
 
 show_help(){
@@ -16,11 +26,11 @@ open_url(){
    	if [ -n "$global_url" ]; then
 		url=$global_url
 	else
-		url=$(cat $bookmarks_file | fzf -e --cycle --color=16 --prompt=" Pick a URL to open with an android app:")
+		url=$(cat $bookmarks_file | fzf -e --color=16 --prompt=" Pick a URL to open with an android app:")
 	fi
 	if [ ! -z $url ] ; then
 	termux-open-url $url
-	printf "\e[38;5;2m Opening\e[m%s URL: $url" 
+	printf "\e[33;5;2m Opening\e[m%s URL: $url" 
 	else
 		exit 1
 	fi
@@ -29,7 +39,7 @@ open_url(){
 
 if [ -z $1 ] ; then
 	cd $wallpaper_folder
-	selected_file=$(ls $wallpaper_folder | fzf -e --cycle --color=16 --prompt=" Pick a file to set as your wallpaper:")
+	selected_file=$(ls $wallpaper_folder | fzf -e --color=16 --prompt=" Pick a file to set as your wallpaper:")
 	options='-f'
 else
 	case "$1" in
@@ -50,7 +60,7 @@ else
  	esac
 
 	file_search="$@"
-	selected_file=$(fzf -e --cycle --color=16 --query="$file_search" --prompt=" Open in app: " --select-1)
+	selected_file=$(fzf -e --color=16 --query="$file_search" --prompt=" Open in app: " --select-1)
 fi
 
 if [ -z $selected_file ] ; then
@@ -58,7 +68,7 @@ if [ -z $selected_file ] ; then
 	exit 1
 else
 	curr_dir=$(pwd)
-	printf "\e[38;5;2m Wallpaper\e[m%s Applying: $selected_file: "
+	printf "\e[33;5;2m Wallpaper\e[m%s Applying: $selected_file: "
 	termux-wallpaper $options "$selected_file" || echo "Couldn't find $selected_file"
 
 fi

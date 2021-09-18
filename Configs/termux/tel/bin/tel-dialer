@@ -1,22 +1,17 @@
 #!/usr/bin/env bash
-#
-# TEL caller
-#_______________________________________________________________________
+# TEL Dialer #
+# ---------- # 
+# sealyj
+# sidd_dino 
 
-# Usage
-# call [OPTIONS] [PATTERN]
-# call -h
-# call -u
-# call blah
-# call 2121821218
-
-# location of the contacts folder
+version=0.2
+# location of the contacts file
 contactsfile="$HOME/.tel/data/.contacts";
 
 
 print_ERR_and_die() {
     # Error printing function
-    printf "\e[38;5;1m[!]%s\n\e[m"\
+    printf "\e[33;5;1m[!]%s\n\e[m"\
            "$*" 1>&2
     exit 1
 }
@@ -27,7 +22,8 @@ show_help() {
                 "__________________________"\
                 "OPTIONS"\
 		"  -a 'name' 'number'	Add a new contact"\
-		"  -d			Display my number"\
+		"  -s			Share contacts number"\
+		"  -o			Output contacts number"\
                 "  -h   		Display this help"\
                 "  -u   		Update contact list"
         exit 0
@@ -41,7 +37,7 @@ update_contacts() {
     # file descriptor 9
     termux-contact-list > ~/.temp
 
-    # delay for 2 seconds   #what is this for? 
+    # delay for 2 seconds   
     read -rt "2" <> <(:) || :  
 
     while IFS=$'\n' read -sr line; do
@@ -58,8 +54,13 @@ update_contacts() {
 }
 
 add_contact(){
-	if [ $# -lt 2 ] ; then
-		printf  "\e[38;5;2m Dialer\e[m: \e[38;5;1mAdding a new contact: %s\n\e[m"
+	if [ $# -eq 2 ] ; then
+		printf  "\e[33;5;2m Dialer\e[m: Adding $2 to contacts \n"
+		add_contact_name=$2
+		echo 'Contact number:'
+		read add_contact_number
+	elif [ $# -eq 1 ] ; then
+		printf  "\e[33;5;2m Dialer\e[m: Adding a new contact \n"
 		echo 'Contact name:'
 		read add_contact_name
 		echo 'Contact number:'
@@ -68,8 +69,8 @@ add_contact(){
 		add_contact_name=$2
 		add_contact_number=$3
 	fi
-		am start -a android.intent.action.INSERT -t vnd.android.cursor.dir/contact -e name $add_contact_name -e phone $add_contact_number > /dev/null 2>&1
-	printf  "\e[38;5;2m Dialer\e[m: \e[38;5;1mAdded $add_contact_name to contacts%s\n\e[m"
+	am start -a android.intent.action.INSERT -t vnd.android.cursor.dir/contact -e name $add_contact_name -e phone $add_contact_number > /dev/null 2>&1
+	printf  "\e[33;5;2m Dialer\e[m: Added $add_contact_name to contacts%s\n"
 	touch ~/.dialer_flag
 	#update_contacts
 	exit 0
@@ -77,47 +78,92 @@ add_contact(){
 
 
 main() {
-    
+	request_output="false"
 	if [ "$1" == "-h" ] || [ "$1" == "--help" ] ; then
         	show_help 
+	elif [ "$1" == "-v" ] || [ "$1" == "--version" ] ; then
+		printf "\e[33;5;2m Dialer\e[m: version $version\n"
+
 	elif [ "$1" == "-a" ] || [ "$1" == "--add" ] ; then
 		add_contact "$@"
+	elif [ "$1" == "-o" ] || [ "$1" == "--output" ] ; then
+#		output_contact "$@"
+		request_output="true"
+		share="false"
+		shift
+	elif [ "$1" == "-s" ] || [ "$1" == "--share" ] ; then
+		request_output="true"
+		share="true"
+		shift
 	fi
 
     [[ ! -a "$contactsfile" || "$1" == '-u' || -f ~/.dialer_flag ]] && {
 	rm -f ~/.dialer_flag
-    	printf  "\e[38;5;2m Dialer\e[m: \e[38;5;1mGenerating contacts list...%s\n\e[m"
+    	printf  "\e[33;5;2m Dialer\e[m: Generating contacts list...\n"
 	update_contacts  # if contacts file missing - generate one
         [[ "$1" == '-u' ]] && exit 0
     }
-
     # fuzzy search in $contactsfile to get the number and
     # name in the format
     # Name | Number
-    contact=$(fzf -e --cycle --color=16 --prompt=" Call: " --query="$*" --select-1 -0 < "$contactsfile")
+	fzf_output=$(fzf --print-query --color=16 --prompt=" Contact: " --query="$*" --select-1 -0 < "$contactsfile")
     case "$?" in
-        	# No app found
+        	# No contact found
         "1"  )
-    		printf  "\e[38;5;2m Dialer\e[m: \e[38;5;1mContact not found%s\n\e[m"
+		if [ "$request_output" == "true" ] ; then
+			exit 1
+		fi
+		IFS=$'\n' read -d '' -r -a selected_contact <<< "$fzf_output"
+		if [ ${#selected_contact[@]} -gt 1 ] ; then #no match found assume output is printed number
+			unknown_number="${selected_contact[0]}"
+			contact="${selected_contact[1]}"
+		else
+			contact="${selected_contact[0]}"
+		fi
+		if [ ${#selected_contact[@]} -gt 0 ] ; then #no match found assume output is printed number
+		unknown_number=${selected_contact[0]}
+			if [ ${#unknown_number} -gt 2 ] ; then
+				#fail to get matching contact trying calling number
+				printf  "\e[33;5;2m Calling:\e[m %s\n"\
+				"[${unknown_number}]"
+				termux-telephony-call "${unknown_number}"
+			fi
+		fi
 		exit 1
         ;;
 
         # If Ctrl+C is used 
         "130")
-            return 1
+            exit 1
         ;;
 esac
+	IFS=$'\n' read -d '' -r -a selected_contact <<< "$fzf_output"
+	if [ ${#selected_contact[@]} -gt 1 ] ; then #no match found assume output is printed number
+		unknown_number="${selected_contact[0]}"
+		contact="${selected_contact[1]}"
+	else
+		contact="${selected_contact[0]}"
+	fi
+
     # get the contact's name
-    contact_name=$(echo "$contact" | cut -d "|" -f1) 
+    contact_name=$(echo "${contact}" | cut -d "|" -f1) 
     # get the contact's number
-    contact_number=$(echo "$contact" | cut -d "|" -f2 | tr -d '[:space:]')
-    printf  "\e[38;5;2m Calling:\e[m %s\n"\
-	    "$contact_name[$contact_number]"
+    contact_number=$(echo "${contact}" | cut -d "|" -f2 | tr -d '[:space:]')
     #kills the program if termux-telephony-call command is not available
     ( command -v termux-telephony-call >/dev/null 2>&1 ) || { 
-        print_ERR_and_die "termux-telephony-call not available, have you installed termux api?"
+        print_ERR_and_die "termux-telephony-call not found, have you installed termux-api?"
     }
-    termux-telephony-call "$contact_number"
+    if [ "$request_output" == "true" ] ; then
+	    echo "$contact_number"
+    elif [ "$share" == "true" ] ; then
+	    am start -a android.intent.action.SEND -t text/plain -e android.intent.extra.TEXT "$contact_number" > /dev/null 2>&1
+
+    else
+	    printf "\e[33;5;2m Calling:\e[m %s\n"\
+	    "$contact_name[$contact_number]"
+
+	termux-telephony-call "$contact_number"
+    fi
 }
 
 main "$@"

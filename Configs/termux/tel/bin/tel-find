@@ -1,0 +1,58 @@
+#!/usr/bin/env bash
+# SealyJ 2021
+if [ -z "$TMUX" ] ; then
+	echo "tel-find can only be ran from inside a TMUX environment, please run 'tmux' and try again"
+	exit 1
+fi	
+
+fzf_bin=$(which fzf)
+editor=$(which $EDITOR)
+cd ~/..
+
+if [ "$1" == "-h" ] || [ "$1" == "--help" ] ; then
+	echo -e "Usage: tel-find
+	"
+	exit 0
+else
+FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .git'
+FZF_DEFAULT_OPTS="
+--info=inline
+--multi
+--preview-window=up:60%:follow:sharp
+--preview '([[ -f {} ]] && (bat --theme=base16 --style=numbers --color=always {} || cat {})) || ([[ -d {} ]] && (tree -C {} | less)) || echo {} 2> /dev/null | head -200'
+--prompt='∼ ' --pointer='>' --marker='✓'
+--bind '?:toggle-preview'
+--bind 'ctrl-a:select-all'
+--bind 'ctrl-y:execute-silent(echo {+} | pbcopy)'
+"
+fi
+
+#--color='hl:148,hl+:154,pointer:032,marker:010,bg+:237,gutter:008'
+show_help(){
+    printf  "%s\n"\
+            "Used to echo found files to stdout, targets previous pane"\
+            "tel-find [OPTIONS] [PATTERN]"\
+            "__________________________"\                                              "OPTIONS"\
+            "  -c | --custom CUSTOMPROMPT	supply a custom prompt string for fzf"\                                      
+            "  -h | --help 			display this help message"
+}
+
+
+if [ -z $1 ] ; then
+	selected_file=$(fd -Ha |  $fzf_bin --color=16 --prompt="file/dir to insert: ")
+elif [ "$1" == "-c" ] ; then
+	custom_prompt=$2
+	selected_file=$(fd -Ha |  $fzf_bin --color=16 --prompt="$custom_prompt")
+else
+	file_search=$(echo "$@")
+	selected_file=$(fd -Ha | $fzf_bin --color=16 --query="$file_search" --prompt="file/dir to insert" --select-1)
+fi
+
+if [ -z "$selected_file" ] ; then
+	# no file selected or cancel fzf selection, this is preferable as it allows user to correct typos in fzf prompt rather than giving 'file not found error' 
+	exit 1
+else
+	current_dir=$(pwd)
+	tmux send-keys -t ! "$selected_file" > /dev/null 2>&1
+fi
+

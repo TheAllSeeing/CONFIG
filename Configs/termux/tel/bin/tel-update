@@ -1,0 +1,113 @@
+#!/usr/bin/env bash
+# TEL updater
+tel_update_version=0.14
+source ~/../usr/bin/tel-helpers
+log " v$tel_update_version"
+update_permissions="true"
+remove_data='false'
+if [ -z "$1" ] ; then
+	user_option='--update'
+else
+	user_option="$1"
+fi
+
+if [ "$user_option" == '-h' ] || [ "$user_option" == '--help' ] ; then
+	echo 'usage: tel-setup [OPTION]
+	--help 		display this help info
+	--version	display version
+	--update	get latest bin updates (default)
+	--full		get latest release updates (destructive)
+	--reset 	setup fresh release version (destructive)
+	--dev 		setup developer version (destructive)
+	--custom	setup from custom branch (destructive)
+	--extras	run extras installer'
+	exit 0
+elif [ "$user_option" == '-v' ] || [ "$user_option" == '--version' ] ; then
+	exit 0
+elif [ "$user_option" == '--update' ] ; then
+	log "Getting updates"
+	branch='master'
+	update_permissions='false'
+elif [ "$user_option" == '--full' ] ; then
+	log "Getting release changes"
+	branch='master'
+	update_permissions='false'
+	remove_user_data="true"
+elif [ "$user_option" == '--setup' ] ; then
+	log "Getting release changes"
+	branch='master'
+	update_permissions='false'
+elif [ "$user_option" == '--dev' ] ; then
+	log "Getting dev changes"
+	branch='dev'
+	remove_data_prompt
+	update_permissions='false'
+elif [ "$user_option" == '--custom' ] ; then
+	log "Which branch do you want to setup? e.g: staging"
+	read -r branch
+	remove_data_prompt
+	log "Getting $branch changes"
+elif [ "$user_option" == '--reset' ] ; then
+	log "Resetting & getting release changes"
+	branch='master'
+	remove_data_prompt
+elif [ "$user_option" == '--extras' ] ; then
+	if [ ! -f "$HOME/.tel/.installed" ]; then
+		error 'Extras can only be installed after TEL has been setup'
+		exit 1
+	fi
+	log "launching extras installer..."
+	~/.tel/extras/setup.sh
+	exit 0
+elif [ -n "$user_option" ] ; then #user picked non option
+	error "Unrecognised input option..."
+	error "try 'tel-setup --help' to see availible options"
+	exit 1
+else
+	log "Getting release changes"
+	branch='master'
+fi
+
+check_connection 
+
+if [ ! -f "$HOME/.tel/.installed" ]; then
+	pkg install wget unzip coreutils git -y 2>&1 || exit_error 'failed to download required setup utils'
+fi
+
+cd ~/../usr/ || exit_error 'fatal error path does not exist: ~/../usr/' 
+rm -rf $TMPDIR/tel-update > /dev/null 2>&1 #incase last run failed with partial download 
+mkdir $TMPDIR/tel-update
+
+# t-e-l/bin is always updated 
+git clone --quiet -b main --depth=1 https://github.com/t-e-l/bin $TMPDIR/tel-update/bin || exit_error 'Failed to download latest bins'
+rm -f $TMPDIR/tel-update/bin/README.md >/dev/null
+
+# Has updater been updated??? #
+diff -q $TMPDIR/tel-update/bin/tel-update ~/../usr/bin/tel-update >/dev/null 2>&1
+if [ $? -ne 0 ] ; then
+	#tel-update has been changed, restart update process!
+	log "new version of tel-update aquired - restarting the update process"
+	catch $(cp -rf $TMPDIR/tel-update/bin/tel-update ~/../usr/bin/)
+	rm -rf $TMPDIR/tel-update > /dev/null 2>&1 #incase last run failed with partial download 
+       	tel-update $user_option
+	exit 0
+fi
+
+[[ "$remove_user_data" == "true" ]] && remove_data_prompt
+# Move Files #
+shopt -u dotglob # (include dotfiles in cp -r * globbing)
+catch $(cp -rf $TMPDIR/tel-update/bin/* ~/../usr/bin/) # files in ~/../usr/bin are preferred by tel over files in ~/.tel/bin 
+if [ "$user_option" != '--update' ] ; then
+	git clone --quiet -b $branch --depth=1 https://github.com/t-e-l/bootstrap-changes $TMPDIR/tel-update/bootstrap-changes || exit_error 'Failed to download update'
+	rm -f $TMPDIR/tel-update/bootstrap-changes/README.md >/dev/null
+	[[ -d ~/bin ]] || mkdir ~/bin
+	catch $(cp -rf $TMPDIR/tel-update/bootstrap-changes/tel/bin/* ~/bin/) 
+	catch $(cp -rf $TMPDIR/tel-update/bootstrap-changes/tel/.??* ~/)
+	catch $(cp -rf $TMPDIR/tel-update/bootstrap-changes/etc/* ~/../usr/etc/)
+fi
+rm -rf $TMPDIR/tel-update > /dev/null 2>&1 # cleanup
+rm -rf ~/../usr/etc/motd > /dev/null 2>&1 #remove from bootstrapchanges repo?
+
+# PERMISSIONS
+[[ "$update_permissions" == "true" ]] && fix_permissions
+log 'Finished applying updates'

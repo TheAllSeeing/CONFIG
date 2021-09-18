@@ -1,26 +1,112 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh 
 # Edit applet for TEL
-# Version 1
+# Version 0.3
 # SealyJ 2020
-if [ "$1" == "-r" ] || [ "$1" == "--root" ] ; then
-	cd / 
+# requires: fzf bat nano 
+# optional: magisk su binary
+useroot=
+FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .git'
+if [ "$1" = "-h" ] || [ "$1" = "--help" ] ; then
+	echo -e "Usage: tel-edit [options] [filename]
+	tel-edit			= interactive file picker
+	tel-edit configs		= display file picker with matches for configs
+	tel-edit -h			= show this help menu
+	tel-edit -r			= search from root directory with root privs
+	"
+	exit 0
+elif [ "$1" = "-r" ] || [ "$1" = "--root" ] ; then
+	shift
+	useroot=true
+	if [ ! -z $1 ] ; then
+		file_search="$@"
+	else
+		file_search=''
+	fi
+	selected_file=$('sudo fd . '/' -a  --type file --hidden --follow --exclude .git -E /proc -E /sys -E /dev -E /cache' | fzf --color=16 --query="$file_search" --prompt="  ROOT Edit with $EDITOR: ")
+	if [ ! -z $selected_file ] ; then
+		printf "\e[33;5;2m Editing\e[m%s file as root: $selected_file\n"
+		su -c "/data/data/com.termux/files/usr/bin/$EDITOR $selected_file"
+	else
+		exit 1
+	fi
+	exit 0
+else
+	FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .git'
+	FZF_DEFAULT_OPTS="
+	--info=inline
+	--multi
+	--preview-window=up:60%:follow:sharp
+	--preview '([[ -f {} ]] && (termimage --size=35x35 {} || bat --italic-text=always --theme=base16 --style=full --color=always {} || bat -A {})) || ([[ -d {} ]] && (exa -T --level=1 {} | less)) || echo {} 2> /dev/null | head -200'
+	--prompt='∼ ' --pointer='>' --marker='✓'
+	--bind '?:toggle-preview'
+	--bind 'ctrl-a:select-all'
+	--bind 'ctrl-y:execute-silent(echo {+} | pbcopy)'
+	"
 fi
-export FZF_DEFAULT_COMMAND='fd --type f --hidden --follow --exclude .git'
-[[ -z "$EDITOR" ]] && echo 'Please set a default $EDITOR' && exit 1
+
+show_help(){
+    printf  "%s\n"\
+            "Opens a file in your terminals text editor"\
+            "tel-edit [OPTIONS] [PATTERN]"\
+            "__________________________"\
+	    "OPTIONS"\
+            "  -h | --help	display this help message"\
+            "  -r | --root	use root privledged"
+}
+
+
 if [ -z $1 ] ; then
-	selected_file=$(fzf --cycle --color=16 --prompt="  Edit with $EDITOR: ")
+	selected_file=$(fd --hidden --follow --type f | fzf --color=16 --prompt="  Edit with $EDITOR: ")
 else
 	file_search=$(echo "$@")
-	selected_file=$(fzf -e --cycle --color=16 --query="$file_search" --prompt="  Edit with $EDITOR: " --select-1)
+	selected_file=$(fd --hidden --follow --type f | fzf --color=16 --query="$file_search" --prompt="  Edit with $EDITOR: " --select-1)
 fi
 
 if [ -z "$selected_file" ] ; then
-	# no file selected or cancel fzf selection, this is preferable as it allows user to correct typos in fzf prompt rather than giving 'file not found error' 
-	# printf "\e[38;5;2m Edit\e[m%s: Error - file not found "
+	# no file selected or cancel fzf = exit 1, this is preferable as it allows user to correct typos in fzf prompt rather than giving 'file not found error' 
+	# printf "\e[33;5;2m Edit\e[m%s: Error - file not found "
 	exit 1
 else
 	curr_dir=$(pwd)
-	printf "\e[38;5;2m Editing\e[m%s file: $curr_dir/$selected_file"
-	$EDITOR "$selected_file"
+	# manipulate history here
+	#print -S "$useroot $EDITOR $curr_dir/$selected_file"
+	printf "\e[33;5;2m Editing\e[m%s file: $curr_dir/$selected_file\n"
+	if [ -z $useroot ] ; then
+		#command_string="${EDITOR:-vi} $curr_dir/$selected_file"
+		command_string="${EDITOR:-vi} $curr_dir/$selected_file"
+	else
+		command_string="${EDITOR:-vi} $curr_dir/$selected_file"
+	fi
+	 #/home/sealyj/.oh-my-zsh/custom/plugins/zsh-hist/functions/hist f -1
+		#if [ "$SHELL" = $(which zsh) ] ; then
+		#tmploc=${TMPDIR:-/tmp}
+		# Prevent the specified history line from being saved.
+		#TEMP=$HISTFILE
+		#HISTFILE="$tmploc/zsh_hist"
+		#HISTORY_IGNORE="$(fc -ln -1 -1)"
+		#fc -W
+		  # Write out the history to file, excluding lines that match `$HISTORY_IGNORE`.
+		#delete oldest line
+		source ~/.zshrc
+		#sed -i '$d' $HISTFILE
+		insert_hist=": $EPOCHSECONDS:0;$command_string"
+		echo "$insert_hist" >> $HISTFILE
+		${EDITOR:-vi} $curr_dir/$selected_file
+	#	$command_string
+		#fc -AI
+		#fc -R
+		#fc -W 
+		#cp -f $TEMPHISTFILE $HISTFILE
+		#echo "$insert_hist" >> $HOME/.bash_history
+		# Dispose of the current history and read the new history from file.
+		#fc -p $HISTFILE $HISTSIZE $SAVEHIST
+
+		# TA-DA!
+		#print "Deleted '$HISTORY_IGNORE' from history."
+		#fc -f $tmploc
+		#echo "$insert_hist" >> $tmploc
+		#fc -r $HOME/.zsh_history
+	#elif [ "$SHELL" == $(which bash) ] ; then
+#	fi
 fi
 

@@ -1,121 +1,344 @@
 #!/usr/bin/env bash
 # SealyJ
-# version 0.2
+# version 0.3
+source tel-helpers
 today=$(date +"%m_%d_%Y")
+datetime=$(date +"%H_%M")
 temp_storage=~/../usr/tmp
 backup_location=~/storage/shared/tel/backup
+version=0.1
+
+show_help(){
+    printf  "%s\n"\
+            "tel-backup [OPTIONS]"\
+            "__________________________"\
+            "OPTIONS"\
+            "  -h | --help   		display this help message"\
+            "  -v | --version  		display version"\
+            "  --remove 			remove backups"\
+            "  -r | --restore 		restore from backups"\
+            "  -b | --backup  		create a backup"
+}
+spinner() {
+	# Spinner animation #
+	# line before calling spinner() must spawn bg process: eg echo hi;sleep 2 &;spinner	
+	# show working spinner
+	PID=$!
+	i=1
+	sp="/-\|"
+	echo -n ' '
+	while [ -d /proc/$PID ]
+	do
+		  echo -ne "\b${sp:i++%${#sp}:1}"
+		  sleep 0.1
+	done
+	echo -ne "\b${CHECK_MARK}" #remove last spinner
+	}
+
 
 check_folders(){
 if [ ! -d $temp_storage ] ; then
 	mkdir $temp_storage
 fi
-if [ ! -d ~/storage ] ; then
-	echo "Error - No access to phone storage"
-	echo "backups are made to /storage/emulated/0/tel, (this path is also accessible to TEL through ~/storage/shared/tel) if TEL hasn't been granted storage permissions, this will likely fail. Run termux-setup-storage to grant access"
-	echo program will exit.. && exit
-fi
-if [ ! -d ~/storage/shared/tel/backup ] ; then
-	mkdir -p $backup_location 
-fi
-if [ ! -d "$backup_location/$today" ] ; then
-	mkdir $backup_location/$today && printf "\e[38;5;2m Backup\e[m%s: created backup folder at: $backup_location/$today \n"
-fi
-}
+	if [ ! -d ~/storage ] ; then
+		printf "\e[38;5;2m Backup\e[m: "
+		echo "Error - No access to phone storage"
+		echo "backups are made to /storage/emulated/0/tel, (this path is also accessible to TEL through ~/storage/shared/tel) if TEL hasn't been granted storage permissions, this will likely fail. Run termux-setup-storage to grant access"
+		echo "program will exit.." && exit_utility
+	fi
+	if [ ! -d ~/storage/shared/tel/backup ] ; then
+		mkdir -p $backup_location 
+	fi
+	if [ ! -d "$backup_location" ] ; then
+		mkdir -p $backup_location && printf "\e[38;5;2m Backup\e[m: created backup folder at: %s" "$backup_location\n"
+	fi
+	}
 
-make_backup(){
-while true
-do
-	read -p "This will overwrite any previous backups made the same day are you sure you want to continue? y/N : " answer
-case $answer in
-	[yY]* )
+	make_backup(){
+	while true
+	do
+		printf "\e[38;5;2m Backup\e[m: "
+		read -p "This operation may overwrite previous backups made in the last minute, do you wish to continue? y/N : " answer
+	case $answer in
+		[yY]* )
+			check_folders  #create dirs if missing
+			echo -e "\n\e[38;5;2m Backup\e[m: Name backup files? (blank to skip): "
+			read answer
+			if [ ! -z "$answer" ] ; then
+				user_custom_name="$answer-"
+			else 
+				user_custom_name=""
+			fi
+			# Termux packages #
+			echo -ne "\n\e[38;5;2m Backup\e[m: creating installed pkgs archive "
+			rm -rf $TMPDIR/tel-backup/tmp
+			mkdir -p $TMPDIR/tel-backup/tmp
+			cd $TMPDIR/tel-backup/tmp
+			echo -n "user_pkgs" > .restore_path
+			(pkg list-installed 2>/dev/null | cut -d'/' -f 1 > user_pkgs.txt 2>&1)
+			(pip list --format freeze 2>/dev/null 2>/dev/null | cut -d'=' -f 1 > pip_user_pkgs.txt 2>&1)
+			sed -i '1d' user_pkgs.txt # delete first 'Listing done' line from apt output
+			tar -v -c -z -f $backup_location/$today-$datetime${user_custom_name}user_pkgs.tar.gz . >&/dev/null &
+			spinner
+			cd $TMPDIR 
+			rm -rf tel-backup/tmp
 		
-		check_folders  #create dirs if missing
+			# ~/.config #
+			echo -ne "\n\e[38;5;2m Backup\e[m: compressing pkg configs "
+			cd ~/.config
+			rm -rf .restore_path
+			echo -n "$(pwd)" > .restore_path
+			tar -v -c -z -f $backup_location/$today-$datetime${user_custom_name}pkg_config.tar.gz . >&/dev/null &
+			spinner
+			rm -rf .restore_path	
 
-		printf "\e[38;5;2m Backup\e[m%s: creating installed pkgs list...\n"
-		(apt list --installed > $backup_location/$today/userpkgs.txt > /dev/null 2>&1)
-		printf "\e[38;5;2m Backup\e[m%s: backing up configs...\n"
-		tar czf $backup_location/$today/userconfs_$backup_name.tar.gz ~/.tel/configs >&/dev/null
-		printf "\e[38;5;2m Backup\e[m%s: backing up termux settings...\n"
-		tar czf $backup_location/$today/termux_$backup_name.tar.gz ~/.termux >&/dev/null
-		printf "\e[38;5;2m Backup\e[m%s: backing up TEL user data...\n"
-		tar czf $backup_location/$today/userdata_$backup_name.tar.gz ~/.tel/data >&/dev/null & # last must be child process
+			# SSH data #
+			if [ -d ~/.ssh ] ; then
+				echo -ne "\n\e[38;5;2m Backup\e[m: compressing ssh data "
+				cd ~/.ssh
+				rm -rf .restore_path
+				echo -n "$(pwd)" > .restore_path
+				tar -v -c -z -f $backup_location/$today-$datetime${user_custom_name}ssh.tar.gz . >&/dev/null &
+				spinner
+				rm -rf .restore_path
+			fi
+
+			# wal colors #
+			if [ -d ~/.cache/wal ] ; then
+				echo -ne "\n\e[38;5;2m Backup\e[m: compressing color data "
+				cd ~/.cache/wal
+				rm -rf .restore_path
+				echo -n "$(pwd)" > .restore_path
+				tar -v -c -z -f $backup_location/$today-$datetime${user_custom_name}colors.tar.gz . >&/dev/null &
+				spinner
+				rm -rf .restore_path
+			fi
+
+		## wallpapers #
+		#echo -ne "\n\e[38;5;2m Backup\e[m: compressing wallpapers "
+		#cd ~/.wallpapers
+		#rm -rf .restore_path
+		#echo -n "$(pwd)" > .restore_path
+		#tar -v -c -z -f $backup_location/$today-$datetime${user_custom_name}wallpapers.tar.gz . >&/dev/null &
+		#spinner
+		#rm -rf .restore_path
+
+		# themes #
+		echo -ne "\n\e[38;5;2m Backup\e[m: compressing themes "
+		cd ~/.tel/theme/inactive
+		rm -rf .restore_path
+		echo -n "$(pwd)" > .restore_path
+		tar -v -c -z -f $backup_location/$today-$datetime${user_custom_name}themes.tar.gz . >&/dev/null &
+		spinner
+		rm -rf .restore_path
+
+		# Termux settings #
+		echo -ne "\n\e[38;5;2m Backup\e[m: compressing termux settings "
+		cd ~/.termux
+		rm -rf .restore_path
+		echo -n "$(pwd)" > .restore_path
+		tar -v -c -z -f $backup_location/$today-$datetime${user_custom_name}termux.tar.gz --exclude='shell' . >&/dev/null &
+		spinner
+		rm -rf .restore_path
+
+		# TEL CONFIGS #
+		echo -ne "\n\e[38;5;2m Backup\e[m: compressing TEL configs "
+		cd ~/.tel/configs
+		rm -rf .restore_path
+		echo -n "$(pwd)" > .restore_path
+		tar -v -c -z -f $backup_location/$today-$datetime${user_custom_name}tel_confs.tar.gz . >&/dev/null &
+		spinner
+		rm -rf .restore_path
+
+		# TEL DATA #
+		echo -ne "\n\e[38;5;2m Backup\e[m: compressing TEL user data "
+		cd ~/.tel/data
+		rm -rf .restore_path >&/dev/null
+		echo -n "$(pwd)" > .restore_path
+		tar -v -c -z -f $backup_location/$today-$datetime${user_custom_name}tel_data.tar.gz . >&/dev/null &
+		spinner
+		rm -rf .restore_path
 		
-		#show working spinner
-		PID=$!
-		i=1
-		sp="/-\|"
-		echo -n ' '
-		while [ -d /proc/$PID ]
-		do
-			  printf "\b${sp:i++%${#sp}:1}"
-			  sleep 0.1
-		done
-		echo -ne '\r' #remove last spinner
-		printf "\e[38;5;2m Backup\e[m%s: completed\n"
+		echo -ne "\n\e[38;5;2m Backup\e[m: completed! \n "
 		break;;
 
-	[nN]* ) exit;;
+	[nN]* ) exit_utility;;
 	* )     echo "options are y or n...";;
-esac
-done
+	esac
+	done
 
 }
 
+	
 restore_backup(){
-	printf "\e[38;5;2m Restore\e[m%s: loading data...\n"
-	cd $backup_location && ls -d | fzf
+	echo -ne "\e[38;5;2m Restore\e[m: loading data...\n"
+	cd $backup_location
+	restore_files_chosen=$(fd --type f | fzf -m -d -e --cycle --color=16 --prompt="Select archive(s) (with tab key) to restore: ")
+	[[ -z "$restore_files_chosen" ]] && exit 1
+	#generate array with fzf multiselect output
+	IFS=$'\n' read -d '' -r -a selected_archives <<<"$restore_files_chosen"
+	#echo "selected_arch array = ${selected_archives[@]}"
+	echo -e "\r\e[38;5;2m Restore\e[m: you have selected; "
+	for archive in "${selected_archives[@]}"
+	do
+		echo " -> $archive"
+	done	
+	echo -e "\r\e[38;5;2m Restore\e[m: Are you sure you wish to restore file(s) y/N : "
+	read -r answer
+	case $answer in
+		[yY]* )
+			for archive in "${selected_archives[@]}"
+			do
+				cd $backup_location || exit 1
+				rm -r tmp > /dev/null 2>&1 #rm any partial failure
+				mkdir tmp > /dev/null 2>&1
+				cd tmp
+				tar -x -U -f $backup_location/$archive --keep-directory-symlink
+				restore_path=$(cat .restore_path)
+
+				if [ "$restore_path" == "user_pkgs" ] ; then
+					install_pkgs
+				else
+					if [ ! -d $restore_path ] ; then
+						# if restore path missing make it
+						mkdir $restore_path
+					fi
+					echo
+					echo -ne "\e[38;5;2m Restoring\e[m: from archive: $archive -> $restore_path "
+					cp -rf * $restore_path &
+					#run_spinner #move to func
+					PID=$!
+					i=1
+					sp="/-\|"
+					echo -n ' '
+					while [ -d /proc/$PID ]
+					do
+						echo -ne "\b${sp:i++%${#sp}:1}"
+						sleep 0.1
+					done
+					#echo -ne '\e[1A\033[2K\r' #remove last spinner
+					echo -ne "\e[1A\e[J\r\e[38;5;2m Restored\e[m: $archive -> $restore_path ${CHECK_MARK}"
+					echo 
+					sleep 0.1
+				fi
+
+				cd ..
+				rm -rf tmp > /dev/null 2>&1  # cleanup	
+			done
+			;;
+		[nN]* ) exit_utility;;
+		* )     echo "options are y or n...";;
+	esac
 }
 
+install_pkgs(){
+	printf "\e[38;5;2m Restore\e[m: restoring termux packages...\n"
+	pkg update -y
+	while IFS= read -r line; do
+		pkg_list_str="$pkg_list_str $line"
+	done < $backup_location/tmp/user_pkgs.txt
+	#echo "pkg_list_str = $pkg_list_str"
+	pkg install -y $pkg_list_str 2>/dev/null
+	printf "\e[38;5;2m Restore\e[m: restoring python packages...\n"
+	# Now Python packages!
+	while IFS= read -r line; do
+		pip_pkg_list_str="$pip_pkg_list_str $line"
+	done < $backup_location/tmp/pip_user_pkgs.txt
+	PIP_DISABLE_PIP_VERSION_CHECK=1 pip install --user $pip_pkg_list_str
+
+}
+
+remove_backups(){
+	while true
+	do
+		read -p "This action will delete ALL TEL backup archives from your device storage! Are you sure you wish to continue? yes/no : " answer
+		case $answer in
+			yes)
+				cd $backup_location || exit 1
+				rm -rf * && printf "\e[38;5;2m Backup & Restore\e[m: removed all old backup archives...\n"
+				break
+				;;
+			no)
+				exit_utility
+				;;
+			*)
+				echo "Please type yes or no..."
+				;;
+		esac
+	done
+}
 exit_utility(){
-	printf "\e[38;5;2m Backup & Restore\e[m%s: Exiting...\n"
+	printf "\e[38;5;2m Backup & Restore\e[m: Exiting...\n"
 	exit 0
 }
 
 main() {
 
-printf "\e[38;5;2m Backup & Restore\e[m%s\n"
+printf "\e[38;5;2m Backup & Restore\e[m\n"
 
-cmd=(dialog --separate-output --checklist "Backup & Restore options:" 22 76 16)
-options=(1 " Backup" 
-         2 "勒Restore" 
-         3 " Quit")
-choices=$("${cmd[@]}" "${options[@]}" 2>&1 >/dev/tty)
+HEIGHT=15
+WIDTH=40
+CHOICE_HEIGHT=4
+BACKTITLE="tel-backup"
+TITLE="Backup & Restore"
+MENU="Choose one of the following options:"
+
+OPTIONS=(1 " Backup"
+         2 " Restore"
+         3 " Quit"
+         4 " Remove Backups")
+
+CHOICE=$(dialog --clear \
+                --backtitle "$BACKTITLE" \
+                --title "$TITLE" \
+                --menu "$MENU" \
+                $HEIGHT $WIDTH $CHOICE_HEIGHT \
+                "${OPTIONS[@]}" \
+                2>&1 >/dev/tty)
+
 clear
-for choice in $choices
-do
-    case $choice in
+case $CHOICE in
         1)
-            echo "First Option"
 	    make_backup
             ;;
         2)
-            echo "Second Option"
 	    restore_backup
             ;;
         3)
-            echo "Third Option"
 	    exit_utility
             ;;
-        *)
-            echo "not an option fool D:"
-            ;;
-    esac
-done
-#show menu
-#PS3="Enter a number: "
-#select option in ' Backup' '勒Restore' ' Quit' ; do
-#  case $opt in
-#	 Backup)
-#		make_backup;;
-#	勒Restore)
-#		restore_backup;;
-#	 Quit)
-#		exit_utility;;
-#	*)
-#		echo "Invalid option $REPLY";;
-#  esac
-#done
+	4)
+	    remove_backups
+	    ;;
+esac
 }
-
-main $@
+if [ -n "$1" ] ; then
+	case "$1" in
+		-h | --help)
+			show_help
+			exit 0
+			;;
+		-v | --version)
+			printf  "\e[38;5;2mBackup & Restore\e[m: \e[38;5;1mversion %s" "$version"
+			exit 0
+			;;
+		-b | --backup)
+			make_backup
+			exit 0
+			;;
+		-r | --restore)
+			restore_backup
+			exit 0
+			;;
+		--remove)
+			remove_backups
+			exit 0
+			;;
+		*)	
+			printf  "\e[38;5;2mBackup & Restore\e[m: \e[38;5;1moption not recognised"
+			exit 1
+esac
+	else
+		main $@
+	fi
 
