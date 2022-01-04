@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Adobe Flash Player 32.0 r0
+MimeType=application/vnd.adobe.flash.movie;
+Exec=env WINEPREFIX="/home/atai/.wine" wine-stable start /ProgIDOpen ShockwaveFlash.ShockwaveFlash %f
+NoDisplay=true
+StartupNotify=true
+Icon=1FC1_flashplayer_32_sa.0

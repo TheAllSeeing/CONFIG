@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Adobe Flash Player 32.0 r0
+MimeType=application/x-wine-extension-f4p;
+Exec=env WINEPREFIX="/home/atai/.wine" wine-stable start /ProgIDOpen FlashPlayer.ProtectedMediaForFlashPlayer %f
+NoDisplay=true
+StartupNotify=true
+Icon=1FC1_flashplayer_32_sa.0

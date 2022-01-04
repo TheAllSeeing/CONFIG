@@ -65,6 +65,7 @@ gdm3
 gedit
 genisoimage
 ghostscript-x
+gimp
 gir1.2-gmenu-3.0
 git
 gitkraken
@@ -117,6 +118,7 @@ iputils-ping
 ipython3
 irqbalance
 kerneloops
+kphotoalbum
 language-pack-gnome-en
 language-selector-gnome
 laptop-detect
@@ -126,6 +128,7 @@ libreoffice-gnome
 libreoffice-gtk3
 lshw
 ltrace
+lua5.3
 lyx
 make
 maven
@@ -149,14 +152,17 @@ openprinting-ppds
 orca
 os-prober
 packagekit
+pandoc
 parallel
 pass
 pavucontrol
 pciutils
 pcmciautils
 pdfarranger
+pdftk
 plymouth-theme-spinner
 policykit-desktop-privileges
+potrace
 powerline
 printer-driver-brlaser
 printer-driver-c2esp
@@ -174,6 +180,7 @@ python3-pip
 rfkill
 ripgrep
 rtl8821ce-dkms
+sejda-console
 shim-signed
 shotwell
 simple-scan
@@ -189,6 +196,9 @@ symlinks
 system-config-printer
 tar
 telnet
+texlive-binaries
+texlive-fonts-extra
+texstudio
 time
 timeshift
 transmission

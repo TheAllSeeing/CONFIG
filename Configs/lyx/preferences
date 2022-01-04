@@ -1,4 +1,4 @@
-# LyX 2.3.6.1 generated this file. If you want to make your own
+# LyX 2.3.4.2 generated this file. If you want to make your own
 # modifications you should do them from inside LyX and save.
 
 Format 24
@@ -14,7 +14,6 @@ Format 24
 \serverpipe "/home/atai/.lyx"
 \user_name "Atai Ambus"
 \user_email ""
-\preview on
 
 #
 # SCREEN & FONTS SECTION ############################
@@ -30,7 +29,7 @@ Format 24
 \set_color "cursor" "#ffffff"
 \set_color "background" "#000000"
 \set_color "foreground" "#ffffff"
-\set_color "preview" "#d3d7cf"
+\set_color "preview" "#393939"
 \set_color "note" "#555500"
 \set_color "notebg" "#4b4b00"
 \set_color "commentbg" "#a0756e"
@@ -42,7 +41,6 @@ Format 24
 \set_color "mathcorners" "#4a4746"
 \set_color "tabularline" "#3b3b3b"
 \set_color "buttonframe" "#bfb7ae"
-\set_color "previewframe" "#4e9a06"
 
 #
 # PRINTER SECTION ###################################
@@ -59,6 +57,8 @@ Format 24
 #
 
 \document_path "/tmp"
+\completion_inline_text true
+\completion_popup_text true
 \example_path "/home/atai/.lyx/examples/"
 \template_path "/home/atai/.lyx/templates/"
 \backupdir_path "/home/atai/.lyx/backups/"

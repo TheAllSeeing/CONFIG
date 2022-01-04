@@ -83,7 +83,7 @@ alias bat='batcat'
 
 # ---Remapping Functions---
 exa() {
-    _exa -I "*.lyx~|*.lyx#|__pycache__" $@
+    _exa -I "*.lyx~|*.lyx#|__pycache__|*.log|*.aux|*.toc|*.out" $@
 }
 
 
@@ -93,7 +93,7 @@ if alias ls > /dev/null 2>&1; then # ls is commonly aliased by default configura
 fi
 
 ls() {
-    _ls -I "{*.lyx~,*.lyx#,__pycache__}" $@
+    _ls -I "{*.lyx~,*.lyx#,__pycache__,*.log,*.aux,*.toc}" $@
 }
 
 emacs() { # If emacs is running, open a new frame; otherwise start it

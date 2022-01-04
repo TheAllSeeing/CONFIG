@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=3.12
+Type=Application
+Name=SQLite Browser
+Icon=/home/atai/.local/share/icons/sqlitebrowser.png
+Exec="/home/atai/.local/bin/sqlitebrowser" %f
+Comment=A high quality, visual, open source tool to create, design, and edit database files compatible with SQLite.
+Categories=Development;SQL;Database;
+Terminal=false
+StartupNotify=true
