@@ -31,6 +31,7 @@ dmtracedump
 dmz-cursor-theme
 dnsutils
 emacs
+exploit-education-phoenix
 ffmpeg
 file-roller
 findutils
@@ -113,6 +114,7 @@ ibus-gtk3
 ibus-table
 im-config
 imagemagick-6.q16hdri
+info
 inputattach
 iputils-ping
 ipython3
@@ -123,6 +125,7 @@ language-pack-gnome-en
 language-selector-gnome
 laptop-detect
 libevent-core-2.1-7
+libgtk-3-dev
 liblnk-utils
 libreoffice-gnome
 libreoffice-gtk3
@@ -133,10 +136,12 @@ lyx
 make
 maven
 memtest86+
+meson
 mlocate
 mousetweaks
 mythes-en-au
 mythes-en-us
+nasm
 nautilus
 net-tools
 netcat-openbsd
@@ -146,9 +151,11 @@ network-manager-config-connectivity-ubuntu
 network-manager-openvpn-gnome
 network-manager-pptp-gnome
 nodejs
+nomacs
 okular
 onboard
 openprinting-ppds
+openssh-server
 orca
 os-prober
 packagekit
@@ -160,8 +167,10 @@ pciutils
 pcmciautils
 pdfarranger
 pdftk
+pinta
 plymouth-theme-spinner
 policykit-desktop-privileges
+poppler-utils
 potrace
 powerline
 printer-driver-brlaser
@@ -175,11 +184,14 @@ printer-driver-pxljr
 printer-driver-sag-gdi
 printer-driver-splix
 pulseaudio
+python-is-python2
 python3-commandnotfound
 python3-pip
+python3-poppler-qt5
 rfkill
 ripgrep
 rtl8821ce-dkms
+sassc
 sejda-console
 shim-signed
 shotwell
@@ -188,6 +200,8 @@ software-properties-gtk
 sox
 speech-dispatcher
 spice-vdagent
+sqlite
+sqlite3
 sshfs
 staruml
 strace
@@ -216,6 +230,7 @@ update-manager
 update-notifier
 vlc
 wireless-tools
+wireshark
 wmctrl
 wpasupplicant
 xcape
@@ -225,6 +240,9 @@ xdg-user-dirs
 xdg-utils
 xdotool
 xfce4-terminal
+xfonts-efont-unicode
+xfonts-efont-unicode-ib
+xfonts-intl-european
 xkb-data
 xorg
 xul-ext-ubufox
