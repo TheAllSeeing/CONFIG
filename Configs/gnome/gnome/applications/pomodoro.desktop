@@ -1,0 +1,15 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=Pomodoro Timer
+GenericName=Pomodoro Timer
+Comment=Pomodoro Timer
+Exec=/opt/google/chrome/google-chrome --app=https://pomofocus.io
+Terminal=false
+Type=Application
+StartupNotify=true
+MimeType=text/plain;
+Icon=/home/atai/.local/share/icons/pomodoro.png
+Categories=Network;Application;
+Keywords=Pomodoro;Pomodoro Timer;work;focus;productivity;webapp;
+X-Ubuntu-Gettext-Domain=Pomodoro
+StartupWMClass=io.pomofocus
