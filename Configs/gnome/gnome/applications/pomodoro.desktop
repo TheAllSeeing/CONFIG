@@ -1,8 +1,7 @@
-#!/usr/bin/env xdg-open
+ #!/usr/bin/env xdg-open
 [Desktop Entry]
 Name=Pomodoro Timer
-GenericName=Pomodoro Timer
-Comment=Pomodoro Timer
+GenericName=Pomodoro
 Exec=/opt/google/chrome/google-chrome --app=https://pomofocus.io
 Terminal=false
 Type=Application
